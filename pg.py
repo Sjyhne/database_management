@@ -1,5 +1,6 @@
 import psycopg
 import pandas as pd
+from tqdm import tqdm
  
 #Connection to localhost with my static ip: http://192.168.183.101:5050
  
@@ -152,8 +153,7 @@ def extract_transform_load_data(cur):
                 {"table": "event_info", "pk": ["eventid"], "fields": ["eventid", "city", "iyear", "imonth", "iday", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "prop_dmg", "property_dmg_value", "weapon_type", "attack_type", "current_country", "date"]}
                 ]
  
-        for index, i in data.iterrows():
-            print("INDEX:", index)
+        for index, i in tqdm(data.iterrows(), total=data.size, desc="Populating db with data"):
             for l in gtd_columns:
                 table = l["table"]
 
@@ -178,33 +178,79 @@ def extract_transform_load_data(cur):
 
                     query_values += ", ".join(values)
 
-                    #print(query_values)
-
-                    #print("qvalues:", query_values)
-                    #print("tables:", table)
-                    #print(pks)
                     execstring = "INSERT INTO %s VALUES (%s) ON CONFLICT DO NOTHING" % (table, query_values)
                     if table == "country" and l["fields"][0] != "target_nat":
                         execstring = "INSERT INTO %s VALUES (%s) ON CONFLICT (country) DO UPDATE SET region = %s" % (table, query_values, values[1])
                     else:
                         execstring = "INSERT INTO %s VALUES (%s) ON CONFLICT DO NOTHING" % (table, query_values)
-                    #for r in res:
-                    #    print(r)
-                    #print(execstring)
-                    #print(execstring)
-                    cur.execute(execstring)
 
- 
-        #cur.execute('''INSERT INTO fact(
-        #                                        SELECT A.att_id, TA.tar_id, AT.attckr_id, H.host_id, D.dmg_id, T.time_id, L.loc_id, sum(D.total_killed)
-        #                                        FROM time_dim T, location_dim L, attack_dim A, target_dim TA, attacker_dim AT, hostage_dim H, damage_dim D
-        #                                        GROUP BY A.att_id, TA.tar_id, AT.attckr_id, H.host_id, D.dmg_id, T.time_id, L.loc_id);''')                                
+                    cur.execute(execstring)
+        
+        populate_db_populations(cur)
+
+
+def populate_db_populations(cur):
+
+    city_pop = pd.read_csv("etl_data/city_1970_1980.csv")
+    country_pop = pd.read_csv("etl_data/country_1970_1980.csv")
+
+    existing_countries = [r[0].strip("'") for r in cur.execute("SELECT country from country")]
+    existing_cities = [r[0].strip("'") for r in cur.execute("SELECT city from city")]
+
+    city_pop = city_pop.loc[city_pop["city"].isin(existing_cities)]
+    country_pop = country_pop.loc[country_pop["country"].isin(existing_countries)]
+
+    population_tables = [
+        {"table": "country_population", "pk": ["year, country"], "fields": ["year", "country", "population"]},
+        {"table": "city_population", "pk": ["year, country"], "fields": ["year", "city", "population"]}
+    ]
+    
+    for index, i in tqdm(city_pop.iterrows(), total=city_pop.size):
+        values = []
+        city_dict = population_tables[1]
+        table = city_dict["table"]
+        for field in city_dict["fields"]:
+            if type(i[field]) != str:
+                values.append(str(i[field]))
+            else:
+                values.append(f"'{i[field]}'")
+            
+        query_values = ", ".join(values)
+        execstring = "INSERT INTO %s VALUES (%s) ON CONFLICT DO NOTHING" % (table, query_values)
+        res = [r for r in cur.execute(f"SELECT city FROM city WHERE city = {values[1]}")]
+        if len(res) > 0:
+            cur.execute(execstring)
+        else:
+            ...
+    
+
+    for index, i in tqdm(country_pop.iterrows(), total=country_pop.size):
+        values = []
+        country_dict = population_tables[0]
+        table = country_dict["table"]
+        for field in country_dict["fields"]:
+            if type(i[field]) != str:
+                values.append(str(i[field]))
+            else:
+                values.append(f"'{i[field]}'")
+            
+        query_values = ", ".join(values)
+        execstring = "INSERT INTO %s VALUES (%s) ON CONFLICT DO NOTHING" % (table, query_values)
+        res = [r for r in cur.execute(f"SELECT country FROM country WHERE country = {values[1]}")]
+        if len(res) > 0:
+            cur.execute(execstring)
+        else:
+            ...
+
+                
+
+
  
 def create_odb_tables(curr):
     """ create tables in the PostgreSQL database"""
  
     #Drop tables if they exist
-    cur.execute("DROP TABLE IF EXISTS target_type, entity, attacker, region, country, provstate, city, attack_type, weapon_sub_type, weapon_type, target, event, event_info, date;")
+    cur.execute("DROP TABLE IF EXISTS target_type, entity, attacker, region, country, provstate, city, attack_type, weapon_sub_type, weapon_type, target, event, event_info, date, city_population, country_population;")
 
     commands = (
         """
@@ -302,8 +348,28 @@ def create_odb_tables(curr):
             iyear INTEGER,
             imonth INTEGER,
             iday INTEGER,
-            PRIMARY KEY(iyear, imonth, iday)
+            PRIMARY KEY (iyear, imonth, iday)
         )
+        """
+        ,
+        """
+        CREATE TABLE country_population (
+            year INTEGER,
+            country VARCHAR,
+            population INTEGER,
+            FOREIGN KEY (country) REFERENCES country(country),
+            PRIMARY KEY(year, country)
+        )
+        """
+        ,
+        """
+        CREATE TABLE city_population (
+            year INTEGER,
+            city VARCHAR,
+            population INTEGER,
+            FOREIGN KEY (city) REFERENCES city(city),
+            PRIMARY KEY (year, city)
+        )   
         """
         ,
         """
@@ -350,7 +416,7 @@ def create_odb_tables(curr):
 
 
     for command in commands:
-            cur.execute(command)
+        cur.execute(command)
 
  
 if __name__ == '__main__':
@@ -370,9 +436,11 @@ if __name__ == '__main__':
 
             extract_transform_load_data(cur)
 
-            tables = ["country", "attacker", "target", "event_info"]
+            cur.execute("SELECT country FROM country region")
+
+            tables = ["country_population", "city_population"]
             for table in tables:
-                for r in cur.execute(f"SELECT * FROM {table}"):
+                for r in cur.execute(f"SELECT * FROM {table} WHERE population > 0"):
                     print(r)            
 
         conn.commit()

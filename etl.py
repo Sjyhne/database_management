@@ -181,28 +181,28 @@ def stringify_eventid(data: pd.DataFrame) -> pd.DataFrame:
 def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows: int = None) -> pd.DataFrame:
     data = extract(data_path, columns_path, rename_columns_path, nrows)
 
-    print("Removing commas")
+    print("(1/8) - Removing commas")
     data = remove_commas(data)
 
-    print("Floatifying dataframe")
+    print("(2/8) - Floatifying dataframe")
     data = floatify_dataframe(data)
 
-    print("Nanifying negative numbers")
+    print("(3/8) - Nanifying negative numbers")
     data = nanify_negative_numbers(data)
 
-    print("Creating dates")
+    print("(4/8) - Creating dates")
     data = create_date(data)
 
-    print("Fixing coords")
+    print("(5/8) - Fixing coords")
     data = fix_coords(data)
 
-    print("Adding current countries")
+    print("(6/8) - Adding current countries")
     data = add_current_countries(data)
 
-    print("Removing all apostrophes from strings")
+    print("(7/8) - Removing all apostrophes from strings")
     data = remove_all_apostrophes(data)
 
-    print("Removing integers from country cols")
+    print("(8/8) - Removing integers from country cols")
     data = remove_integers_from_country(data)
 
     print(data.columns)
@@ -212,11 +212,7 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 500)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 100)
 
-
-for c in res["current_country"]:
-    if type(c) != str:
-        print(c)
 
 res.to_csv("test.csv")
