@@ -10,7 +10,7 @@ def compose_date(year: int, month: int, day: int):
     return datetime.strptime("/".join([str(year), str(month).zfill(2), str(day).zfill(2)]), "%Y/%m/%d").__str__()
 
 def create_date(data: pd.DataFrame) -> pd.DataFrame:
-    day, month, year = data["iday"].to_numpy(), data["imonth"].to_numpy(), data["iyear"].to_numpy()
+    day, month, year = data["day"].to_numpy(), data["month"].to_numpy(), data["year"].to_numpy()
 
     for i, m in enumerate(month):
         if m == 0:
@@ -212,7 +212,7 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 10_000)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 2)
 
 
 res.to_csv("test.csv")
