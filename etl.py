@@ -167,7 +167,7 @@ def unknown_if_not_string(field):
 
 def remove_integers_from_stringfield(data: pd.DataFrame) -> pd.DataFrame:
 
-    cols = ["country", "target_nat", "target_sub_type", "target_entity", "target", "weapon_sub_type", "prop_dmg", "host_kid_outcome"]
+    cols = ["country", "target_nat", "target_sub_type", "target_entity", "target", "weapon_sub_type", "prop_dmg", "host_kid_outcome", "city", "provstate", "region"]
 
     for col in cols:
         data[col] = data[col].apply(unknown_if_not_string)
@@ -176,6 +176,17 @@ def remove_integers_from_stringfield(data: pd.DataFrame) -> pd.DataFrame:
 
 def stringify_event_id(data: pd.DataFrame) -> pd.DataFrame:
     data["event_id"] = data["event_id"].apply(str)
+    return data
+
+def make_strings_ints(data: pd.DataFrame) -> pd.DataFrame:
+
+    cols = ["host_kid_hours", "host_kid_days", "nperps_cap", "nperps"]
+
+    for col in cols:
+        data[col] = data[col].apply(float)
+        data[col] = data[col].apply(round)
+        data[col] = data[col].apply(int)
+
     return data
 
 def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows: int = None) -> pd.DataFrame:
@@ -205,17 +216,22 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
     print("(8/8) - Removing integers from country cols")
     data = remove_integers_from_stringfield(data)
 
+    data = make_strings_ints(data)
+
     for col in data.columns:
-        print("\n")
-        print(col.upper())
-        print(col, "-", sorted(data[col].unique()))
+        try:
+            print("\n")
+            print(col.upper())
+            print(col, "-", sorted(data[col].unique()))
+        except Exception as e:
+            print(col, "-", e)
 
     return data
 
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 2000)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json")
 
 
-res.to_csv("test.csv")
+res.to_csv("full.csv")

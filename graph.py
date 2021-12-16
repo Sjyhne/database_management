@@ -13,7 +13,9 @@ from odb_data_extraction import SQL
 
 import traceback
 
-from create_and_load_dw import TIME_DIM_QUERY, LOCATION_DIM_QUERY, EVENT_DIM_QUERY, TARGET_DIM_QUERY, GROUP_DIM_QUERY
+import os
+
+from create_and_load_dw import TIME_DIM_QUERY, LOCATION_DIM_QUERY, EVENT_DIM_QUERY, TARGET_DIM_QUERY, GROUP_DIM_QUERY, FACT_QUERY
 
 from tqdm import tqdm
 
@@ -28,8 +30,8 @@ DIMS = {
         "fields": ["group_name"],
         "type": "TerroristGroup",
         "relation_name": "GROUP_FACT",
-        "source_type": "Group",
         "target_type": "Fact",
+        "name": "group_name",
         "query": GROUP_DIM_QUERY
     },
 
@@ -38,8 +40,8 @@ DIMS = {
         "fields": ["longitude", "latitude", "region", "country", "provstate", "city"],
         "type": "Location",
         "relation_name": "LOCATION_FACT",
-        "source_type": "Location",
         "target_type": "Fact",
+        "name": "country",
         "query": LOCATION_DIM_QUERY
     },
 
@@ -47,6 +49,8 @@ DIMS = {
         "id": ["year", "month", "day"],
         "fields": ["year", "month", "day"],
         "type": "Time",
+        "target_type": "Fact",
+        "name": "year",
         "query": TIME_DIM_QUERY
     },
 
@@ -54,30 +58,65 @@ DIMS = {
         "id": "target",
         "fields": ["target", "target_nat", "target_entity", "target_type"],
         "type": "Target",
+        "target_type": "Fact",
+        "name": "target",
         "query": TARGET_DIM_QUERY
     },
 
     "event_dim": {
         "id": "event_id",
-        "fields": ["event_id", "attack_type", "success", "suicide", "weapon_type", "individual", "nperps", "nperps_cap", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "nreleased", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value", "prop_dmg"],
+        "fields": ["event_id", "attack_type", "success", "suicide", "weapon_type", "individual", "nperps", "nperps_cap", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value"],
         "type": "Event",
+        "target_type": "Fact",
+        "name": "event_id",
         "query": EVENT_DIM_QUERY
     },
-}
 
-FACT = {
-    "fields": ["group_id", "location_id", "date_id", "target_id", "attack_id", "damage_id", "ransom_id", "hostage_id", "attacker_id"],
-    "measures": ["tot_killed", "tot_deaths", "nhostages", "tot_prop_dmg", "tot_nreleased", "nkill_pop_ratio"],
-    "type": "Fact"
+    "fact": {
+    "fields": ["event_id", "group_name", "year", "month", "day", "region", "country", "provstate", "city", "total_killed"],
+    "type": "Fact",
+    "name": "event_id",
+    "query": FACT_QUERY
+    }
 }
 
 
 DIM_RELATIONS = {
-    "group_dim": {
+    "group_fact": {
         "relation_name": "GROUP_FACT",
         "source_type": "Group",
-        "target_type": "Fact"
+        "target_type": "Fact",
+        "source_attributes": ["group_name"],
+        "target_attributes": ["group_name"]
     },
+    "location_fact": {
+        "relation_name": "LOCATION_FACT",
+        "source_type": "Location",
+        "target_type": "Fact",
+        "source_attributes": ["region", "country", "provstate", "city"],
+        "target_attributes": ["region", "country", "provstate", "city"]
+    },
+    "time_fact": {
+        "relation_name": "TIME_FACT",
+        "source_type": "Time",
+        "target_type": "Fact",
+        "source_attributes": ["year", "month", "day"],
+        "target_attributes": ["year", "month", "day"]
+    },
+    "target_fact": {
+        "relation_name": "TARGET_FACT",
+        "source_type": "Target",
+        "target_type": "Fact",
+        "source_attributes": ["target"],
+        "target_attributes": ["target"]
+    },
+    "event_fact": {
+        "relation_name": "EVENT_FACT",
+        "source_type": "Event",
+        "target_type": "Fact",
+        "source_attributes": ["event_id"],
+        "target_attributes": ["event_id"]
+    }
 }
 
 
@@ -89,6 +128,36 @@ class Graph:
     def close_driver(self):
         self.driver.close()
 
+    @staticmethod
+    def _query(tx, query: str):
+        
+        res = tx.run(query)
+
+        return res.data()
+
+    def connect_nodes(self, query):
+        with self.driver.session() as session:
+            res = session.write_transaction(
+                self._connect_nodes,
+                query
+            )
+
+        return res
+    
+    def write_query(self, query):
+        with self.driver.session() as session:
+            res = session.write_transaction(
+                self._query,
+                query
+            )
+        
+        return res
+
+    
+"""
+LOAD CSV WITH HEADERS FROM 'file:///group_dim.csv' AS line
+CREATE (:Group {name: line.group_name})
+"""
     
 
 
@@ -112,7 +181,22 @@ if __name__ == "__main__":
             df = df.append(dict(zip(dim_fields, r)), ignore_index=True)
         if key == "location_dim":
             df = df.drop_duplicates()
-        df.to_csv(f"graph_data/{key}.csv")
+        df.to_csv(f"graph_data_2/{key}.csv")
     end = time.time()
 
     print("time taken:", end - start)
+
+    os.system("sudo mv graph_data_2/ graph_data/")
+
+    g.write_query("MATCH (n) DETACH DELETE n")
+
+    for key in DIMS.keys():
+        dim = DIMS[key]
+        create_query = {field: 'line.'+field for field in dim["fields"]}
+        create_query["id"] = "line."+dim["name"]
+        create_query = f"CREATE (:{dim['type']} {create_query}".replace("'", "")
+        print(create_query)
+        query = f"""LOAD CSV WITH HEADERS FROM 'file:///{key}.csv' AS line {create_query})"""
+        print(query)
+        g.write_query(query)
+    

@@ -43,7 +43,7 @@ GROUP_DIM_QUERY =   """
                     """
 
 EVENT_DIM_QUERY =   """
-                    SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.host_kid_outcome
+                    SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.nreleased, ei.total_killed, ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.attack_type AS at
@@ -55,6 +55,33 @@ EVENT_DIM_QUERY =   """
                         odb.event AS e
                         ON ei.event_id = e.event_id
                     """
+
+FACT_QUERY = """
+                SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, sum(ei.total_killed)
+                FROM odb.event_info AS ei
+                INNER JOIN
+                    odb.city AS c
+                    ON ei.city = c.city
+                    INNER JOIN
+                    odb.provstate AS p
+                    ON c.provstate = p.provstate
+                    INNER JOIN
+                    odb.country AS co
+                    ON p.country = co.country
+                    INNER JOIN
+                    odb.region AS r
+                    ON co.region = r.region
+                    INNER join
+                    odb.event as ev
+                    ON ei.event_id = ev.event_id
+                    INNER join
+                    odb.attacker as at
+                    ON ev.group_name = at.group_name
+                    INNER join
+                    odb.date as d
+                    ON ei.year = d.year AND ei.month = d.month AND ei.day = d.day
+                GROUP BY ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city
+                """
 
 def create_tables(cur):
 
