@@ -67,7 +67,7 @@ def create_tables(cur):
                     target VARCHAR PRIMARY KEY,
                     target_nat VARCHAR,
                     target_entity VARCHAR,
-                    target_type VARCHAR NOT NULL
+                    target_type VARCHAR
                 )
                 """
                 ,
@@ -80,7 +80,7 @@ def create_tables(cur):
                 ,
                 """
                 CREATE TABLE fact (
-                    eventid VARCHAR NOT NULL,
+                    event_id VARCHAR NOT NULL,
                     group_name VARCHAR NOT NULL,
                     year INTEGER NOT NULL,
                     month INTEGER NOT NULL,
@@ -90,8 +90,8 @@ def create_tables(cur):
                     provstate VARCHAR NOT NULL,
                     city VARCHAR NOT NULL,
                     deaths INTEGER NOT NULL,
-                    PRIMARY KEY (eventid, year, month, day, region, country, provstate, city),
-                    FOREIGN KEY (eventid) REFERENCES event_dim(eventid),
+                    PRIMARY KEY (event_id, year, month, day, region, country, provstate, city),
+                    FOREIGN KEY (event_id) REFERENCES event_dim(event_id),
                     FOREIGN KEY (group_name) REFERENCES group_dim(group_name),                        
                     FOREIGN KEY (year, month, day) REFERENCES time_dim(year, month, day),
                     FOREIGN KEY (region, country, provstate, city) REFERENCES location_dim(region, country, provstate, city)
@@ -131,29 +131,32 @@ def load_tables(cur):
                 ,
                 """
                 INSERT INTO dwh.location_dim (
-                        SELECT E.latitude, E.longitude, R.region, C.country, P.provstate, S.city
-	                FROM odb.event_info E, odb.region R, odb.country C, odb.provstate P, odb.city S
-                )
-                """
-                ,
-                """
-                INSERT INTO dwh.event_dim (
-                    SELECT E.eventid, A.attack_type, E.success, E.suicide, W.weapon_type, E.individual, E.nperps, E.nperps_cap, E.host_kid, E.nhost_kid, E.host_kid_hours, E.host_kid_days, E.ransom, E.ransom_amt, E.ransom_amt_paid, E.host_kid_outcome
-	                FROM odb.event_info E, odb.attack_type A, odb.weapon_type W
+                    SELECT E.latitude, E.longitude, R.region, C.country, P.provstate, E.city
+                    FROM odb.event_info E, odb.region R, odb.country C, odb.provstate P, odb.city S
+                    WHERE E.city = S.city AND S.provstate = P.provstate AND P.country = C.country AND C.region = R.region
                 )
                 """
                 ,
                 """
                 INSERT INTO dwh.target_dim (
-                    SELECT (T.target, T.target_nat, T.target_entity, T.target_type)
-                    FROM odb.target T
+                    SELECT T.target, T.target_nat, T.entity_name, T.target_type
+                    FROM odb.target T, odb.entity E, odb.target_type P
+                    WHERE T.entity_name = E.entity_name AND T.target_type = P.target_type
                 )
                 """
                 ,
                 """ 
                 INSERT INTO dwh.group_dim (
-                        SELECT group_name
+                    SELECT group_name
 	                FROM odb.attacker
+                )
+                """
+                ,
+                """
+                INSERT INTO dwh.event_dim (
+                    SELECT EV.event_id, A.attack_type, E.success, E.suicide, W.weapon_type, E.individual, E.nperps, E.nperps_cap, E.host_kid, E.nhost_kid, E.host_kid_hours, E.host_kid_days, E.ransom, E.ransom_amt, E.ransom_amt_paid, E.host_kid_outcome
+	                FROM odb.event_info E, odb.attack_type A, odb.weapon_type W, odb.event EV
+                    WHERE EV.event_id = E.event_id AND E.attack_type = A.attack_type AND E.weapon_type = W.weapon_type
                 )
                 """)
 

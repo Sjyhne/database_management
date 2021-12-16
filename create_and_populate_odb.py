@@ -21,9 +21,9 @@ def extract_transform_populate_odb(cur):
             {"table": "weapon_sub_type", "pk": ["weapon_sub_type"], "fields": ["weapon_sub_type"]},
             {"table": "weapon_type", "pk": ["weapon_type"], "fields": ["weapon_type", "weapon_sub_type"]},
             {"table": "target", "pk": ["target"], "fields": ["target", "target_nat", "target_type", "target_entity"]},
-            {"table": "event", "pk": ["eventid"], "fields": ["eventid", "group_name", "target"]},
+            {"table": "event", "pk": ["event_id"], "fields": ["event_id", "group_name", "target"]},
             {"table": "date", "pk": ["year", "month", "day"], "fields": ["year", "month", "day"]},
-            {"table": "event_info", "pk": ["eventid"], "fields": ["eventid", "city", "year", "month", "day", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "prop_dmg", "property_dmg_value", "weapon_type", "attack_type", "country", "date"]}
+            {"table": "event_info", "pk": ["event_id"], "fields": ["event_id", "city", "year", "month", "day", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "prop_dmg", "property_dmg_value", "weapon_type", "attack_type", "country", "date"]}
             ]
 
     for index, i in data.iterrows():
@@ -209,7 +209,7 @@ def create_odb_tables(cur):
         ,
         """
         CREATE TABLE event (
-            eventid VARCHAR PRIMARY KEY,
+            event_id VARCHAR PRIMARY KEY,
             group_name VARCHAR,
             target VARCHAR,
             FOREIGN KEY (group_name) REFERENCES attacker(group_name),
@@ -246,7 +246,7 @@ def create_odb_tables(cur):
         ,
         """
         CREATE TABLE event_info (
-            eventid VARCHAR PRIMARY KEY,
+            event_id VARCHAR PRIMARY KEY,
             city VARCHAR,
             year INTEGER,
             month INTEGER,
@@ -277,7 +277,7 @@ def create_odb_tables(cur):
             attack_type VARCHAR,
             country VARCHAR,
             date DATE,
-            FOREIGN KEY (eventid) REFERENCES event(eventid),
+            FOREIGN KEY (event_id) REFERENCES event(event_id),
             FOREIGN KEY (city) REFERENCES city(city),
             FOREIGN KEY (weapon_type) REFERENCES weapon_type(weapon_type),
             FOREIGN KEY (attack_type) REFERENCES attack_type(attack_type),

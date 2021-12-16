@@ -174,8 +174,8 @@ def remove_integers_from_country(data: pd.DataFrame) -> pd.DataFrame:
     
     return data
 
-def stringify_eventid(data: pd.DataFrame) -> pd.DataFrame:
-    data["eventid"] = data["eventid"].apply(str)
+def stringify_event_id(data: pd.DataFrame) -> pd.DataFrame:
+    data["event_id"] = data["event_id"].apply(str)
     return data
 
 def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows: int = None) -> pd.DataFrame:
