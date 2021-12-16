@@ -3,15 +3,25 @@ def load_summary_tables():
         commands = (
                 """ 
                 INSERT INTO summary.group_activity (
-                    SELECT 
-                    FROM dwh.fact F, dwh.date,
+                    SELECT T.year, G.group_name, count(F.event_id), sum(E.total_killed)
+                    FROM dwh.fact F, dwh.event_dim E, dwh.group_dim G, dwh.time_dim T
+                    WHERE F.event_id = E.event_id and F.group_name = G.group_name and F.year = T.year and F.month = T.month and F.day = T.day
+                    GROUP by G.group_name, T.year
+                    ORDER by T.year
+
                 )
                 """
                 ,
                 """
-                INSERT INTO dwh.location_dim (
-                    {LOCATION_DIM_QUERY}
-                ) ON CONFLICT DO NOTHING
+                INSERT INTO summary.country_damage (
+                    SELECT T.year, L.country, count(F.event_id), sum(E.total_killed), sum(E.property_dmg_value)
+                    FROM dwh.fact F, dwh.event_dim E, dwh.group_dim G, dwh.location_dim L, dwh.time_dim T
+                    WHERE F.event_id = E.event_id and F.group_name = G.group_name and F.region = L.region and 
+                    F.provstate = L.provstate and F.country = L.country and F.city = L.city and
+                    F.year = T.year and F.month = T.month and F.day = T.day
+                    GROUP by G.group_name, L.country
+                    ORDER by D.year
+                ) 
                 """
                 ,
                 """
@@ -49,14 +59,17 @@ def create_summary_tables():
 
     commands = (
         """
-        CREATE TABLE total_damage (
-            target_type VARCHAR PRIMARY KEY
+        CREATE TABLE country_damage (
+            year VARCHAR,
+            country VARCHAR,
+            nattacks INTEGER,
+            total_killed INTEGER,
+            total_prop_dmg INTEGER
         )
         """
         ,
         """
         CREATE TABLE group_activity (
-            group_activity_id SERIAL PRIMARY KEY,
             year VARCHAR,
             group_name VARCHAR,
             nattacks INTEGER,

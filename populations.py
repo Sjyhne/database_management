@@ -64,9 +64,11 @@ def make_populations_csv(data: pd.DataFrame) -> pd.DataFrame:
         location_populations = get_populations(locations, loc_type, year_span)
         location_pop = pd.DataFrame(columns=[loc_type, "year", "population"])
 
-        for loc, value in location_populations.items():
+        for i, (loc, value) in enumerate(location_populations.items()):
             for year, population in value.items():
                 location_pop = location_pop.append({loc_type: loc, "year": year, "population": population}, ignore_index=True)
+                if i % 1000 == 0:
+                    location_pop.to_csv(f"{loc_type}_{data.size}_{year_span[0]}_{year_span[1]}_({i}-{len(location_populations)}).csv")
         
         location_pop.to_csv(f"{loc_type}_{data.size}_{year_span[0]}_{year_span[1]}.csv")
 
