@@ -3,21 +3,41 @@
     "validator": {
         "$jsonSchema":{
             "bsonType": "object",
-            "required": ["date_id", "loc_id", "tar_id", "event_id"],
             "properties": {
-                "date_id": {
-                    "bsonType": "objectId"
-                },
-                "loc_id": {
-                    "bsonType": "objectId"
-                },
                 "event_id": {
-                    "bsonType": "objectId"
+                    "bsonType": "string"
                 },
-                "tar_id": {
-                    "bsonType": "objectId"
+                "group_name": {
+                    "bsonType": "string"
                 },
-                "deaths": {
+                "year": {
+                    "bsonType": "number"
+                },
+                "month": {
+                    "bsonType": "number"
+                },
+                "day": {
+                    "bsonType": "number"
+                },
+                "region": {
+                    "bsonType":"string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "provstate": {
+                    "bsonType": "string"
+                },
+                "city": {
+                    "bsonType": "string"
+                },
+                "total_killed": {
+                    "bsonType": "number"
+                },
+                "perps_killed": {
+                    "bsonType": "number"
+                },
+                "property_damage": {
                     "bsonType": "number"
                 }
             }

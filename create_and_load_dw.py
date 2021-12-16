@@ -10,7 +10,7 @@ TIME_DIM_QUERY = """
                 """
 
 LOCATION_DIM_QUERY = """
-                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city, cp.city_population, cop.country_population
+                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city, cp.population, cop.population
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.city AS c

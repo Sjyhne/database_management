@@ -41,7 +41,6 @@ def read_schema_jsons(dim_url, filename):
 
     with open(os.path.join(dim_url, filename), 'r') as json_file:
         dict_from_file = json.loads(json_file.read())
-
     dict_from_file = OrderedDict(dict_from_file)
     return dict_from_file
 

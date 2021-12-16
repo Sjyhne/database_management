@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import psycopg
+import traceback
 
 if __name__ == '__main__':
 
