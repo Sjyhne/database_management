@@ -215,7 +215,7 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 2000)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 200)
 
 
 res.to_csv("test.csv")

@@ -23,7 +23,7 @@ def extract_transform_populate_odb(cur):
             {"table": "target", "pk": ["target"], "fields": ["target", "target_nat", "target_type", "target_entity"]},
             {"table": "event", "pk": ["event_id"], "fields": ["event_id", "group_name", "target"]},
             {"table": "date", "pk": ["year", "month", "day"], "fields": ["year", "month", "day"]},
-            {"table": "event_info", "pk": ["event_id"], "fields": ["event_id", "city", "year", "month", "day", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "prop_dmg", "property_dmg_value", "weapon_type", "attack_type", "country", "date"]}
+            {"table": "event_info", "pk": ["event_id"], "fields": ["event_id", "city", "year", "month", "day", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value", "weapon_type", "attack_type", "country", "date"]}
             ]
 
     for index, i in data.iterrows():
@@ -260,7 +260,6 @@ def create_odb_tables(cur):
             ransom INTEGER,
             ransom_amt INTEGER,
             ransom_amt_paid INTEGER,
-            host_kid_outcome VARCHAR,
             longitude FLOAT,
             latitude FLOAT,
             nperps INTEGER,
@@ -271,7 +270,6 @@ def create_odb_tables(cur):
             total_wounded INTEGER,
             perps_wounded INTEGER,
             property_dmg INTEGER,
-            prop_dmg VARCHAR,
             property_dmg_value INTEGER,
             weapon_type VARCHAR,
             attack_type VARCHAR,
