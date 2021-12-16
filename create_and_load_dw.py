@@ -10,7 +10,7 @@ TIME_DIM_QUERY = """
                 """
 
 LOCATION_DIM_QUERY = """
-                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city
+                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city, cp.city_population, cop.country_population
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.city AS c
@@ -24,6 +24,12 @@ LOCATION_DIM_QUERY = """
                         INNER JOIN
                         odb.region AS r
                         ON co.region = r.region
+                        INNER JOIN
+                        odb.city_population AS cp
+                        ON c.city = cp.city
+                        INNER JOIN
+                        odb.country_population AS cop
+                        ON co.country = cop.country
                     """
 
 TARGET_DIM_QUERY =  """
@@ -109,6 +115,8 @@ def create_tables(cur):
                     country VARCHAR NOT NULL,
                     provstate VARCHAR NOT NULL,
                     city VARCHAR NOT NULL,
+                    city_population INTEGER,
+                    country_population INTEGER,
                     PRIMARY KEY(region, country, provstate, city)
                 )
                 """
