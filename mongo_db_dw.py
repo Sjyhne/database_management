@@ -1,10 +1,42 @@
 import os
 import pandas as pd
+from create_and_load_dw import FACT_QUERY, GROUP_DIM_QUERY, LOCATION_DIM_QUERY, TIME_DIM_QUERY, TARGET_DIM_QUERY, EVENT_DIM_QUERY
 from mongo_db import read_schema_jsons, insert_dict, connect_db, read_data
-from graph import DIMS
 from odb_data_extraction import SQL
 import time
 from tqdm import tqdm
+
+DIMS = {
+    "group_dim": {
+        "fields": ["group_name"],
+        "query": GROUP_DIM_QUERY
+    },
+
+    "location_dim": {
+        "fields": ["longitude", "latitude", "region", "country", "provstate", "city"],
+        "query": LOCATION_DIM_QUERY
+    },
+
+    "time_dim": {
+        "fields": ["year", "month", "day"],
+        "query": TIME_DIM_QUERY
+    },
+
+    "target_dim": {
+        "fields": ["target", "target_nat", "target_entity", "target_type"],
+        "query": TARGET_DIM_QUERY
+    },
+
+    "event_dim": {
+        "fields": ["event_id", "attack_type", "success", "suicide", "weapon_type", "individual", "nperps", "nperps_cap", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value"],
+        "query": EVENT_DIM_QUERY
+    },
+    "fact": {
+        "fields": ["event_id", "group_name","year","month","day","region","country","provstate","city","total_killed","perps_killed","property_damage"],
+        "query": FACT_QUERY
+    }
+}
+
 
 def df_to_dict(df):
     arr = []
@@ -13,69 +45,108 @@ def df_to_dict(df):
     return arr
 
 db = connect_db('mongodb://root:root@192.168.11.87:27017', 'terror_attacks')
-dim_collections = ["group_dim", "location_dim", "date_dim", "target_dim", "event_dim"]
+def main():
+   
+    dim_collections = ["group_dim", "location_dim", "date_dim", "target_dim", "event_dim", "fact"]
 
-for dim in dim_collections:
-    db[dim].drop()
-    db.create_collection(dim)
-db["fact"].drop()
-db.create_collection("fact")
-
-
-dim_url = "Collection_schemas/dim_schemas/"
-for filename in os.listdir(dim_url):
-    db.command(read_schema_jsons(dim_url, filename))
+    for dim in dim_collections:
+        db[dim].drop()
+        db.create_collection(dim)
+    db["fact"].drop()
+    db.create_collection("fact")
 
 
-bolt_url = "bolt://localhost:7687"
-
-sql = SQL()
-
-
-dim_fields = DIMS["time_dim"]["fields"]
-dim_query = DIMS["time_dim"]["query"]
-
-#start = time.time()
-data = []
-print("Fetching data from SQL database and adding it to a dataframe")
-for key in DIMS.keys():
-    dim_fields = DIMS[key]["fields"]
-    dim_query = DIMS[key]["query"]
-
-    df = pd.DataFrame(columns=dim_fields)
-    for r in tqdm(sql.query_data(dim_query)):
-        df = df.append(dict(zip(dim_fields, r)), ignore_index=True)
-    if key == "location_dim":
-        df = df.drop_duplicates()
-    data.append(df.fillna(0))
-#end = time.time()
-
-#print("time taken:", end - start , "s")
+    dim_url = "Collection_schemas/dim_schemas/"
+    for filename in os.listdir(dim_url):
+        db.command(read_schema_jsons(dim_url, filename))
 
 
-data[4]['prop_dmg'].replace({0: "unknown"}, inplace=True)
-print("Converting dataframes into dictionaries to prepare the data for insertion into mongodb")
-for i, df in enumerate(data):
-    d = df_to_dict(df)
-    data[i] = d
+    sql = SQL()
 
-print("Inserting all dictionaries into its respective collection")
-for d, dim in zip(data, dim_collections):
-    #print(d[0].keys())
-    insert_dict(d, db[dim])
+    #start = time.time()
+    data = []
+    print("Fetching data from SQL database and adding it to a dataframe")
+    for key in DIMS.keys():
+        dim_fields = DIMS[key]["fields"]
+        dim_query = DIMS[key]["query"]
+        df = pd.DataFrame(columns=dim_fields)
+        for r in tqdm(sql.query_data(dim_query)):
+            df = df.append(dict(zip(dim_fields, r)), ignore_index=True)
+        if key == "location_dim":
+            df = df.drop_duplicates()
+        data.append(df)
+    #end = time.time()
+    #print("time taken:", end - start , "s")
 
-'''
-insert_dict([date_dict], db["date_dim"])
-insert_dict([location_dict], db["location_dim"])
-insert_dict([event_dict], db["event_dim"])
-insert_dict([target_dict], db["target_dim"])
+
+    print("Converting dataframes into dictionaries to prepare the data for insertion into mongodb")
+    for i, df in enumerate(data):
+        d = df_to_dict(df)
+        data[i] = d
+
+    print("Inserting all dictionaries into its respective collection")
+    for d, dim in zip(data, dim_collections):
+        insert_dict(d, db[dim])
 
 
-ids = []
-for coll in dim_collections:
-    id = db[coll].find_one({}, {"_id":1})
-    ids.append(id)
+def attacks_killed_per_year_group():
+    result = db['fact'].aggregate([
+        {
+            '$group': {
+                '_id': {
+                    'year': '$year', 
+                    'group_name': '$group_name'
+                }, 
+                'num_attacks': {
+                    '$sum': 1
+                }, 
+                'killed': {
+                    '$sum': '$total_killed'
+                }
+            }
+        }, {
+            '$sort': {
+                'killed': -1
+            }
+        }
+    ])
+    #for doc in result:
+     #   print(doc)
+    data = pd.DataFrame(result)
+    return data
 
-fact_dict = {"date_id": ids[0]['_id'], "loc_id": ids[1]['_id'], "event_id": ids[2]['_id'], "tar_id": ids[3]['_id']}
-insert_dict([fact_dict], db["fact"])
-'''
+def attacks_killed_propdmg_per_year_group_country():
+    result = db['fact'].aggregate([
+        {
+            '$group': {
+                '_id': {
+                    'year': '$year', 
+                    'group_name': '$group_name',
+                    'country': "$country"
+                }, 
+                'num_attacks': {
+                    '$sum': 1
+                }, 
+                'killed': {
+                    '$sum': '$total_killed'
+                },
+                "property_damage": {
+                    "$sum": "$property_damage"
+                }
+            }
+        }, {
+            '$sort': {
+                'property_damage': -1
+            }
+        }
+    ])
+    #for doc in result:
+     #   print(doc)
+    data = pd.DataFrame(result)
+    return data
+
+if __name__ == "__main__":
+    
+    print(attacks_killed_per_year_group())
+    print(attacks_killed_propdmg_per_year_group_country())
+
