@@ -72,6 +72,6 @@ def make_populations_csv(data: pd.DataFrame) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("test.csv")
+    data = pd.read_csv("full.csv")
 
     make_populations_csv(data)

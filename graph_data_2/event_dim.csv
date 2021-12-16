@@ -1,0 +1,1001 @@
+,event_id,attack_type,success,suicide,weapon_type,individual,nperps,nperps_cap,host_kid,nhost_kid,host_kid_hours,host_kid_days,ransom,ransom_amt,ransom_amt_paid,nreleased,total_killed,perps_killed,total_wounded,perps_wounded,property_dmg,property_dmg_value
+0,197000000001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+1,197000000002,Hostage Taking (Kidnapping),1,0,Unknown,0,7,0,1,1,0,0,1,800000,0,0,0,0,0,0,0,0
+2,197001000001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+3,197001000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+4,197001000003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+5,197001010002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+6,197001020001,Assassination,0,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,197001020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,22500
+8,197001020003,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+9,197001030001,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+10,197001050001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,197001060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,305
+12,197001080001,Hijacking,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,197001090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+14,197001090002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000000
+15,197001100001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,197001110001,Unknown,1,0,Unknown,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+17,197001120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+18,197001120002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,197001130001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,17000
+20,197001140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+21,197001150001,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+22,197001190002,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2200
+23,197001190003,Bombing/Explosion,0,0,Explosives,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,197001190004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+25,197001200001,Assassination,1,0,Unknown,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+26,197001210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+27,197001220001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,0,1,110000,110000,1,0,0,0,0,0,0
+28,197001220002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+29,197001250001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+30,197001250002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+31,197001260001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+32,197001260003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,197003140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+34,197001270002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8800
+35,197001280001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+36,197001280002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+37,197001300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+38,197001300002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+39,197001300003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+40,197001310001,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+41,197001310002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+42,197002010001,Facility/Infrastructure Attack,1,0,Incendiary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4189
+43,197002010002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+44,197002020001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,197002030001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,197002030002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,197002040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+48,197002060001,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200000
+49,197002060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+50,197002060003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+51,197002060004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+52,197002060005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,197002060006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,197002060007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+55,197002070003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000000
+56,197002080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+57,197002080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+58,197002090003,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,197002090004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+60,197002100001,Armed Assault,1,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,1,60000
+61,197002110001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+62,197002130001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,8000
+63,197002130002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,7,0,9,0,1,60000
+64,197002130003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0
+65,197002150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+66,197002150002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,350000
+67,197002160001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,3000
+68,197002160002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+69,197002160003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,197002160004,Armed Assault,0,0,Firearms,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+71,197002170001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+72,197002170002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+73,197002170003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+74,197002170004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75,197002180002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+76,197002180003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,197002200001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,450
+78,197002200002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+79,197002200003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+80,197002210001,Bombing/Explosion,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+81,197002210002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,1,3000000
+82,197002210003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+83,197002210004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+84,197002210005,Bombing/Explosion,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+85,197002210006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+86,197002220001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+87,197002220002,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+88,197002230001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89,197002230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,197002230003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91,197002230004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,197002230005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+93,197002240002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+94,197002240003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+95,197002270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+96,197002280001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+97,197003000001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+98,197003010001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+99,197003010005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+100,197003140001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,5,0,17,1,0,0,5,0,0,0,0,0,0
+101,197003010006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+102,197003010007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+103,197003010008,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+104,197003020001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200
+105,197003030001,Hostage Taking (Kidnapping),0,0,Unknown,0,3,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+106,197003030002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+107,197003030003,Bombing/Explosion,1,0,Explosives,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+108,197003040001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+109,197003040002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,197003040003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+111,197003050001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+112,197003050002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+113,197003050003,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+114,197003060001,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,1,0,2,1,0,0,1,0,0,0,0,0,0
+115,197003060003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+116,197003060004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+117,197003090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,320000
+118,197003090003,Facility/Infrastructure Attack,1,0,Chemical,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+119,197003090004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+120,197003090005,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,197003090006,Bombing/Explosion,0,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0
+122,197003100001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+123,197003100002,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+124,197003100003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+125,197003110001,Hostage Taking (Kidnapping),1,0,Unknown,0,6,0,1,1,0,4,1,0,0,1,0,0,0,0,0,0
+126,197003110002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+127,197003120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+128,197003120002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+129,197003120003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+130,197003120004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+131,197003120005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+132,197003130001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+133,197003130002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+134,197003140003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,197003140004,Hijacking,1,0,Firearms,0,2,1,1,13,0,1,0,0,0,0,0,0,0,0,0,0
+136,197003150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+137,197003150002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+138,197003160001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,4000
+139,197003170002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+140,197003180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+141,197003200001,Bombing/Explosion,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+142,197003200002,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+143,197003210001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,197003210002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+145,197003210003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+146,197003220001,Bombing/Explosion,1,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+147,197003220002,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,197003220003,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,17,0,1,0
+149,197003230001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+150,197003240001,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+151,197003240002,Hostage Taking (Kidnapping),1,0,Unknown,0,5,0,1,1,0,2,1,0,0,1,0,0,0,0,0,0
+152,197003240003,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,4,1,0,0,1,0,0,0,0,0,0
+153,197003240004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+154,197003240005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+155,197003240006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+156,197003270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+157,197003290001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0
+158,197003290002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+159,197003300001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,105000
+160,197003300002,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+161,197003310001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,1,700000,0,1,1,0,0,0,0,0
+162,197003310002,Hijacking,1,0,Explosives,0,0,0,1,129,0,0,0,0,0,0,0,0,0,0,0,0
+163,197003310003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+164,197003310004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+165,197004000001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,5,0,0,0,1,0,0,0,0,0,0
+166,197004010001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+167,197004010002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+168,197004010003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+169,197004020001,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+170,197004020002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,197004030001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+172,197004040001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+173,197004040002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+174,197004040003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,700000
+175,197004050001,Hostage Taking (Kidnapping),0,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0
+176,197004050003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+177,197004050004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+178,197004050005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+179,197004050006,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,197004050007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+181,197004080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+182,197004080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+183,197004080003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+184,197004090001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,30000
+185,197004110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+186,197004110002,Facility/Infrastructure Attack,1,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+187,197004110003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,1,250000
+188,197004130001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+189,197004130002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+190,197004130003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+191,197004130004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+192,197004140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+193,197004140003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,197004140004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+195,197004150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+196,197004150002,Facility/Infrastructure Attack,1,0,Incendiary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+197,197004150004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,75000
+198,197004150005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+199,197004160001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+200,197004160002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+201,197004160003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+202,197004160004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+203,197004170001,Armed Assault,1,0,Firearms,0,0,2,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+204,197004190001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+205,197004190002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4000
+206,197004190003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+207,197004190004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+208,197004190005,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+209,197004200001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,3000000
+210,197004210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,1,2000000
+211,197004210002,Facility/Infrastructure Attack,1,0,Incendiary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,30000
+212,197004220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+213,197004220002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+214,197004220003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,197004220004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+216,197004220005,Facility/Infrastructure Attack,0,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+217,197004220006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,40000
+218,197004230001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+219,197004230002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+220,197004230003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+221,197004230004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,197004240001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+223,197004240002,Armed Assault,1,0,Firearms,0,3,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+224,197004240003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+225,197004240004,Assassination,0,0,Firearms,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+226,197004250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+227,197004250003,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,197004250004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,333
+229,197004250005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,333
+230,197004250006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,333
+231,197004260001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+232,197004260002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+233,197004260003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234,197004270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,20000
+235,197004270002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+236,197004270003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+237,197004270004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,197004270005,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+239,197004270006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+240,197004280001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+241,197004280002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+242,197004290001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+243,197004300001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,197005000001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+245,197005000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+246,197005010002,Facility/Infrastructure Attack,1,0,Incendiary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+247,197005010003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+248,197005010004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+249,197005010005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,1,0
+250,197005010006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+251,197005010007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+252,197005010008,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+253,197005040001,Assassination,1,0,Firearms,0,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+254,197005040002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+255,197005040003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+256,197005040004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+257,197005040005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+258,197005050001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+259,197005050002,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,250000
+260,197005050004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+261,197005050005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+262,197005050006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+263,197005060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200
+264,197005060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+265,197005060003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+266,197005060004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+267,197005060005,Facility/Infrastructure Attack,0,0,Incendiary,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+268,197005060006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+269,197005060007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+270,197005070002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+271,197005080001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+272,197005090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,1,100000
+273,197005090002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+274,197005090003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+275,197005100001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+276,197005100002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+277,197005120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+278,197005120002,Bombing/Explosion,1,0,Explosives,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+279,197005120003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+280,197005130001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,200000
+281,197005130002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9000
+282,197005130003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+283,197005130004,Facility/Infrastructure Attack,1,0,Incendiary,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+284,197005140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,197005140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+286,197005140003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,197005140004,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+288,197005150001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+289,197005150002,Assassination,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+290,197005150003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+291,197005150004,Bombing/Explosion,0,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+292,197005160001,Bombing/Explosion,0,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+293,197005190001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1600
+294,197005200001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,600000
+295,197005200002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,197005200003,Facility/Infrastructure Attack,1,0,Incendiary,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+297,197005210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+298,197005220001,Unarmed Assault,1,0,Melee,0,6,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0
+299,197005220002,Armed Assault,1,0,Firearms,0,2,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+300,197005220003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,1,50000
+301,197005250001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+302,197005260001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500000
+303,197005260002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500000
+304,197005270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+305,197005270002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+306,197005270003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+307,197005280001,Armed Assault,1,0,Firearms,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+308,197005280002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+309,197005280003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+310,197005280004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+311,197005290001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0
+312,197005290002,Armed Assault,1,0,Firearms,0,42,0,1,60,0,0,0,0,0,0,0,0,0,0,1,15000
+313,197005290004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+314,197005290005,Facility/Infrastructure Attack,1,0,Sabotage Equipment,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,231000
+315,197005300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+316,197006010001,Assassination,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+317,197006020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,12,0,1,75000
+318,197006020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,40000
+319,197006020003,Assassination,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+320,197006030001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+321,197006040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+322,197006050001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+323,197006060001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+324,197006060002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+325,197006060003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+326,197006060004,Facility/Infrastructure Attack,1,0,Chemical,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150000
+327,197006060005,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+328,197006070001,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+329,197006070002,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,22,0,1,0,0,1,0,0,0,0,0,0
+330,197006070003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+331,197006080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+332,197006080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+333,197006090001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,0,1,12000,12000,0,0,0,0,0,0,0
+334,197006090002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+335,197006090003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+336,197006090004,Hostage Taking (Barricade Incident),1,0,Firearms,0,0,0,1,60,0,3,0,0,0,60,0,0,0,0,1,0
+337,197006090005,Hostage Taking (Barricade Incident),1,0,Firearms,0,0,0,1,60,0,3,0,0,0,60,0,0,0,0,1,0
+338,197006090007,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+339,197006090008,Assassination,0,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+340,197006100001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+341,197006110001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,5,1,0,0,1,1,0,0,0,0,0
+342,197006110002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+343,197006110003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+344,197006120001,Unknown,1,0,Unknown,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+345,197006120002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+346,197006120003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+347,197006130001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,1,150000
+348,197006130002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+349,197006140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+350,197006140002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+351,197006150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+352,197006170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+353,197006180001,Facility/Infrastructure Attack,1,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+354,197006180002,Facility/Infrastructure Attack,1,0,Incendiary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,197006190001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+356,197006190002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+357,197006190003,Armed Assault,1,0,Firearms,0,2,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+358,197006190004,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+359,197006210001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,197006230001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+361,197006230003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+362,197006230004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+363,197006250001,Bombing/Explosion,1,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+364,197006260001,Armed Assault,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,5,3,0,0,1,0
+365,197006270001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+366,197006270002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+367,197006270003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+368,197006270004,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,3,2,1,0,0,0
+369,197006280001,Armed Assault,0,0,Firearms,0,2,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+370,197006290001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300000
+371,197006290002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+372,197006300001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+373,197006300002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+374,197006300003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+375,197006300004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+376,197006300005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+377,197007000001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+378,197007000002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+379,197007010003,Hijacking,0,0,Unknown,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+380,197007010004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+381,197007010005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7000
+382,197007020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+383,197007020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+384,197007020003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+385,197007020004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+386,197007020005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+387,197007020006,Bombing/Explosion,0,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
+388,197007030001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+389,197007030002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+390,197007040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+391,197007040002,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+392,197007040003,Bombing/Explosion,1,0,Explosives,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+393,197007040004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+394,197007040005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+395,197007040006,Assassination,1,0,Firearms,0,3,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+396,197007050001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+397,197007070001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+398,197007070002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+399,197007070003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+400,197007070004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+401,197007080001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+402,197007080002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+403,197007090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+404,197007090002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+405,197007100001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+406,197007110001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+407,197007110002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0
+408,197007120001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+409,197007140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+410,197007140002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+411,197007160001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+412,197007160002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+413,197007160003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+414,197007170001,Armed Assault,1,0,Firearms,0,2,2,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+415,197007180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+416,197007200001,Facility/Infrastructure Attack,1,0,Incendiary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+417,197007210001,Hostage Taking (Kidnapping),1,0,Unknown,0,5,0,1,2,0,1,1,0,0,10,0,0,0,0,0,0
+418,197007210002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+419,197007210003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+420,197007210004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+421,197007220001,Hijacking,1,0,Firearms,0,6,0,1,55,0,0,0,0,0,0,0,0,0,0,0,0
+422,197007220002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+423,197007220003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+424,197007230001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,1,1,15000,15000,1,0,0,0,0,0,0
+425,197007230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+426,197007240001,Hostage Taking (Kidnapping),0,0,Unknown,0,3,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+427,197007240002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+428,197007260001,Assassination,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+429,197007260002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+430,197007270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+431,197007270002,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+432,197007270003,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+433,197007270004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+434,197007270005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+435,197007280001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,7,1,0,0,1,0,0,0,0,0,0
+436,197007280002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+437,197007280003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+438,197007300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+439,197007300002,Bombing/Explosion,0,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+440,197007310001,Hostage Taking (Kidnapping),1,0,Unknown,0,5,0,1,1,0,6,0,0,0,0,0,0,0,0,0,0
+441,197007310002,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,202,1,250000,0,1,0,0,0,0,0,0
+442,197007310003,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,10,1,0,0,1,1,0,0,0,0,0
+443,197007310004,Armed Assault,1,0,Firearms,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,23500
+444,197007310006,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+445,197008000001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+446,197008010001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+447,197008010002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+448,197008020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+449,197008050001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+450,197008060001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+451,197008060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+452,197008060004,Armed Assault,1,0,Firearms,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+453,197008070001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+454,197008070002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,600
+455,197008070003,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,2,0,0,0,0,0,0,4,0,2,0,1,1000
+456,197008090001,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+457,197008100001,Facility/Infrastructure Attack,1,0,Incendiary,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+458,197008110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+459,197008120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+460,197008140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+461,197008150001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+462,197008170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,7,0,1,2000
+463,197008170002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,500000
+464,197008180001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+465,197008190001,Hostage Taking (Kidnapping),1,0,Unknown,0,5,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0
+466,197008200001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+467,197008200002,Facility/Infrastructure Attack,1,0,Incendiary,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+468,197008200003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+469,197008210001,Hostage Taking (Barricade Incident),1,0,Firearms,0,6,0,1,-99,0,0,0,0,0,0,0,0,0,0,1,2500
+470,197008210002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2750
+471,197008220001,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+472,197008220002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+473,197008240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,4,0,1,1500000
+474,197008250001,Hostage Taking (Kidnapping),1,0,Unknown,0,6,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+475,197008250002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+476,197008270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+477,197008270002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+478,197008280001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+479,197008280002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+480,197008290001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+481,197008290002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+482,197008290003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+483,197008290004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+484,197008300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+485,197008300002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+486,197008310001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+487,197009000001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,8,0,0,0,1,0,0,0,0,0,0
+488,197009000002,Facility/Infrastructure Attack,1,0,Incendiary,0,4,0,0,0,0,0,0,0,0,0,2,2,0,0,1,160000
+489,197009010002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+490,197009020001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,2,2,0,0,1,25000
+491,197009020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+492,197009020003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+493,197009030001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+494,197009030002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+495,197009040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+496,197009040002,Assassination,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+497,197009040003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
+498,197009040004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+499,197009040005,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+500,197009050001,Bombing/Explosion,1,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+501,197009050002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+502,197009060001,Hijacking,1,0,Explosives,0,2,0,1,155,0,0,0,0,0,155,0,0,0,0,1,0
+503,197009060002,Hijacking,1,0,Unknown,0,2,0,1,155,0,0,0,0,0,155,0,0,0,0,1,0
+504,197009060003,Hijacking,1,0,Firearms,0,9,0,1,175,0,0,0,0,0,175,0,0,0,0,1,0
+505,197009060004,Hijacking,0,0,Firearms,0,2,0,1,-99,0,0,0,0,0,0,1,1,0,0,0,0
+506,197009060006,Bombing/Explosion,0,0,Explosives,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+507,197009090001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+508,197009090002,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+509,197009090003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+510,197009100002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+511,197009110001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0
+512,197009110003,Bombing/Explosion,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+513,197009120001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+514,197009120002,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,3,0,0,1,0,0,3,0,0,0,0,0,0
+515,197009140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000000
+516,197009160001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+517,197009180001,Armed Assault,1,0,Firearms,0,6,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+518,197009180002,Armed Assault,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+519,197009200001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+520,197009230001,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+521,197009230002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6000
+522,197009240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+523,197009240002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+524,197009250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+525,197009260001,Hostage Taking (Kidnapping),0,0,Unknown,0,4,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+526,197009260002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+527,197009270001,Hijacking,0,0,Explosives,0,2,0,1,-99,0,0,0,0,0,0,0,0,0,0,0,0
+528,197009300001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+529,197010000001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+530,197010010001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+531,197010020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+532,197010020003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+533,197010020004,Facility/Infrastructure Attack,1,0,Incendiary,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+534,197010030001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+535,197010030002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+536,197010050001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,59,0,0,0,1,0,0,0,0,0,0
+537,197010050002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+538,197010050003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+539,197010060001,Armed Assault,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+540,197010060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+541,197010080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150000
+542,197010080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,400
+543,197010080003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+544,197010080004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+545,197010080005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+546,197010080006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,700
+547,197010090001,Bombing/Explosion,1,0,Explosives,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+548,197010100001,Hostage Taking (Kidnapping),1,0,Firearms,0,4,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0
+549,197010100002,Hijacking,1,0,Unknown,0,3,0,1,44,0,0,0,0,0,0,0,0,1,0,0,0
+550,197010100003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+551,197010140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+552,197010140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+553,197010150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+554,197010150002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+555,197010150003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+556,197010150004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+557,197010150005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+558,197010150006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+559,197010160001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+560,197010170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+561,197010180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500000
+562,197010190001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+563,197010200001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+564,197010200002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+565,197010210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+566,197010210003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+567,197010220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+568,197010240001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+569,197010240002,Unarmed Assault,0,0,Chemical,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+570,197010240003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+571,197010240004,Armed Assault,1,0,Firearms,0,16,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0
+572,197010250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+573,197010260001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500000
+574,197010270001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+575,197010270002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+576,197010270003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+577,197010280001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+578,197010280002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+579,197010290001,Facility/Infrastructure Attack,0,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,197010300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7500
+581,197010300002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+582,197010300003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+583,197010300004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+584,197011000001,Hostage Taking (Kidnapping),0,0,Unknown,0,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+585,197011010001,Assassination,1,0,Vehicle (not to include vehicle-borne explosives. i.e.. car or truck bombs),0,1,0,0,0,0,0,0,0,0,0,4,0,20,0,0,0
+586,197011010002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+587,197011010003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+588,197011010004,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+589,197011010005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+590,197011020001,Armed Assault,1,0,Firearms,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,502500
+591,197011020002,Armed Assault,1,0,Firearms,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+592,197011070001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+593,197011070002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+594,197011070003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+595,197011080001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+596,197011090001,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+597,197011100001,Facility/Infrastructure Attack,1,0,Incendiary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+598,197011120002,Facility/Infrastructure Attack,1,0,Incendiary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+599,197011140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+600,197011140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+601,197011140003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+602,197011140004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+603,197011150001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+604,197011150002,Unarmed Assault,1,0,Melee,0,12,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+605,197011160002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+606,197011180001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+607,197011200001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+608,197011200002,Bombing/Explosion,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+609,197011200003,Armed Assault,1,0,Firearms,0,2,0,1,2,0,0,0,0,0,0,0,0,0,0,1,2500
+610,197011210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+611,197011210002,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+612,197011210003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+613,197011210004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+614,197011220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+615,197011220002,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+616,197011230001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+617,197011230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,25000
+618,197011250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+619,197011250002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+620,197011250004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+621,197011250005,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+622,197011280001,Facility/Infrastructure Attack,1,0,Incendiary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+623,197011290001,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+624,197011290002,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+625,197012010001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,23,1,0,0,1,0,0,0,0,0,0
+626,197012010002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+627,197012010003,Bombing/Explosion,1,0,Explosives,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+628,197012010004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9000
+629,197012070001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,42,1,0,0,1,1,0,0,0,0,0
+630,197012110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,70000
+631,197012110002,Bombing/Explosion,1,0,Explosives,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+632,197012130001,Bombing/Explosion,1,0,Explosives,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300000
+633,197012140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+634,197012140002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+635,197012150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+636,197012150002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+637,197012160001,Bombing/Explosion,1,0,Explosives,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+638,197012160002,Assassination,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+639,197012160003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+640,197012170001,Bombing/Explosion,1,0,Explosives,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+641,197012180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+642,197012220001,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+643,197012230001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+644,197012240001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+645,197012270001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+646,197012290001,Armed Assault,0,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+647,197012290002,Armed Assault,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+648,197012300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+649,197012310001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+650,197012310002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+651,197101010001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,11000
+652,197101040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+653,197101050001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+654,197101050002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+655,197101060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+656,197101070001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+657,197101080001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,141,1,0,0,1,0,0,0,0,0,0
+658,197101080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+659,197101080004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+660,197101090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+661,197101090002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+662,197101110001,Assassination,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+663,197101110002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+664,197101110003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+665,197101120001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,12000
+666,197101130001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+667,197101130002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+668,197101150001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,5,0,0,0,0,0,0,1,0,0,0,0,0
+669,197101150004,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+670,197101150005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+671,197101160001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+672,197101170002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+673,197101190001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+674,197101190002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+675,197101190003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+676,197101210001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+677,197101220001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+678,197101220002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+679,197101220003,Hijacking,1,0,Unknown,0,4,0,1,-99,0,0,0,0,0,0,0,0,0,0,0,0
+680,197101240001,Armed Assault,1,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+681,197101240002,Armed Assault,1,0,Melee,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0
+682,197101250001,Facility/Infrastructure Attack,1,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+683,197101250002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+684,197101260001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+685,197101270001,Armed Assault,1,0,Firearms,0,4,0,1,1,0,0,0,0,0,1,0,0,0,0,1,2500
+686,197101270002,Armed Assault,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+687,197101270003,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+688,197101270004,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+689,197101280001,Armed Assault,1,0,Firearms,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+690,197101280002,Armed Assault,1,0,Firearms,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+691,197101290001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+692,197101290002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+693,197101290003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+694,197101290004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+695,197102020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+696,197102020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+697,197102030001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,0,1,100000,100000,0,0,0,0,0,0,0
+698,197102040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+699,197102040002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,50000
+700,197102050001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+701,197102060001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,250
+702,197102060002,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+703,197102070001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+704,197102080001,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+705,197102080002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+706,197102090001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0
+707,197102090002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+708,197102100001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+709,197102100002,Armed Assault,1,0,Firearms,0,2,0,1,-99,0,0,0,0,0,0,0,0,0,0,0,0
+710,197102100003,Bombing/Explosion,0,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+711,197102110001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,23,1,400000,400000,1,0,0,0,0,0,0
+712,197102110002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+713,197102120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+714,197102120002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+715,197102120003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+716,197102130001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+717,197102140001,Facility/Infrastructure Attack,1,0,Incendiary,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+718,197102150001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,17,0,1,0,0,1,0,0,0,0,0,0
+719,197102150002,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+720,197102160001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5500
+721,197102160002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+722,197102160003,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+723,197102160004,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+724,197102160005,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+725,197102170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+726,197102170002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+727,197102190001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+728,197102200001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+729,197102200002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+730,197102200003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+731,197102210001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,3,0,0,1,100000,100000,1,0,0,0,0,0,0
+732,197102210002,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+733,197102220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+734,197102260001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+735,197102260002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,70000
+736,197102270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+737,197102270002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+738,197103000001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+739,197103000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+740,197103010001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,0,1,80000,80000,1,0,0,0,0,0,0
+741,197103010002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+742,197103010003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+743,197103010004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+744,197103020001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+745,197103030001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+746,197103030002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+747,197103040001,Hostage Taking (Kidnapping),1,0,Unknown,0,5,0,1,4,0,5,1,0,0,4,0,0,0,0,0,0
+748,197103050001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7500
+749,197103060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200000
+750,197103060002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,175000
+751,197103070001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+752,197103070002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+753,197103080003,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+754,197103080004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+755,197103080005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,1,0
+756,197103090001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+757,197103090002,Armed Assault,1,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+758,197103100001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+759,197103100002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+760,197103100003,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+761,197103110001,Bombing/Explosion,1,0,Explosives,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+762,197103120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+763,197103140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+764,197103140002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+765,197103150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+766,197103150002,Armed Assault,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+767,197103150003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+768,197103160001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+769,197103170001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+770,197103180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+771,197103180002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+772,197103190001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+773,197103190002,Facility/Infrastructure Attack,1,0,Incendiary,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,1,50
+774,197103210001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,75000
+775,197103230001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+776,197103230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4000
+777,197103230003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+778,197103250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150
+779,197103270001,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+780,197103270002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+781,197103280001,Bombing/Explosion,1,0,Explosives,0,5,0,1,6,0,0,0,0,0,6,0,0,0,0,1,15000
+782,197103300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+783,197103300002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+784,197103300003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+785,197103300005,Hijacking,1,0,Firearms,0,6,0,1,24,0,0,0,0,0,26,0,0,0,0,0,0
+786,197103300006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+787,197103310001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+788,197104000001,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+789,197104000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3500
+790,197104000003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+791,197104010001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+792,197104020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+793,197104020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+794,197104020003,Armed Assault,1,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+795,197104030001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+796,197104030002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+797,197104030003,Hostage Taking (Kidnapping),1,0,Firearms,0,5,5,1,1,2,0,0,0,0,0,0,0,1,0,0,0
+798,197104030004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8000
+799,197104050001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+800,197104050002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+801,197104050003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+802,197104060001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+803,197104060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+804,197104060003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+805,197104060004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+806,197104060005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+807,197104070001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+808,197104070002,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0
+809,197104080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+810,197104110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+811,197104110002,Armed Assault,1,0,Firearms,0,12,0,0,0,0,0,0,0,0,0,3,0,0,0,1,15000
+812,197104120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+813,197104140001,Facility/Infrastructure Attack,1,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+814,197104140002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+815,197104150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+816,197104170001,Assassination,1,0,Firearms,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+817,197104190001,Armed Assault,0,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+818,197104190002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+819,197104190003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+820,197104190004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+821,197104200001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+822,197104200002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+823,197104200003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+824,197104220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+825,197104230001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+826,197104230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+827,197104230003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+828,197104230004,Bombing/Explosion,1,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+829,197104230005,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+830,197104240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+831,197104250001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+832,197104250002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+833,197104260001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+834,197104270001,Bombing/Explosion,1,0,Explosives,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+835,197104270002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+836,197104280001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8500
+837,197104280002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+838,197104290001,Armed Assault,1,0,Firearms,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,1,20000
+839,197104290002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+840,197104290003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1600
+841,197104290004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+842,197104290005,Assassination,1,0,Melee,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+843,197104300001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+844,197104300002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+845,197105010001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+846,197105020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+847,197105040001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+848,197105040002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+849,197105040003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+850,197105040004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+851,197105040005,Facility/Infrastructure Attack,0,0,Incendiary,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+852,197105050001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+853,197105050002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+854,197105050003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+855,197105050004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+856,197105050005,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+857,197105050006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+858,197105050007,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+859,197105060001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+860,197105060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+861,197105060003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+862,197105060004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+863,197105060005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+864,197105060006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+865,197105070001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5500
+866,197105080001,Hostage Taking (Kidnapping),0,0,Unknown,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+867,197105080002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+868,197105080003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+869,197105090001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+870,197105090002,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+871,197105090003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
+872,197105110001,Assassination,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+873,197105110002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+874,197105110003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+875,197105110004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+876,197105110005,Facility/Infrastructure Attack,1,0,Chemical,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1500
+877,197105120001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+878,197105120002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+879,197105130001,Armed Assault,0,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+880,197105130002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+881,197105140001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+882,197105150001,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+883,197105170001,Hostage Taking (Kidnapping),1,0,Unknown,0,4,0,1,1,0,0,1,0,0,1,1,0,0,0,0,0
+884,197105170002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+885,197105170003,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15000
+886,197105180001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+887,197105180002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+888,197105180003,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+889,197105190001,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
+890,197105200001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+891,197105210001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+892,197105210002,Facility/Infrastructure Attack,0,0,Incendiary,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+893,197105220001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+894,197105230001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,7,0,0,0,1,0,0,0,0,0,0
+895,197105230002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20000
+896,197105250001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+897,197105250002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+898,197105280001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+899,197105290001,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+900,197105290002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0
+901,197106030001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+902,197106040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+903,197106050002,Armed Assault,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1000
+904,197106060001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+905,197106060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+906,197106100001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150
+907,197106110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+908,197106110002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+909,197106110003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+910,197106120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+911,197106130001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+912,197106130002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+913,197106150001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+914,197106160001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+915,197106170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+916,197106180002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+917,197106210001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+918,197106220001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+919,197106220002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+920,197106220003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+921,197106240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+922,197106240002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+923,197106250001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+924,197106260001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+925,197107000001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+926,197107000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+927,197107010001,Bombing/Explosion,1,0,Explosives,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2400
+928,197107020001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+929,197107040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500000
+930,197107060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+931,197107080001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+932,197107080002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+933,197107090001,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+934,197107090002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+935,197107120001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+936,197107140001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+937,197107170001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+938,197107180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10000
+939,197107180002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+940,197107180003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+941,197107210001,Hostage Taking (Barricade Incident),1,0,Firearms,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,9400
+942,197107240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+943,197107250001,Armed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+944,197107270001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+945,197107280001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+946,197107280002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+947,197107290001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+948,197107300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
+949,197108080001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+950,197108090002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+951,197108090003,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+952,197108100001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+953,197108110001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+954,197108110003,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+955,197108110004,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+956,197108120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+957,197108140001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+958,197108150001,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+959,197108150004,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+960,197108150005,Armed Assault,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+961,197108180001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+962,197108220001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+963,197108220002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,700
+964,197108220003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+965,197108220004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+966,197108220005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+967,197108220006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
+968,197108220007,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300
+969,197108220008,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,700
+970,197108220009,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500
+971,197108220010,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,700
+972,197108230001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+973,197108230002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+974,197108230003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+975,197108230004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+976,197108230005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+977,197108230006,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+978,197108230007,Armed Assault,1,0,Firearms,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+979,197108240001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100000
+980,197108240002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+981,197108240003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60000
+982,197108250001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+983,197108250002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+984,197108270001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+985,197108280001,Armed Assault,0,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+986,197108280002,Hijacking,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+987,197108280003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+988,197108280004,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+989,197108280005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,40000
+990,197108290001,Armed Assault,1,0,Firearms,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+991,197108290002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000
+992,197108290003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
+993,197108290004,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+994,197108300001,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+995,197108300002,Bombing/Explosion,1,0,Explosives,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+996,197109000001,Assassination,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+997,197109000002,Assassination,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,2,0,10,0,0,0
+998,197109010001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+999,197109020001,Facility/Infrastructure Attack,1,0,Incendiary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0

@@ -23,6 +23,8 @@ services:
   graph:
     container_name: graph_db
     image: neo4j
+    volumes:
+      - /home/sj/skole/ikt446/database_management/graph_data:/var/lib/neo4j/import
     restart: always
     environment:
       NEO4J_AUTH: none

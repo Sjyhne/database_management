@@ -234,4 +234,4 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
 res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 200000)
 
 
-res.to_csv("test.csv")
+res.to_csv("full.csv")

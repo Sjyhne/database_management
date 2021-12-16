@@ -1,0 +1,1001 @@
+,event_id,group_name,year,month,day,region,country,provstate,city,total_killed
+0,197006060005,Black Nationalists,1970,6,6,North America,United States,California,Berkeley,0
+1,197002210001,Popular Front for the Liberation of Palestine. Gen Cmd (PFLP-GC),1970,2,21,Western Europe,West Germany (FRG),Hesse,Frankfurt,0
+2,197011290002,Tupamaros (Uruguay),1970,11,29,South America,Uruguay,Montevideo,Montevideo,0
+3,197007010003,Unknown,1970,7,1,South America,Brazil,Rio de Janeiro,Rio de Janeiro,0
+4,197101250002,Turkish Peoples Liberation Army,1971,1,25,Middle East & North Africa,Turkey,Ankara,Ankara,0
+5,197007040001,Unknown,1970,7,4,North America,United States,New York,New York City,0
+6,197102090001,Irish Republican Army (IRA),1971,2,9,Western Europe,United Kingdom,Northern Ireland,Trillick,5
+7,197003020001,Black Nationalists,1970,3,2,North America,United States,Ohio,Cleveland,0
+8,197108150005,Unknown,1971,8,15,North America,United States,California,Vernon,0
+9,197002060002,White supremacists/nationalists,1970,2,6,North America,United States,Washington,Seattle,0
+10,197105170002,Unknown,1971,5,17,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+11,197006190003,Black Nationalists,1970,6,19,North America,United States,Illinois,Chicago,1
+12,197012240001,Turkish Peoples Liberation Army,1970,12,24,Middle East & North Africa,Turkey,Ankara,Ankara,0
+13,197104190002,Catalan Liberation Front (FAC),1971,4,19,Western Europe,Spain,Barcelona,Barcelona,0
+14,197104120001,Black Revolutionary Assault Team,1971,4,12,North America,United States,New York,New York City,0
+15,197107060001,Chicano Liberation Front,1971,7,6,North America,United States,California,Montebello,0
+16,197005280001,Black Panthers,1970,5,28,North America,United States,California,Sacramento,1
+17,197102100002,Croatian Nationalists,1971,2,10,Western Europe,Sweden,Vastra Gotaland,Gothenburg,0
+18,197002200003,Student Radicals,1970,2,20,North America,United States,Washington,Seattle,0
+19,197006080002,Left-Wing Militants,1970,6,8,North America,United States,California,Oakland,0
+20,197101110002,Turkish Peoples Liberation Army,1971,1,11,Middle East & North Africa,Turkey,Ankara,Ankara,0
+21,197004140004,Unknown,1970,4,14,North America,United States,California,Los Angeles,0
+22,197105180003,Unknown,1971,5,18,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+23,197105010001,Peoples Revolutionary Party,1971,5,1,North America,United States,California,Santa Cruz,0
+24,197004200001,Student Radicals,1970,4,20,North America,United States,Kansas,Lawrence,0
+25,197001090001,Left-Wing Militants,1970,1,9,North America,United States,Michigan,Detroit,0
+26,197003010006,Left-Wing Militants,1970,3,1,North America,United States,Colorado,Colorado Springs,0
+27,197104080001,Chicano Liberation Front,1971,4,8,North America,United States,California,Fresno,0
+28,197010280002,Left-Wing Militants,1970,10,28,North America,United States,Wisconsin,Whitefish Bay,0
+29,197105070001,Students for a Democratic Society,1971,5,7,North America,United States,Iowa,Iowa City,0
+30,197101190003,Strikers,1971,1,19,North America,United States,Ohio,Cleveland,0
+31,197008210001,Tupamaros (Uruguay),1970,8,21,South America,Uruguay,Montevideo,Montevideo,0
+32,197011070002,Black Nationalists,1970,11,7,North America,United States,Illinois,Cairo,0
+33,197001270002,Left-Wing Militants,1970,1,27,North America,United States,Ohio,Norwalk,0
+34,197004230002,Armed Commandos of Liberation,1970,4,23,North America,United States,Puerto Rico,Aguada,0
+35,197102270001,Unknown,1971,2,27,North America,United States,California,Berkeley,0
+36,197101150004,Left-Wing Militants,1971,1,15,North America,United States,New York,New York City,0
+37,197006230004,Jewish Defense League (JDL),1970,6,23,North America,United States,New York,New York City,0
+38,197003140003,Left-Wing Militants,1970,3,14,North America,United States,New York,New York City,0
+39,197003060001,Rebel Armed Forces of Guatemala (FAR),1970,3,6,Central America & Caribbean,Guatemala,Guatemala,Guatemala City,0
+40,197104170001,Black Panthers,1971,4,17,North America,United States,New York,New York City,1
+41,197005130003,Black Nationalists,1970,5,13,North America,United States,North Carolina,Oxford,0
+42,197102160003,Puerto Rican Nationalists,1971,2,16,North America,United States,Puerto Rico,San Juan,0
+43,197006130001,Black Panthers,1970,6,13,North America,United States,Iowa,Des Moines,0
+44,197005200001,Unknown,1970,5,20,North America,United States,Florida,Quincy,0
+45,197002210005,Weather Underground. Weathermen,1970,2,21,North America,United States,New York,New York City,0
+46,197104200001,Left-Wing Militants,1971,4,20,North America,United States,California,Fresno,0
+47,197105180001,Unknown,1971,5,18,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+48,197012310002,Left-Wing Militants,1970,12,31,North America,United States,California,El Monte,0
+49,197007230001,Sandinista National Liberation Front (FSLN),1970,7,23,Central America & Caribbean,Nicaragua,Managua,Managua,0
+50,197010300003,Left-Wing Militants,1970,10,30,North America,United States,New York,New York City,0
+51,197001000002,Unknown,1970,1,1,Western Europe,Greece,Attica,Athens,0
+52,197001090002,Armed Commandos of Liberation,1970,1,9,North America,United States,Puerto Rico,Rio Piedras,0
+53,197103100003,Irish Republican Army (IRA),1971,3,10,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+54,197102210001,Armed Forces of National Liberation- Venezuela (FALN),1971,2,21,South America,Venezuela,Caracas,Caracas,0
+55,197104070001,Unknown,1971,4,7,Middle East & North Africa,Iran,Tehran,Tehran,1
+56,197104230001,Chicano Liberation Front,1971,4,23,North America,United States,California,Fresno,0
+57,197101070001,Turkish Peoples Liberation Army,1971,1,7,Middle East & North Africa,Turkey,Malatya,Malatya,0
+58,197012070001,Popular Revolutionary Vanguard (VPR),1970,12,7,South America,Brazil,Rio de Janeiro,Rio de Janeiro,1
+59,197101220003,Eritrean Liberation Front,1971,1,22,Sub-Saharan Africa,Ethiopia,Amhara,Bahar Dar,0
+60,197008090001,Peronist Armed Forces (FAP),1970,8,9,South America,Argentina,Santa Fe,Santa Fe,0
+61,197006070001,Unknown,1970,6,7,Middle East & North Africa,Jordan,Amman,Amman,0
+62,197004050007,Student Radicals,1970,4,5,North America,United States,Texas,Houston,0
+63,197002080001,Armed Revolutionary Independence Movement (MIRA),1970,2,8,North America,United States,New York,New York City,0
+64,197103100001,Tupamaros (Uruguay),1971,3,10,South America,Uruguay,Montevideo,Montevideo,0
+65,197106180002,Black Liberation Army,1971,6,18,North America,United States,New York,New York City,0
+66,197103010004,Puerto Rican Resistance Movement,1971,3,1,North America,United States,New York,New York City,0
+67,197101240001,Peronist Armed Forces (FAP),1971,1,24,South America,Argentina,Buenos Aires,Banfield,0
+68,197002040001,Strikers,1970,2,4,North America,United States,Ohio,Akron,0
+69,197102110002,Unknown,1971,2,11,Middle East & North Africa,Turkey,Ankara,Ankara,0
+70,197011220002,Left-Wing Militants,1970,11,22,North America,United States,Florida,St. Petersburg,0
+71,197006090001,Armed Forces of National Liberation- Venezuela (FALN),1970,6,9,South America,Venezuela,Lara,Barquisimeto,0
+72,197103010001,Armed Forces of National Liberation- Venezuela (FALN),1971,3,1,South America,Venezuela,Caracas,Caracas,0
+73,197012310001,Socialist Patients Collective (SPK),1970,12,31,Western Europe,West Germany (FRG),Baden-Wurttemberg,Wiesloch,0
+74,197102130001,Left-Wing Militants,1971,2,13,North America,United States,Georgia,Atlanta,0
+75,197011020001,Montoneros (Argentina),1970,11,2,South America,Argentina,Buenos Aires,Buenos Aires,0
+76,197103080003,Official Irish Republican Army (OIRA),1971,3,8,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+77,197006100001,Popular Front for the Liberation of Palestine (PFLP),1970,6,10,Middle East & North Africa,Jordan,Amman,Amman,1
+78,197009140001,Tupamaros (Uruguay),1970,9,14,South America,Uruguay,Montevideo,Montevideo,0
+79,197105150001,Unknown,1971,5,15,Western Europe,Greece,Ionian Islands,Kalamaki,0
+80,197003160001,White supremacists/nationalists,1970,3,16,North America,United States,California,San Bernardino,0
+81,197008220001,Black Panthers,1970,8,22,North America,United States,Minnesota,St. Paul,0
+82,197001280001,Unknown,1970,1,28,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+83,197102220001,Chicano Liberation Front,1971,2,22,North America,United States,California,Los Angeles,0
+84,197012140001,Armed Revolutionary Independence Movement (MIRA),1970,12,14,North America,United States,New York,New York City,0
+85,197106250001,Left-Wing Militants,1971,6,25,North America,United States,Texas,Freeport,0
+86,197011160002,Irish Republican Army (IRA),1970,11,16,Western Europe,United Kingdom,Northern Ireland,Belfast,2
+87,197003060003,Weather Underground. Weathermen,1970,3,6,North America,United States,Michigan,Detroit,0
+88,197002130003,Black Nationalists,1970,2,13,North America,United States,California,Berkeley,0
+89,197102060002,Irish Republican Army (IRA),1971,2,6,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+90,197005100001,Extraparliamentary Opposition (APO),1970,5,10,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+91,197105040001,Ejercito de Liberacion Nacional (Bolivia),1971,5,4,South America,Bolivia,La Paz,La Paz,0
+92,197105290001,Basque Fatherland and Freedom (ETA),1971,5,29,Western Europe,Spain,Gipuzcoa,Donostia-San Sebastian,0
+93,197005140002,Student Radicals,1970,5,14,North America,United States,New York,New York City,0
+94,197105060002,Unknown,1971,5,6,South America,Venezuela,Caracas,Caracas,0
+95,197102210002,Unknown,1971,2,21,Middle East & North Africa,Turkey,Ankara,ANkara,0
+96,197011290001,Unknown,1970,11,29,Western Europe,West Germany (FRG),Hesse,Frankfurt,0
+97,197103300006,Jewish Defense League (JDL),1971,3,30,North America,United States,New York,New York City,0
+98,197011000001,Unknown,1970,11,1,Middle East & North Africa,Iran,Tehran,Tehran,0
+99,197108090003,Irish Republican Army (IRA),1971,8,9,Western Europe,United Kingdom,Northern Ireland,Clady,1
+100,197104270002,Left-Wing Militants,1971,4,27,North America,United States,California,Los Angeles,0
+101,197007110002,White supremacists/nationalists,1970,7,11,North America,United States,Massachusetts,New Bedford,1
+102,197104290005,Left-Wing Militants,1971,4,29,North America,United States,California,Berkeley,1
+103,197011250001,Jewish Defense League (JDL),1970,11,25,North America,United States,New York,New York City,0
+104,197004080002,Strikers,1970,4,8,North America,United States,Kansas,Baxter Springs,0
+105,197105170001,Turkish Peoples Liberation Army,1971,5,17,Middle East & North Africa,Turkey,Istanbul,Istanbul,1
+106,197101190001,Black Nationalists,1971,1,19,North America,United States,California,San Francisco,0
+107,197007270005,Left-Wing Militants,1970,7,27,North America,United States,California,San Francisco,0
+108,197007280001,Tupamaros (Uruguay),1970,7,28,South America,Uruguay,Montevideo,Montevideo,0
+109,197007270002,American Servicemens Union (ASU),1970,7,26,North America,United States,Wisconsin,Sparta,0
+110,197010050002,Weather Underground. Weathermen,1970,10,5,North America,United States,Illinois,Chicago,0
+111,197008200003,Black Nationalists,1970,8,20,North America,United States,California,Berkeley,1
+112,197010250001,Unknown,1970,10,25,North America,United States,District of Columbia,Washington,0
+113,197002240003,Student Radicals,1970,2,24,North America,United States,Illinois,Champaign,0
+114,197008100001,White Panther Party,1970,8,10,North America,United States,Oregon,Portland,0
+115,197003180001,Unknown,1970,3,18,North America,United States,Ohio,Lockland,0
+116,197101080004,Jewish Defense League (JDL),1971,1,8,North America,United States,District of Columbia,Washington,0
+117,197105040003,Left-Wing Militants,1971,5,4,North America,United States,California,Chico,0
+118,197005060003,Left-Wing Militants,1970,5,6,North America,United States,Pennsylvania,Reading,0
+119,197007040004,Unknown,1970,7,4,North America,United States,Ohio,Akron,0
+120,197009120001,Unknown,1970,9,12,South America,Argentina,Buenos Aires,Buenos Aires,0
+121,197008280001,White supremacists/nationalists,1970,8,28,North America,United States,North Carolina,Rocky Mount,0
+122,197105050005,Left-Wing Militants,1971,5,5,North America,United States,Arizona,Tempe,0
+123,197004010003,Student Radicals,1970,4,1,North America,United States,Texas,Houston,0
+124,197008150001,White supremacists/nationalists,1970,8,15,North America,United States,Mississippi,West Point,1
+125,197010080003,Weather Underground. Weathermen,1970,10,8,North America,United States,California,San Rafael,0
+126,197002210004,Left-Wing Militants,1970,2,21,North America,United States,New York,New York City,0
+127,197104110002,Peronist Armed Forces (FAP),1971,4,11,South America,Argentina,Buenos Aires,La Plata,3
+128,197105040005,Left-Wing Militants,1971,5,4,North America,United States,California,San Bruno,0
+129,197002080002,Armed Revolutionary Independence Movement (MIRA),1970,2,8,North America,United States,New York,New York City,0
+130,197101210001,Unknown,1971,1,21,Southeast Asia,Philippines,Tarlac,Unknown,0
+131,197008010002,Croatian Nationalists,1970,8,1,Western Europe,Belgium,Brussels,Brussels,0
+132,197006190004,Black Nationalists,1970,6,19,North America,United States,California,San Francisco,1
+133,197004160001,Unknown,1970,4,16,North America,United States,Missouri,Kansas City,0
+134,197103030002,Unknown,1971,3,3,North America,United States,California,Berkeley,0
+135,197004080003,Chicano Liberation Front,1970,4,8,North America,United States,California,Los Angeles,0
+136,197101220002,Unknown,1971,1,22,Middle East & North Africa,Turkey,Ankara,Ankara,0
+137,197103210001,Student Radicals,1971,3,21,North America,United States,Massachusetts,Medford,0
+138,197004010001,Student Radicals,1970,4,1,North America,United States,Michigan,East Lansing,0
+139,197003300002,Left-Wing Militants,1970,3,30,North America,United States,Georgia,Fort Benning,0
+140,197108250001,Irish Republican Army (IRA),1971,8,25,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+141,197103300002,Black Liberation Army,1971,3,30,North America,United States,California,San Francisco,0
+142,197103150001,Popular Front for the Liberation of Palestine (PFLP),1971,3,15,Western Europe,Netherlands,South Holland,Rotterdam,0
+143,197104050001,Left-Wing Militants,1971,4,5,North America,United States,California,Ben Lomond,0
+144,197009040003,Irish Republican Army (IRA),1970,9,4,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+145,197003120003,Black Nationalists,1970,3,12,North America,United States,Illinois,Chicago,0
+146,197010150003,Tupamaros (Uruguay),1970,10,15,South America,Uruguay,Montevideo,Montevideo,0
+147,197108230005,Armed Revolutionary Independence Movement (MIRA),1971,8,23,North America,United States,New Jersey,Hoboken,0
+148,197005220001,Jewish Defense League (JDL),1970,5,22,North America,United States,New York,New York City,0
+149,197009100002,Student Radicals,1970,9,10,North America,United States,Florida,Gainesville,0
+150,197007270004,Left-Wing Militants,1970,7,27,North America,United States,California,San Francisco,0
+151,197104020002,Catalan Liberation Front (FAC),1971,4,2,Western Europe,Spain,Madrid,Madrid,0
+152,197002060007,Student Radicals,1970,2,6,North America,United States,Massachusetts,Boston,0
+153,197001150001,Tupamaros (Uruguay),1970,1,15,South America,Uruguay,Montevideo,Montevideo,0
+154,197108270001,Chicano Liberation Front,1971,8,27,North America,United States,California,Los Angeles,0
+155,197009020003,Left-Wing Militants,1970,9,2,North America,United States,California,Milpitas,0
+156,197007310003,Tupamaros (Uruguay),1970,7,31,South America,Uruguay,Montevideo,Montevideo,1
+157,197006060001,Kabataang Makabayan (KM),1970,6,6,Southeast Asia,Philippines,Metropolitan Manila,Quezon City,0
+158,197002170004,Student Radicals,1970,2,17,North America,United States,Washington,Seattle,0
+159,197008290003,Left-Wing Militants,1970,8,29,North America,United States,California,Walnut Creek,0
+160,197102040002,White supremacists/nationalists,1971,2,4,North America,United States,North Carolina,Charlotte,0
+161,197007040003,White supremacists/nationalists,1970,7,4,North America,United States,Washington,Longview,0
+162,197105280001,Black Nationalists,1971,5,28,North America,United States,Illinois,Bedford Park,0
+163,197102080002,Unknown,1971,2,8,Southeast Asia,Philippines,Tarlac,Unknown,0
+164,197004270001,Black Nationalists,1970,4,27,North America,United States,Iowa,Iowa City,0
+165,197001190002,Black Nationalists,1970,1,19,North America,United States,Washington,Seattle,0
+166,197102160004,Puerto Rican Nationalists,1971,2,16,North America,United States,Puerto Rico,San Juan,0
+167,197005060006,Left-Wing Militants,1970,5,6,North America,United States,Oregon,Portland,0
+168,197108110001,Jewish Defense League (JDL),1971,8,11,North America,United States,New York,New York City,0
+169,197008300002,Student Radicals,1970,8,30,Western Europe,Greece,Attica,Athens,0
+170,197007310006,White supremacists/nationalists,1970,7,31,North America,United States,North Carolina,Charlotte,0
+171,197106170001,Chicano Radicals,1971,6,17,North America,United States,California,Los Angeles,0
+172,197006140001,Unknown,1970,6,14,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+173,197010080001,Quartermoon Society,1970,10,8,North America,United States,Washington,Seattle,0
+174,197006020003,Unknown,1970,6,2,North America,United States,Illinois,Joliet,0
+175,197007020002,Revolutionary Force Seven,1970,7,2,North America,United States,District of Columbia,Washington,0
+176,197009060003,Popular Front for the Liberation of Palestine (PFLP),1970,9,6,Western Europe,Netherlands,North Holland,Amsterdam,0
+177,197007270003,American Servicemens Union (ASU),1970,7,26,North America,United States,Wisconsin,Sparta,0
+178,197102080001,Turkish Peoples Liberation Army,1971,2,8,Middle East & North Africa,Turkey,Ankara,Ankara,0
+179,197108280005,Black Nationalists,1971,8,28,North America,United States,California,San Mateo,0
+180,197007000001,Left-Wing Militants,1970,7,1,North America,United States,Wisconsin,Wauwatosa,0
+181,197010220001,Black Liberation Army,1970,10,22,North America,United States,California,San Francisco,0
+182,197109000002,Unknown,1971,9,1,Southeast Asia,Cambodia,Phnom Penh,Phnom Penh,2
+183,197105080003,Chicano Liberation Front,1971,5,8,North America,United States,California,Los Angeles,0
+184,197007220001,Arabs,1970,7,22,Western Europe,Greece,Attica,Athens,0
+185,197102070001,Irish Republican Extremists,1971,2,7,Western Europe,United Kingdom,Northern Ireland,Nutts Corner,1
+186,197004020002,Left-Wing Militants,1970,4,2,North America,United States,New York,New York City,0
+187,197010080002,Weather Underground. Weathermen,1970,10,8,North America,United States,California,Santa Barbara,0
+188,197009250001,Weather Underground. Weathermen,1970,9,25,North America,United States,New York,New York City,0
+189,197008070001,SFT,1970,8,7,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+190,197108280003,Weather Underground. Weathermen,1971,8,28,North America,United States,California,San Francisco,0
+191,197108180001,Unknown,1971,8,18,North America,United States,Ohio,Cleveland,0
+192,197004040002,Left-Wing Militants,1970,4,4,North America,United States,New York,New York City,0
+193,197011210004,Strikers,1970,11,21,North America,United States,Tennessee,Chattanooga,0
+194,197008290004,Left-Wing Militants,1970,8,29,North America,United States,California,Santa Fe Springs,0
+195,197006110002,Unknown,1970,6,11,Middle East & North Africa,Iran,Tehran,Tehran,0
+196,197104230003,Left-Wing Militants,1971,4,23,North America,United States,California,Los Gatos,0
+197,197012160001,Tupamaros (Uruguay),1970,12,16,South America,Uruguay,Montevideo,Montevideo,0
+198,197102150002,Irish Republican Army (IRA),1971,2,15,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+199,197103040001,Turkish Peoples Liberation Army,1971,3,4,Middle East & North Africa,Turkey,Ankara,Ankara,0
+200,197101240002,Black Liberation Army,1971,1,24,North America,United States,New York,New York City,1
+201,197004130004,Unknown,1970,4,13,North America,United States,Missouri,Kansas City,0
+202,197107250001,Jewish Defense League (JDL),1971,7,25,North America,United States,New York,New York City,0
+203,197003200001,White supremacists/nationalists,1970,3,20,North America,United States,Oregon,Portland,0
+204,197008310001,Turkish Peoples Liberation Army,1970,8,31,Middle East & North Africa,Turkey,Ankara,Ankara,0
+205,197102120001,Unknown,1971,2,12,Southeast Asia,Philippines,Metropolitian Manila,Manila,0
+206,197011010003,Unknown,1970,11,1,North America,United States,California,Fresno,0
+207,197010090001,Ku Klux Klan,1970,10,9,North America,United States,Texas,Houston,0
+208,197008270002,Student Radicals,1970,8,27,North America,United States,Maryland,Cambridge,0
+209,197006210001,Black Panthers,1970,6,21,North America,United States,Iowa,Des Moines,0
+210,197010240004,Black Panthers,1970,10,24,North America,United States,Illinois,Cairo,0
+211,197006090008,Black Nationalists,1970,6,9,North America,United States,New Jersey,Newark,0
+212,197011250004,Student Radicals,1970,11,25,North America,United States,California,Berkeley,0
+213,197001250001,White supremacists/nationalists,1970,1,25,North America,United States,Mississippi,West Point,0
+214,197002220001,White supremacists/nationalists,1970,2,22,North America,United States,New York,Ithaca,0
+215,197103070002,Unknown,1971,3,7,North America,United States,Texas,Texarkana,0
+216,197006260001,Irish Republican Army (IRA),1970,6,26,Western Europe,United Kingdom,Northern Ireland,Londonderry,5
+217,197104070002,Croatian Nationalists,1971,4,7,Western Europe,Sweden,Stockholm,Stockholm,1
+218,197009230001,Weather Underground. Weathermen,1970,9,23,North America,United States,Massachusetts,Brighton,1
+219,197002030001,Unknown,1970,2,3,North America,United States,New York,New York City,0
+220,197002230004,Strikers,1970,2,23,North America,United States,Nebraska,South Sioux City,0
+221,197010030001,Unknown,1970,10,3,Middle East & North Africa,Turkey,Ankara,Ankara,0
+222,197002130002,Popular Front for the Liberation of Palestine (PFLP),1970,2,13,Western Europe,West Germany (FRG),Bavaria,Munich,7
+223,197107020001,GAC,1971,7,2,Western Europe,Spain,Navarre,Pamplona,0
+224,197107120001,Irish Republican Army (IRA),1971,7,12,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+225,197012170001,Tupamaros (Uruguay),1970,12,17,South America,Uruguay,Montevideo,Montevideo,0
+226,197001130001,Black Nationalists,1970,1,13,North America,United States,Washington,Seattle,0
+227,197104250002,Student Radicals,1971,4,25,North America,United States,California,Claremont,0
+228,197003140002,Unknown,1970,3,14,Middle East & North Africa,Egypt,Alexandria,Alexandria,0
+229,197003110001,Popular Revolutionary Vanguard (VPR),1970,3,11,South America,Brazil,Sao Paulo,Sao Paulo,0
+230,197004020001,New Peoples Army (NPA),1970,4,2,Southeast Asia,Philippines,Pampanga,Mabalacat City,2
+231,197005130004,Black Afro Militant Movement,1970,5,13,North America,United States,Florida,Miami,0
+232,197103080005,Unknown,1971,3,8,North America,United States,Missouri,St. Louis,0
+233,197010240001,National Committee to Combat Fascism,1970,10,24,North America,United States,Michigan,Detroit,1
+234,197007280002,Unknown,1970,7,28,North America,United States,Texas,Houston,0
+235,197003170002,Chicano Liberation Front,1970,3,17,North America,United States,California,Los Angeles,0
+236,197006180001,Student Radicals,1970,6,18,North America,United States,New York,New York City,0
+237,197101270003,Tupamaros (Uruguay),1971,1,27,South America,Uruguay,Montevideo,Montevideo,0
+238,197108300001,Irish Republican Army (IRA),1971,8,30,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+239,197103000002,New Peoples Army (NPA),1971,3,1,Sub-Saharan Africa,Ethiopia,Unknown,Tarlas,0
+240,197101150005,Left-Wing Militants,1971,1,15,North America,United States,New York,New York City,0
+241,197004080001,Unknown,1970,4,8,North America,United States,Kansas,Lawrence,0
+242,197102100001,Turkish Peoples Liberation Army,1971,2,10,Middle East & North Africa,Turkey,Ankara,Ankara,0
+243,197108110003,Unknown,1971,8,11,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+244,197103090001,Unknown,1971,3,9,North America,United States,Colorado,Fort Lupton,0
+245,197008180001,Jewish Defense League (JDL),1970,8,18,North America,United States,New York,New York City,0
+246,197003090006,Black Nationalists,1970,3,9,North America,United States,Maryland,Bel Air,2
+247,197105110004,Left-Wing Militants,1971,5,11,North America,United States,California,Los Angeles,0
+248,197010080004,Weather Underground. Weathermen,1970,10,8,North America,United States,California,Berkeley,0
+249,197009000001,Palestinians,1970,9,1,Middle East & North Africa,Jordan,Amman,Amman,0
+250,197006250001,White supremacists/nationalists,1970,6,25,North America,United States,Washington,Longview,0
+251,197104300002,Left-Wing Militants,1971,4,30,North America,United States,Massachusetts,Braintree,0
+252,197106110001,Popular Front for the Liberation of Palestine (PFLP),1971,6,11,Middle East & North Africa,South Yemen,Adan,Aden,0
+253,197003030003,Student Radicals,1970,3,3,North America,United States,Washington,Seattle,0
+254,197010270002,Turkish Peoples Liberation Army,1970,10,27,Middle East & North Africa,Turkey,Ankara,Ankara,0
+255,197009020001,Unknown,1970,9,2,Western Europe,Greece,Attica,Athens,2
+256,197003290001,Argentine National Organization Movement (MANO),1970,3,29,South America,Argentina,Buenos Aires,Buenos Aires,0
+257,197006140002,Unknown,1970,6,14,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+258,197006120002,Black Nationalists,1970,6,12,North America,United States,Illinois,Cairo,0
+259,197003290002,Popular Front for the Liberation of Palestine (PFLP),1970,3,29,Middle East & North Africa,Lebanon,Beirut,Beirut,0
+260,197011250005,Armed Commandos of Liberation,1970,11,25,North America,United States,Puerto Rico,San Juan,0
+261,197011250002,Jewish Defense League (JDL),1970,11,25,North America,United States,New York,New York City,0
+262,197006180002,Black Nationalists,1970,6,18,North America,United States,New York,New York City,0
+263,197106210001,Unknown,1971,6,21,North America,United States,California,San Jose,0
+264,197005150003,Unknown,1970,5,15,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+265,197003130002,Student Radicals,1970,3,13,North America,United States,Wisconsin,Appleton,0
+266,197104030002,Unknown,1971,4,3,North America,United States,California,Los Angeles,0
+267,197003120001,Revolutionary Force 9,1970,3,12,North America,United States,New York,New York City,0
+268,197002200001,Left-Wing Militants,1970,2,20,North America,United States,Connecticut,Hartford,0
+269,197104220001,Jewish Defense League (JDL),1971,4,22,North America,United States,New York,New York City,0
+270,197001000003,Unknown,1970,1,1,East Asia,Japan,Fukouka,Fukouka,0
+271,197103230001,Weather Underground. Weathermen,1971,3,23,North America,United States,California,Mill Valley,0
+272,197003050001,Left-Wing Militants,1970,3,5,North America,United States,Washington,Seattle,0
+273,197002160002,Unknown,1970,2,16,North America,United States,California,Berkeley,0
+274,197001280002,White supremacists/nationalists,1970,1,28,North America,United States,Washington,Seattle,0
+275,197103050001,Student Radicals,1971,3,5,North America,United States,Hawaii,Honolulu,0
+276,197106060002,Unknown,1971,6,6,North America,United States,California,Menlo Park,0
+277,197001120002,Strikers,1970,1,12,North America,United States,Puerto Rico,Rio Grande,0
+278,197004270006,Unknown,1970,4,27,North America,United States,Missouri,St. Charles,0
+279,197004230001,Armed Commandos of Liberation,1970,4,23,North America,United States,Puerto Rico,Aguada,0
+280,197004240003,Left-Wing Militants,1970,4,24,North America,United States,New York,New York City,0
+281,197108290003,Weather Underground. Weathermen,1971,8,29,North America,United States,California,San Francisco,0
+282,197104060003,Turkish Peoples Liberation Army,1971,4,6,Middle East & North Africa,Turkey,Ankara,Ankara,0
+283,197003090004,White supremacists/nationalists,1970,3,9,North America,United States,Connecticut,Bridgeport,0
+284,197008060004,Black Nationalists,1970,8,6,North America,United States,California,San Jose,1
+285,197108220002,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New Jersey,Hoboken,0
+286,197108250002,Irish Republican Army (IRA),1971,8,25,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+287,197011150002,Black Nationalists,1970,11,15,North America,United States,Florida,St. Petersburg,0
+288,197003300001,Left-Wing Militants,1970,3,30,North America,United States,Illinois,Biggsville,0
+289,197103300001,Unknown,1971,3,30,Middle East & North Africa,Turkey,Izmir,Izmir,0
+290,197006300004,Unknown,1970,6,30,North America,United States,New York,New York City,0
+291,197106110003,Chicano Radicals,1971,6,11,North America,United States,California,Pasadena,0
+292,197005270001,Left-Wing Militants,1970,5,27,North America,United States,California,Los Angeles,0
+293,197001260003,Black Nationalists,1970,1,26,North America,United States,New York,New York City,0
+294,197004250003,Left-Wing Militants,1970,4,25,North America,United States,Pennsylvania,Philadelphia,0
+295,197001190003,Student Radicals,1970,1,19,North America,United States,Washington,Seattle,0
+296,197004240002,Black Panthers,1970,4,24,North America,United States,Maryland,Baltimore,1
+297,197011010001,Unknown,1970,11,1,South Asia,Pakistan,Sindh,Karachi,4
+298,197005050001,Extraparliamentary Opposition (APO),1970,5,5,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+299,197004050005,Strikers,1970,4,5,North America,United States,California,Trona,0
+300,197007020003,Revolutionary Force Seven,1970,7,2,North America,United States,District of Columbia,Washington,0
+301,197101120001,Left-Wing Militants,1971,1,12,North America,United States,California,Rolling Hills Estates,0
+302,197103080004,Unknown,1971,3,8,North America,United States,Missouri,St. Louis,0
+303,197007040005,Unknown,1970,7,4,North America,United States,California,Long Beach,0
+304,197010100001,Front de Liberation du Quebec (FLQ),1970,10,10,North America,Canada,Quebec,Saint-Lambert,1
+305,197108220008,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+306,197103010002,Chicano Liberation Front,1971,3,1,North America,United States,California,Vernon,0
+307,197109020001,White supremacists/nationalists,1971,9,2,North America,United States,North Carolina,Kannapolis,0
+308,197006090004,Popular Front for the Liberation of Palestine (PFLP),1970,6,9,Middle East & North Africa,Jordan,Amman,Amman,0
+309,197009230002,Tupamaros (Uruguay),1970,9,23,South America,Uruguay,Montevideo,Montevideo,0
+310,197006150001,Black Nationalists,1970,6,15,North America,United States,California,Manhattan Beach,0
+311,197005050005,Left-Wing Militants,1970,5,5,North America,United States,Florida,Orlando,0
+312,197001220001,Armed Forces of National Liberation- Venezuela (FALN),1970,1,22,South America,Venezuela,Caracas,Caracas,0
+313,197005010004,Student Radicals,1970,5,1,North America,United States,Connecticut,New Haven,0
+314,197105050001,Unknown,1971,5,5,Middle East & North Africa,Iran,Tehran,Tehran,0
+315,197006170001,Black Nationalists,1970,6,17,North America,United States,California,Emeryville,0
+316,197008300001,Revolutionary Action Party,1970,8,30,North America,United States,District of Columbia,Washington,0
+317,197005070002,Unknown,1970,5,7,North America,United States,New York,New York City,0
+318,197101280001,Tony El Pelou Band,1971,1,28,Central America & Caribbean,Dominican Republic,National,Santo Domingo,0
+319,197011120002,Left-Wing Militants,1970,11,12,North America,United States,Illinois,Chicago,0
+320,197009060006,Unknown,1970,9,6,North America,United States,Massachusetts,Fitchburg,0
+321,197002020001,Unknown,1970,2,2,North America,United States,New York,New York City,0
+322,197007260001,Unknown,1970,7,26,North America,United States,Missouri,St. Louis,1
+323,197004270005,Left-Wing Militants,1970,4,27,North America,United States,Iowa,Ames,0
+324,197005270003,Black Nationalists,1970,5,27,North America,United States,Massachusetts,Boston,0
+325,197004160003,Unknown,1970,4,16,North America,United States,Missouri,Kansas City,0
+326,197006030001,Left-Wing Militants,1970,6,3,North America,United States,Oregon,Portland,0
+327,197008050001,Left-Wing Militants,1970,8,5,North America,United States,Wisconsin,Milwaukee,0
+328,197006120003,Black Nationalists,1970,6,12,North America,United States,Illinois,Cairo,0
+329,197005260001,Black Nationalists,1970,5,26,North America,United States,North Carolina,Oxford,0
+330,197003060004,Weather Underground. Weathermen,1970,3,6,North America,United States,Michigan,Detroit,0
+331,197104270001,Left-wing extremists,1971,4,27,North America,United States,California,Mill Valley,0
+332,197005270002,Black Nationalists,1970,5,27,North America,United States,Massachusetts,Boston,0
+333,197004220005,Student Radicals,1970,4,22,North America,United States,Illinois,Champaign,0
+334,197108230003,Armed Revolutionary Independence Movement (MIRA),1971,8,23,North America,United States,New Jersey,Hoboken,0
+335,197003200002,White supremacists/nationalists,1970,3,20,North America,United States,Michigan,Detroit,1
+336,197005000002,Puerto Rican Nationalists,1970,5,1,North America,United States,Puerto Rico,Rio Piedras,0
+337,197101040001,Unknown,1971,1,4,Western Europe,West Germany (FRG),Bavaria,Munich,0
+338,197101050002,Left-Wing Militants,1971,1,5,North America,United States,California,Oxnard,0
+339,197005060005,Left-Wing Militants,1970,5,6,North America,United States,California,San Pedro,0
+340,197003110002,Student Radicals,1970,3,11,North America,United States,Illinois,Champaign,0
+341,197105080001,Basque Fatherland and Freedom (ETA),1971,5,8,Western Europe,Spain,Gipuzcoa,Donostia-San Sebastian,0
+342,197003130001,Student Radicals,1970,3,13,North America,United States,Wisconsin,Appleton,0
+343,197103190001,Black Cells,1971,3,19,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+344,197010200001,Unknown,1970,10,20,South America,Argentina,Buenos Aires,Buenos Aires,0
+345,197004220003,Student Radicals,1970,4,22,North America,United States,California,Berkeley,0
+346,197003040002,Unknown,1970,3,4,North America,United States,California,Martinez,0
+347,197104150001,Left-Wing Militants,1971,4,15,North America,United States,California,Los Angeles,0
+348,197102270002,Puerto Rican Nationalists,1971,2,27,North America,United States,Puerto Rico,Rio Piedras,0
+349,197102110001,Movement of the Revolutionary Left (MIR) (Venezuela),1971,2,11,South America,Venezuela,Caracas,Caracas,0
+350,197107000002,Secret Cuban Government,1971,7,1,North America,United States,New York,New York City,0
+351,197002230001,Strikers,1970,2,23,North America,United States,Nebraska,South Sioux City,0
+352,197107180001,Catalan Liberation Front (FAC),1971,7,18,Western Europe,Spain,Madrid,Madrid,0
+353,197010270003,1st of May Group,1970,10,27,Western Europe,United Kingdom,England,London,0
+354,197102170002,Unknown,1971,2,17,Middle East & North Africa,Turkey,Istanbul,Istanbul,0
+355,197104250001,Student Radicals,1971,4,25,North America,United States,California,Claremont,0
+356,197108220004,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+357,197002240002,White supremacists/nationalists,1970,2,24,North America,United States,Colorado,Denver,0
+358,197107270001,RYF,1971,7,27,Middle East & North Africa,Turkey,Izmir,Selcuk,0
+359,197104030004,Left-Wing Militants,1971,4,3,North America,United States,Georgia,Sylvester,0
+360,197011070001,Unknown,1970,11,7,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+361,197010190001,Unknown,1970,10,19,North America,United States,California,Irvine,0
+362,197001030001,New Years Gang,1970,1,3,North America,United States,Wisconsin,Madison,0
+363,197108120001,Unknown,1971,8,12,North America,United States,Pennsylvania,Pittsburgh,0
+364,197007070002,Unknown,1970,7,7,North America,United States,New York,New York City,0
+365,197003100001,Unknown,1970,3,10,Western Europe,West Germany (FRG),Bavaria,Munich,0
+366,197104000001,Unknown,1971,4,1,Middle East & North Africa,Iran,Gilan,Bandar Anzali,3
+367,197107040001,Unknown,1971,7,4,North America,United States,California,San Jose,0
+368,197005290004,Black Nationalists,1970,5,29,North America,United States,California,Oakland,0
+369,197012220001,Left-Wing Militants,1970,12,22,North America,United States,Wisconsin,Whitefish Bay,0
+370,197108240002,Unknown,1971,8,24,North America,United States,Indiana,Hammond,0
+371,197005220002,Black Nationalists,1970,5,22,North America,United States,Minnesota,St. Paul,1
+372,197101050001,Student Radicals,1971,1,5,North America,United States,California,Claremont,0
+373,197107010001,Chicano Liberation Front,1971,7,1,North America,United States,California,Los Angeles,0
+374,197009030002,Unknown,1970,9,3,North America,United States,Tennessee,Memphis,0
+375,197005200002,Left-Wing Militants,1970,5,20,North America,United States,Pennsylvania,Carlisle,0
+376,197104230002,Unknown,1971,4,23,North America,United States,California,Palo Alto,0
+377,197010300001,Left-Wing Militants,1970,10,30,North America,United States,New York,New York City,0
+378,197007160003,Left-Wing Militants,1970,7,16,North America,United States,Minnesota,St. Paul,0
+379,197106060001,Catalan Liberation Front (FAC),1971,6,6,Southeast Asia,Philippines,Tarlac,Unknown,0
+380,197007020001,Revolutionary Force Seven,1970,7,2,North America,United States,District of Columbia,Washington,0
+381,197007140002,Left-Wing Militants,1970,7,14,North America,United States,New York,New York City,0
+382,197002210006,Black Nationalists,1970,2,21,North America,United States,Colorado,Denver,0
+383,197105060003,Left-Wing Militants,1971,5,6,North America,United States,California,Cupertino,0
+384,197105060006,Left-Wing Militants,1971,5,6,North America,United States,Nevada,Hawthorne,1
+385,197011140003,Armed Commandos of Liberation,1970,11,14,North America,United States,Puerto Rico,San Juan,0
+386,197005040002,Strikers,1970,5,4,North America,United States,Maryland,Jennings,0
+387,197105050007,Student Radicals,1971,5,5,North America,United States,California,Riverside,0
+388,197003100002,Left-Wing Militants,1970,3,10,North America,United States,Maryland,Cambridge,0
+389,197102020001,Turkish Peoples Liberation Army,1971,2,2,Middle East & North Africa,Turkey,Izmir,Izmir,0
+390,197108220003,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+391,197102030001,Tupamaros (Uruguay),1971,2,3,South America,Uruguay,Montevideo,Montevideo,0
+392,197103180002,Left-Wing Militants,1971,3,18,North America,United States,Florida,Jacksonville,0
+393,197002060001,Black Nationalists,1970,2,6,North America,United States,Colorado,Denver,0
+394,197005060004,Left-Wing Militants,1970,5,6,North America,United States,Oregon,Portland,0
+395,197102120003,Unknown,1971,2,12,North America,United States,California,Santa Cruz,0
+396,197011010002,Unknown,1970,11,1,North America,United States,California,Fresno,0
+397,197004000001,Eritrean Liberation Front,1970,4,1,Southeast Asia,Philippines,Tarlac,Unknown,0
+398,197010300002,Left-Wing Militants,1970,10,30,North America,United States,New York,New York City,0
+399,197001260001,Black Nationalists,1970,1,26,North America,United States,Mississippi,West Point,0
+400,197101060001,Black Nationalists,1971,1,6,North America,United States,California,Pomona,0
+401,197012010001,Basque Fatherland and Freedom (ETA),1970,12,1,Western Europe,Spain,Gipuzcoa,Donostia-San Sebastian,0
+402,197009120002,Jewish Defense League (JDL),1970,9,12,Western Europe,United Kingdom,England,London,0
+403,197006190001,Unknown,1970,6,19,North America,United States,California,Berkeley,0
+404,197107080001,Chicano Liberation Front,1971,7,8,North America,United States,California,Los Angeles,0
+405,197006270004,Ulster Volunteer Force (UVF),1970,6,27,Western Europe,United Kingdom,Northern Ireland,Belfast,3
+406,197104060001,RYF,1971,4,6,Middle East & North Africa,Turkey,Ankara,Ankara,0
+407,197101110003,Black Nationalists,1971,1,11,North America,United States,California,Pomona,0
+408,197101280002,Tony El Pelou Band,1971,1,28,Central America & Caribbean,Dominican Republic,National,Santo Domingo,0
+409,197005280002,Left-Wing Militants,1970,5,28,North America,United States,Arizona,Phoenix,0
+410,197011010004,White supremacists/nationalists,1970,11,1,North America,United States,Pennsylvania,New Castle,1
+411,197107090001,Left-Wing Militants,1971,7,9,North America,United States,Rhode Island,Providence,0
+412,197006020002,Unknown,1970,6,2,North America,United States,Louisiana,Baton Rouge,0
+413,197011090001,Baader-Meinhof Group,1970,11,9,Western Europe,West Germany (FRG),Hesse,Frankfurt,0
+414,197004220004,Student Radicals,1970,4,22,North America,United States,Wisconsin,Milwaukee,0
+415,197107180003,Chicano Liberation Front,1971,7,18,North America,United States,California,Los Angeles,0
+416,197005050002,Left-Wing Militants,1970,5,5,North America,United States,Idaho,Lewiston,0
+417,197108220009,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+418,197001060001,Left-Wing Militants,1970,1,6,North America,United States,Colorado,Denver,0
+419,197107180002,Catalan Liberation Front (FAC),1971,7,18,Western Europe,Spain,Lerida,Lerida,0
+420,197103270002,Unknown,1971,3,27,North America,United States,Maryland,Baltimore,0
+421,197105190001,Black Liberation Army,1971,5,19,North America,United States,New York,New York City,0
+422,197105140001,Turkish Peoples Liberation Army,1971,5,14,Middle East & North Africa,Turkey,Ankara,Ankara,0
+423,197007210004,Left-Wing Militants,1970,7,21,North America,United States,Wisconsin,Milwaukee,0
+424,197009060004,Popular Front for the Liberation of Palestine (PFLP),1970,9,6,Western Europe,Netherlands,North Holland,Amsterdam,1
+425,197001020001,Tupamaros (Uruguay),1970,1,2,South America,Uruguay,Montevideo,Montevideo,0
+426,197101290002,Turkish Peoples Liberation Army,1971,1,29,Middle East & North Africa,Turkey,Ankara,Ankara,0
+427,197005120003,Left-Wing Militants,1970,5,12,North America,United States,Michigan,Detroit,0
+428,197002060003,White supremacists/nationalists,1970,2,6,North America,United States,Washington,Seattle,0
+429,197008210002,Student Radicals,1970,8,21,North America,United States,Oregon,Eugene,0
+430,197105210001,Black Liberation Army,1971,5,21,North America,United States,New York,New York City,2
+431,197105090001,Unknown,1971,5,9,North America,United States,California,Berkeley,0
+432,197007030001,White supremacists/nationalists,1970,7,3,North America,United States,New York,New York City,0
+433,197003310003,Left-Wing Militants,1970,3,31,North America,United States,District of Columbia,Washington,0
+434,197105250002,Irish Republican Army (IRA),1971,5,25,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+435,197004190003,White supremacists/nationalists,1970,4,19,North America,United States,Washington,Seattle,0
+436,197104190004,Armed Commandos of Liberation,1971,4,19,North America,United States,Puerto Rico,San Juan,3
+437,197007210002,Unknown,1970,7,21,North America,United States,California,San Diego,0
+438,197004160004,Strikers,1970,4,16,North America,United States,California,Trona,0
+439,197005260002,Black Nationalists,1970,5,26,North America,United States,North Carolina,Oxford,0
+440,197102140001,Left-Wing Militants,1971,2,14,North America,United States,Pennsylvania,Bristol,0
+441,197004260001,Black Nationalists,1970,4,26,North America,United States,Louisiana,Baton Rouge,0
+442,197001300001,Strikers,1970,1,30,North America,United States,Nebraska,South Sioux City,0
+443,197009160001,Tupamaros (Uruguay),1970,9,16,South America,Uruguay,Montevideo,Montevideo,0
+444,197012110002,Tupamaros (Uruguay),1970,12,11,South America,Uruguay,Montevideo,Montevideo,0
+445,197105170003,Unknown,1971,5,17,Middle East & North Africa,Iran,Khuzestan,Ahvaz,0
+446,197002010002,Black Nationalists,1970,2,1,North America,United States,Illinois,Cairo,0
+447,197009090001,Extraparliamentary Opposition (APO),1970,9,9,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+448,197002170002,Unknown,1970,2,17,North America,United States,Maryland,Buckeystown,0
+449,197105130002,Unknown,1971,5,13,Middle East & North Africa,Iran,Tehran,Tehran,0
+450,197009020002,Black Nationalists,1970,9,2,North America,United States,California,San Francisco,0
+451,197104030001,Catalan Liberation Front (FAC),1971,4,3,Western Europe,Spain,Barcelona,Barcelona,0
+452,197007090001,Unknown,1970,7,9,Western Europe,West Germany (FRG),Bavaria,Munich,0
+453,197007070004,Unknown,1970,7,7,North America,United States,New York,New York City,0
+454,197003090001,Unknown,1970,3,9,North America,United States,California,Berkeley,0
+455,197102200002,Turkish Peoples Liberation Army,1971,2,20,Middle East & North Africa,Turkey,Ankara,Ankara,0
+456,197006070002,Popular Front for the Liberation of Palestine (PFLP),1970,6,7,Middle East & North Africa,Jordan,Amman,Amman,0
+457,197104290004,Left-Wing Militants,1971,4,29,North America,United States,California,Los Gatos,0
+458,197007120001,Unknown,1970,7,12,North America,United States,California,Palo Alto,0
+459,197103190002,Armed Revolutionary Independence Movement (MIRA),1971,3,19,North America,United States,New York,New York City,0
+460,197007170001,Black Nationalists,1970,7,17,North America,United States,Illinois,Chicago,2
+461,197104110001,RYF,1971,4,11,Middle East & North Africa,Turkey,Ankara,Ankara,0
+462,197011210003,Left-Wing Militants,1970,11,21,North America,United States,Oregon,Portland,0
+463,197010170001,Unknown,1970,10,17,Western Europe,West Germany (FRG),Bavaria,Munich,0
+464,197106130002,Chicano Radicals,1971,6,13,North America,United States,California,Los Angeles,0
+465,197007000002,Black Nationalists,1970,7,1,North America,United States,Massachusetts,Boston,0
+466,197010150006,Black Nationalists,1970,10,15,North America,United States,Missouri,Kansas City,0
+467,197101260001,Black Nationalists,1971,1,26,North America,United States,Florida,West Palm Beach,0
+468,197004050006,Unknown,1970,4,5,North America,United States,New York,New York City,0
+469,197011080001,White supremacists/nationalists,1970,11,8,North America,United States,Illinois,Cairo,1
+470,197010270001,Unknown,1970,10,27,South America,Argentina,Buenos Aires,Buenos Aires,1
+471,197102040001,BAY Bombers,1971,2,4,North America,United States,California,Oakland,0
+472,197105060005,Left-Wing Militants,1971,5,6,North America,United States,California,Burlingame,0
+473,197005040003,Student Radicals,1970,5,4,North America,United States,North Carolina,Chapel Hill,0
+474,197103100002,Socialist Patients Collective (SPK),1971,3,10,Western Europe,West Germany (FRG),Baden-Wurttemberg,Heidelberg,0
+475,197102060001,Unknown,1971,2,6,Western Europe,West Germany (FRG),Hesse,Frankfurt,0
+476,197004280001,Extraparliamentary Opposition (APO),1970,4,28,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+477,197005060001,Left-Wing Militants,1970,5,6,North America,United States,California,Oakland,0
+478,197006270002,Irish Republican Army (IRA),1970,6,27,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+479,197009110001,Palestine Liberation Organization (PLO),1970,9,11,Middle East & North Africa,Jordan,Amman,Amman,0
+480,197104020003,Black Nationalists,1971,4,2,North America,United States,California,Riverside,2
+481,197104060005,Unknown,1971,4,6,North America,United States,California,San Jose,0
+482,197008000001,South Moluccans,1970,8,1,Western Europe,Netherlands,North Holland,Amsterdam,0
+483,197002270001,Student Radicals,1970,2,27,North America,United States,Colorado,Boulder,0
+484,197101090001,Black Nationalists,1971,1,9,North America,United States,California,Pomona,0
+485,197009260001,Tupamaros (Uruguay),1970,9,26,South America,Uruguay,Montevideo,Montevideo,0
+486,197002030002,Unknown,1970,2,3,North America,United States,New York,New York City,0
+487,197109000001,Unknown,1971,9,1,Southeast Asia,Cambodia,Phnom Penh,Phnom Penh,0
+488,197011180001,Left-Wing Militants,1970,11,18,North America,United States,Florida,St. Petersburg,0
+489,197103150002,Tupamaros (Uruguay),1971,3,15,South America,Uruguay,Montevideo,Montevideo,0
+490,197103140002,Turkish Peoples Liberation Army,1971,3,14,Middle East & North Africa,Turkey,Istanbul,Istanbul,0
+491,197011200001,Peronist Armed Forces (FAP),1970,11,20,South America,Argentina,Buenos Aires,Buenos Aires,0
+492,197108230004,Armed Revolutionary Independence Movement (MIRA),1971,8,23,North America,United States,New Jersey,Hoboken,0
+493,197010150005,Tupamaros (Uruguay),1970,10,15,South America,Uruguay,Montevideo,Montevideo,0
+494,197007310001,Tupamaros (Uruguay),1970,7,31,South America,Uruguay,Montevideo,Montevideo,0
+495,197006080001,Weather Underground. Weathermen,1970,6,8,North America,United States,Illinois,Chicago,0
+496,197003010008,Left-Wing Militants,1970,3,1,North America,United States,Colorado,Boulder,0
+497,197004190002,White supremacists/nationalists,1970,4,19,North America,United States,Washington,Seattle,0
+498,197102050001,Unknown,1971,2,5,North America,United States,California,Santa Barbara,0
+499,197011140002,Armed Commandos of Liberation,1970,11,14,North America,United States,Puerto Rico,San Juan,0
+500,197103150003,Left-Wing Militants,1971,3,15,North America,United States,California,San Mateo,0
+501,197004220006,Left-Wing Militants,1970,4,22,North America,United States,California,Redlands,0
+502,197009060001,Popular Front for the Liberation of Palestine (PFLP),1970,9,6,Western Europe,West Germany (FRG),Hesse,Frankfurt,0
+503,197005160001,Cuban Action,1970,5,16,North America,United States,New York,New York City,0
+504,197008020001,Black Nationalists,1970,8,2,North America,United States,California,Berkeley,0
+505,197104290002,Chicano Liberation Front,1971,4,29,North America,United States,California,Montebello,0
+506,197104190001,Black Panthers,1971,4,19,North America,United States,New York,New York City,0
+507,197010210003,Black Nationalists,1970,10,21,North America,United States,Illinois,Cairo,0
+508,197005250001,Black Nationalists,1970,5,25,North America,United States,North Carolina,Oxford,0
+509,197104030003,Ku Klux Klan,1971,4,3,North America,United States,Michigan,Ypsilanti,0
+510,197005200003,Black Afro Militant Movement,1970,5,20,North America,United States,Florida,Miami,0
+511,197010100002,Iranians,1970,10,10,Middle East & North Africa,Iran,Tehran,Tehran,0
+512,197011010005,Student Radicals,1970,11,1,North America,United States,Michigan,Ann Arbor,0
+513,197105050002,Catalan Liberation Front (FAC),1971,5,5,Western Europe,Spain,Barcelona,Barcelona,0
+514,197005290002,Tupamaros (Uruguay),1970,5,29,South America,Uruguay,Montevideo,Montevideo,0
+515,197003120002,Revolutionary Force 9,1970,3,12,North America,United States,New York,New York City,0
+516,197107090002,Left-Wing Militants,1971,7,9,North America,United States,California,San Diego,0
+517,197103110001,Ku Klux Klan,1971,3,11,North America,United States,Texas,Houston,0
+518,197106110002,Chicano Radicals,1971,6,11,North America,United States,California,Los Angeles,0
+519,197009050002,Left-Wing Militants,1970,9,5,North America,United States,California,Los Angeles,0
+520,197007220002,Left-Wing Militants,1970,7,22,North America,United States,Wisconsin,Milwaukee,0
+521,197003120005,Revolutionary Force 9,1970,3,12,North America,United States,New York,New York City,0
+522,197007180001,Left-Wing Militants,1970,7,18,North America,United States,New York,New York City,0
+523,197007020005,Black Panthers,1970,7,2,North America,United States,Nebraska,Omaha,0
+524,197003240002,Dominican Popular Movement (MPD),1970,3,24,Central America & Caribbean,Dominican Republic,National,Santo Domingo,0
+525,197003000001,Unknown,1970,3,1,Southeast Asia,Philippines,Metropolitian Manila,Manila,0
+526,197003120004,Black Nationalists,1970,3,12,North America,United States,Illinois,Chicago,0
+527,197002230005,Left-Wing Militants,1970,2,23,North America,United States,Arizona,Tucson,0
+528,197106050002,Black Liberation Army,1971,6,5,North America,United States,New York,New York City,1
+529,197003010007,Student Radicals,1970,3,1,North America,United States,Colorado,Boulder,0
+530,197108280002,Popular Front for the Liberation of Palestine (PFLP),1971,8,28,Western Europe,Italy,Lazio,Rome,0
+531,197101160001,Unknown,1971,1,16,Western Europe,West Germany (FRG),Bavaria,Munich,0
+532,197008120001,Unknown,1970,8,12,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+533,197006300003,Unknown,1970,6,30,North America,United States,New York,New York City,0
+534,197012290002,Revolutionary Armed Forces- Argentina (FAR-A),1970,12,29,South America,Argentina,Cordoba,Cordoba,0
+535,197002060005,Armed Revolutionary Independence Movement (MIRA),1970,2,6,North America,United States,Puerto Rico,Rio Piedras,0
+536,197108290001,Black Liberation Army,1971,8,29,North America,United States,California,San Francisco,1
+537,197107210001,Black Liberation Army,1971,7,21,North America,United States,California,San Francisco,0
+538,197103250001,Unknown,1971,3,25,Western Europe,Italy,Lombardy,Milan,0
+539,197004150001,Popular Front for the Liberation of Palestine (PFLP),1970,4,15,Middle East & North Africa,Jordan,Amman,Amman,0
+540,197007230002,Left-Wing Militants,1970,7,23,North America,United States,California,Los Angeles,0
+541,197103300003,Secret Cuban Government,1971,3,30,North America,United States,New York,New York City,0
+542,197104020001,Popular Front for the Liberation of Palestine (PFLP),1971,4,2,Southeast Asia,Philippines,Tarlac,Unknown,0
+543,197007240001,Unknown,1970,7,24,South America,Brazil,Pernambuco,Recife,0
+544,197005220003,Black Panthers,1970,5,22,North America,United States,Iowa,Ames,0
+545,197008140001,Unknown,1970,8,14,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+546,197108220005,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+547,197104240001,Left-Wing Militants,1971,4,24,North America,United States,Ohio,Youngstown,0
+548,197004250005,Left-Wing Militants,1970,4,25,North America,United States,Michigan,East Lansing,0
+549,197004250006,Left-Wing Militants,1970,4,25,North America,United States,Michigan,East Lansing,0
+550,197106130001,Unknown,1971,6,13,North America,United States,California,Los Angeles,0
+551,197001020002,Unknown,1970,1,2,North America,United States,California,Oakland,0
+552,197003270001,Black Nationalists,1970,3,27,North America,United States,California,San Francisco,0
+553,197000000002,23rd of September Communist League,1970,1,1,North America,Mexico,Federal,Mexico city,0
+554,197106160001,Chicano Radicals,1971,6,16,North America,United States,California,Santa Cruz,0
+555,197002010001,Left-Wing Militants,1970,2,1,North America,United States,Oregon,Portland,0
+556,197105200001,Unknown,1971,5,20,North America,United States,California,San Jose,0
+557,197010150001,Weather Underground. Weathermen,1970,10,15,North America,United States,Maryland,Cambridge,0
+558,197006060004,Unknown,1970,6,6,North America,United States,New York,New York City,0
+559,197108230007,Black Liberation Army,1971,8,23,North America,United States,New York,New York City,0
+560,197102090002,Black Nationalists,1971,2,9,North America,United States,Florida,West Palm Beach,0
+561,197007050001,Black Nationalists,1970,7,5,North America,United States,New York,New York City,0
+562,197003310002,Japanese Red Army (JRA),1970,3,31,East Asia,Japan,Fukouka,Fukouka,0
+563,197010140001,Weather Underground. Weathermen,1970,10,14,North America,United States,Maryland,Cambridge,0
+564,197104000002,Unknown,1971,4,1,Middle East & North Africa,Iran,Esfahan,Isfahan,0
+565,197101080001,Tupamaros (Uruguay),1971,1,8,South America,Uruguay,Montevideo,Montevideo,0
+566,197010100003,Weather Underground. Weathermen,1970,10,10,North America,United States,New York,New York City,0
+567,197003100003,Student Radicals,1970,3,10,North America,United States,California,San Francisco,0
+568,197101270002,Tupamaros (Uruguay),1971,1,27,South America,Uruguay,Montevideo,Montevideo,0
+569,197102160005,Puerto Rican Nationalists,1971,2,16,North America,United States,Puerto Rico,Rio Piedras,0
+570,197009090003,Right-wing extremists,1970,9,9,North America,United States,Wisconsin,Madison,0
+571,197002170001,Unknown,1970,2,17,North America,United States,California,Oakland,0
+572,197104050002,Unknown,1971,4,5,North America,United States,Puerto Rico,San Juan,0
+573,197009180002,Black Panthers,1970,9,18,North America,United States,Ohio,Toledo,1
+574,197006300002,Unknown,1970,6,30,North America,United States,New York,New York City,0
+575,197102260002,Student Radicals,1971,2,26,North America,United States,Hawaii,Honolulu,0
+576,197010080005,Tupamaros (Uruguay),1970,10,8,South America,Uruguay,Montevideo,Montevideo,0
+577,197101150001,Revolutionary Committee of Mozambique (COREMO),1971,1,15,Southeast Asia,Philippines,Tarlac,Unknown,1
+578,197002130001,Unknown,1970,2,13,North America,United States,California,Berkeley,0
+579,197101130002,Unknown,1971,1,13,Western Europe,West Germany (FRG),Bavaria,Munich,0
+580,197006020001,Unknown,1970,6,2,Southeast Asia,Philippines,Capiz,Roxas,1
+581,197005010005,Armed Revolutionary Independence Movement (MIRA),1970,5,1,North America,United States,New York,New York City,0
+582,197006120001,Tupamaros (Uruguay),1970,6,12,South America,Uruguay,Montevideo,Montevideo,0
+583,197004130003,Unknown,1970,4,13,North America,United States,Missouri,Kansas City,0
+584,197004050001,Popular Revolutionary Vanguard (VPR),1970,4,5,South America,Brazil,Rio Grande do Sul,Porto Alegre,0
+585,197008270001,Unknown,1970,8,27,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+586,197103230003,Left-Wing Militants,1971,3,23,North America,United States,California,Thousand Oaks,0
+587,197002160004,Left-Wing Militants,1970,2,16,North America,United States,California,San Francisco,0
+588,197103060001,Unknown,1971,3,6,North America,United States,Texas,Texarkana,0
+589,197007110001,Rebel Armed Forces of Guatemala (FAR),1970,7,11,Southeast Asia,Philippines,Tarlac,Unknown,0
+590,197105110001,Unknown,1971,5,11,Central America & Caribbean,Dominican Republic,National,Santo Domingo,0
+591,197103300005,Students,1971,3,30,Southeast Asia,Philippines,Metropolitian Manila,Manila,0
+592,197008280002,Left-Wing Militants,1970,8,28,North America,United States,California,Walnut Creek,0
+593,197001080001,Unknown,1970,1,8,Western Europe,Italy,Lazio,Rome,0
+594,197105110003,Chicano Liberation Front,1971,5,11,North America,United States,California,Los Angeles,0
+595,197006050001,Student Radicals,1970,6,5,North America,United States,California,Los Angeles,0
+596,197005290001,Montoneros (Argentina),1970,5,29,South America,Argentina,Buenos Aires,Buenos Aires,1
+597,197104260001,Student Radicals,1971,4,26,North America,United States,California,Claremont,0
+598,197107240001,Left-Wing Militants,1971,7,24,North America,United States,California,Santa Cruz,0
+599,197011230001,Armed Commandos of Liberation,1970,11,23,North America,United States,Puerto Rico,San Juan,0
+600,197002060006,Armed Revolutionary Independence Movement (MIRA),1970,2,6,North America,United States,Puerto Rico,Carolina,0
+601,197104140001,Student Radicals,1971,4,14,North America,United States,California,Palo Alto,0
+602,197010030002,Turkish Peoples Liberation Army,1970,10,3,Middle East & North Africa,Turkey,Ankara,Ankara,0
+603,197010290001,Left-Wing Militants,1970,10,29,North America,United States,California,El Toro,0
+604,197007090002,Left-Wing Militants,1970,7,9,North America,United States,Illinois,Des Plaines,0
+605,197104280002,Chicano Liberation Front,1971,4,28,North America,United States,California,Los Angeles,0
+606,197108220006,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+607,197010240002,Unknown,1970,10,24,Western Europe,Italy,Lazio,Rome,0
+608,197004110002,Student Radicals,1970,4,11,North America,United States,New York,Ithaca,0
+609,197004110001,Left-Wing Militants,1970,4,11,North America,United States,California,San Diego,0
+610,197003050002,Left-Wing Militants,1970,3,5,North America,United States,Colorado,Denver,0
+611,197103270001,Unknown,1971,3,27,Middle East & North Africa,Turkey,Ankara,Ankara,0
+612,197104200002,Left-Wing Militants,1971,4,20,North America,United States,California,Berkeley,0
+613,197107140001,Irish Republican Army (IRA),1971,7,14,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+614,197001190004,White supremacists/nationalists,1970,1,19,North America,United States,New Jersey,Jersey City,0
+615,197004150002,Cuban Exiles,1970,4,15,North America,United States,California,Los Angeles,0
+616,197012270001,Left-Wing Militants,1970,12,27,North America,United States,Georgia,College Park,0
+617,197006070003,Black Nationalists,1970,6,7,North America,United States,California,Los Angeles,0
+618,197108240001,Unknown,1971,8,24,Western Europe,Spain,Madrid,Madrid,0
+619,197011020002,Montoneros (Argentina),1970,11,2,South America,Argentina,Buenos Aires,Ensenada,0
+620,197001210001,Unknown,1970,1,21,Southeast Asia,Philippines,Metropolitan Manila,Quezon City,0
+621,197004050004,Strikers,1970,4,5,North America,United States,California,Trona,0
+622,197010260001,Unknown,1970,10,26,North America,United States,California,Irvine,0
+623,197010020003,Student Radicals,1970,10,2,North America,United States,Oregon,Eugene,0
+624,197005120002,Ku Klux Klan,1970,5,12,North America,United States,Texas,Houston,0
+625,197005040005,Left-Wing Militants,1970,5,4,North America,United States,Missouri,Maryville,0
+626,197002070003,Student Radicals,1970,2,7,North America,United States,Wisconsin,Whitewater,0
+627,197102160002,Puerto Rican Nationalists,1971,2,16,North America,United States,Puerto Rico,Carolina,0
+628,197005050006,Unknown,1970,5,5,North America,United States,New York,New York City,0
+629,197012160003,Left-Wing Militants,1970,12,16,North America,United States,Florida,Hollywood,0
+630,197010050001,Front de Liberation du Quebec (FLQ),1970,10,5,North America,Canada,Quebec,Quebec,0
+631,197002110001,Student Radicals,1970,2,11,North America,United States,Michigan,Ypsilanti,0
+632,197003010005,Student Radicals,1970,3,1,North America,United States,Colorado,Boulder,0
+633,197105110005,Left-Wing Militants,1971,5,11,North America,United States,Maryland,Baltimore,0
+634,197012130001,Tupamaros (Uruguay),1970,12,13,South America,Uruguay,Montevideo,Montevideo,0
+635,197101290001,Unknown,1971,1,29,Western Europe,West Germany (FRG),Bavaria,Munich,0
+636,197101110001,Tupamaros (Uruguay),1971,1,11,South America,Uruguay,Montevideo,Montevideo,1
+637,197103230002,Student Radicals,1971,3,23,North America,United States,Michigan,Detroit,0
+638,197103010003,Weather Underground. Weathermen,1971,3,1,North America,United States,District of Columbia,Washington,0
+639,197007210003,Left-Wing Militants,1970,7,21,North America,United States,New York,New York City,0
+640,197106120001,Catalan Liberation Front (FAC),1971,6,12,Western Europe,Spain,Madrid,Madrid,0
+641,197102160001,Puerto Rican Nationalists,1971,2,16,North America,United States,Puerto Rico,Carolina,0
+642,197011210001,Turkish Peoples Liberation Army,1970,11,21,Middle East & North Africa,Turkey,Ankara,Ankara,0
+643,197010280001,Left-Wing Militants,1970,10,28,North America,United States,Florida,Stuart,0
+644,197004270002,Student Radicals,1970,4,27,North America,United States,Connecticut,New Haven,0
+645,197007280003,GAC,1970,7,28,Western Europe,Spain,Navarre,Pamplona,0
+646,197006190002,Unknown,1970,6,19,North America,United States,California,Berkeley,0
+647,197005010007,Revolutionary Force 26,1970,5,1,North America,United States,Illinois,Champaign,0
+648,197004240001,Student Radicals,1970,4,24,North America,United States,California,Palo Alto,0
+649,197108080001,Irish Republican Army (IRA),1971,8,8,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+650,197009240001,Unknown,1970,9,24,North America,United States,New York,New York City,0
+651,197005010002,Left-Wing Militants,1970,5,1,North America,United States,New York,New York City,0
+652,197108150001,Black Liberation Army,1971,8,15,North America,United States,Georgia,Fayetteville,1
+653,197103070001,Unknown,1971,3,7,North America,United States,Texas,Texarkana,0
+654,197007310002,Tupamaros (Uruguay),1970,7,31,South America,Uruguay,Montevideo,Montevideo,0
+655,197003010001,Eritrean Liberation Front,1970,3,1,Western Europe,Italy,Lazio,Rome,0
+656,197002210003,Left-Wing Militants,1970,2,21,North America,United States,New York,New York City,0
+657,197005150002,Tupamaros (Uruguay),1970,5,15,South America,Uruguay,Montevideo,Montevideo,0
+658,197004140002,Strikers,1970,4,14,North America,United States,California,Trona,0
+659,197002160001,Unknown,1970,2,16,North America,United States,California,San Francisco,1
+660,197005040004,Left-Wing Militants,1970,5,4,North America,United States,Oklahoma,Norman,0
+661,197007010005,Student Radicals,1970,7,1,North America,United States,California,Berkeley,0
+662,197108240003,Black September,1971,8,24,Western Europe,Spain,Madrid,Madrid,0
+663,197105020001,GAC,1971,5,2,Western Europe,Spain,Navarre,Pamplona,0
+664,197007080001,Unknown,1970,7,8,North America,United States,Alabama,Oneonta,0
+665,197004250001,Palestinians,1970,4,25,Middle East & North Africa,Turkey,Istanbul,Istanbul,0
+666,197007040002,Left-Wing Militants,1970,7,4,North America,United States,New York,New York City,0
+667,197012010002,Tupamaros (Uruguay),1970,12,1,South America,Uruguay,Montevideo,Montevideo,0
+668,197006230003,Left-Wing Militants,1970,6,23,North America,United States,California,San Francisco,0
+669,197005010008,Revolutionary Force 26,1970,5,1,North America,United States,Illinois,Champaign,0
+670,197004190001,White supremacists/nationalists,1970,4,19,North America,United States,Washington,Seattle,0
+671,197101290003,Chicano Liberation Front,1971,1,29,North America,United States,California,Los Angeles,1
+672,197009000002,Tupamaros (Uruguay),1970,9,1,South America,Uruguay,Montevideo,Montevideo,2
+673,197004250004,Left-Wing Militants,1970,4,25,North America,United States,Michigan,East Lansing,0
+674,197005190001,Left-Wing Militants,1970,5,19,North America,United States,Missouri,Afton,0
+675,197003140001,Eritrean Liberation Front,1970,3,14,Southeast Asia,Philippines,Tarlac,Unknown,0
+676,197102260001,Irish Republican Army (IRA),1971,2,26,Western Europe,United Kingdom,Northern Ireland,Belfast,2
+677,197003240006,Black Nationalists,1970,3,24,North America,United States,California,Richmond,0
+678,197106240001,Unknown,1971,6,24,North America,United States,California,Oakland,0
+679,197102190001,Turkish Peoples Liberation Army,1971,2,19,Middle East & North Africa,Turkey,Istanbul,Istanbul,0
+680,197005150001,Unknown,1970,5,15,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+681,197009040002,Tupamaros (Uruguay),1970,9,4,South America,Uruguay,Montevideo,Montevideo,0
+682,197005120001,1st of May Group,1970,5,12,Western Europe,Switzerland,Geneva,Geneva,0
+683,197004190005,Black Nationalists,1970,4,19,North America,United States,New York,New York City,0
+684,197103310001,Left-Wing Militants,1971,3,31,North America,United States,Colorado,Denver,0
+685,197002170003,White supremacists/nationalists,1970,2,17,North America,United States,Louisiana,Covington,0
+686,197012230001,Irish Republican Extremists,1970,12,23,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+687,197003040001,Left-Wing Militants,1970,3,4,North America,United States,California,Oakland,0
+688,197004110003,Unknown,1970,4,11,North America,United States,Texas,Freeport,0
+689,197102120002,Unknown,1971,2,12,Middle East & North Africa,Turkey,Ankara,Ankara,0
+690,197003090003,Ku Klux Klan,1970,3,9,North America,United States,Alabama,Ashville,0
+691,197107290001,Revolutionary Communist League (LCR) (Spain),1971,7,29,Western Europe,Spain,Barcelona,Barcelona,0
+692,197108140001,Official Irish Republican Army (OIRA),1971,8,14,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+693,197104200003,Left-Wing Militants,1971,4,20,North America,United States,Minnesota,Richfield,0
+694,197005010006,Armed Revolutionary Independence Movement (MIRA),1970,5,1,North America,United States,New York,New York City,0
+695,197105040004,Chicano Radicals,1971,5,4,North America,United States,California,Fresno,0
+696,197007030002,Seattle Liberation Front,1970,7,3,North America,United States,Washington,Seattle,0
+697,197003210002,Puerto Rican Resistance Movement,1970,3,21,North America,United States,New York,New York City,0
+698,197005000001,Black Nationalists,1970,5,1,North America,United States,Massachusetts,Boston,0
+699,197003210001,Left-Wing Militants,1970,3,21,North America,United States,District of Columbia,Washington,0
+700,197010240003,Black Nationalists,1970,10,24,North America,United States,Illinois,Cairo,0
+701,197003310001,Rebel Armed Forces of Guatemala (FAR),1970,3,31,Central America & Caribbean,Guatemala,Guatemala,Guatemala City,1
+702,197106220001,Jewish Defense League (JDL),1971,6,22,North America,United States,New York,Glen Cove,0
+703,197006060002,Extraparliamentary Opposition (APO),1970,6,6,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+704,197010060002,Unknown,1970,10,6,North America,United States,New York,New York City,0
+705,197105040002,Turkish Peoples Liberation Army,1971,5,4,Middle East & North Africa,Turkey,Ankara,Ankara,0
+706,197106240002,Chicano Liberation Front,1971,6,24,North America,United States,California,Los Angeles,0
+707,197005100002,Weather Underground. Weathermen,1970,5,10,North America,United States,District of Columbia,Washington,0
+708,197106040001,Catalan Liberation Front (FAC),1971,6,4,Western Europe,Spain,Valencia,Miramar,0
+709,197012150001,Unknown,1970,12,15,North America,United States,California,Isla Vista,0
+710,197108090002,Irish Republican Extremists,1971,8,9,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+711,197009270001,Jewish Defense League (JDL),1970,9,27,North America,United States,New York,New York City,0
+712,197003220001,Black Panthers,1970,3,22,North America,United States,New York,New York City,0
+713,197004220002,Student Radicals,1970,4,22,North America,United States,California,Berkeley,0
+714,197010000001,Siah KAL,1970,10,1,Middle East & North Africa,Iran,Tehran,Tehran,0
+715,197008010001,Weather Underground. Weathermen,1970,8,1,North America,United States,New York,New York City,0
+716,197005090001,Stop the War Coalition,1970,5,9,North America,United States,New York,New York City,0
+717,197107280001,Peronist Armed Forces (FAP),1971,7,28,South America,Argentina,Cordoba,Cordoba,1
+718,197010200002,Black Nationalists,1970,10,20,North America,United States,Illinois,Cairo,0
+719,197005140003,Student Radicals,1970,5,14,North America,United States,California,Long Beach,0
+720,197004270004,Student Radicals,1970,4,27,North America,United States,California,Fullerton,0
+721,197103090002,Baader-Meinhof Group,1971,3,9,Western Europe,West Germany (FRG),Bavaria,Munich,0
+722,197106030001,Unknown,1971,6,3,North America,United States,California,Los Angeles,0
+723,197103280001,Ejercito Revolucionaria del Pueblo (ERP) (Argentina),1971,3,28,South America,Argentina,Cordoba,Cordoba,0
+724,197001100001,Commune 1,1970,1,10,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+725,197105050004,Left-Wing Militants,1971,5,5,North America,United States,California,Chico,0
+726,197005010003,Student Radicals,1970,5,1,North America,United States,Indiana,Greencastle,0
+727,197001110001,Eritrean Liberation Front,1970,1,11,Southeast Asia,Philippines,Tarlac,Unknown,1
+728,197004170001,Black Panthers,1970,4,17,North America,United States,California,Oakland,0
+729,197004220001,Strikers,1970,4,22,North America,United States,California,Trona,0
+730,197004010002,White supremacists/nationalists,1970,4,1,North America,United States,New York,Ithaca,0
+731,197103140001,Turkish Peoples Liberation Army,1971,3,14,Middle East & North Africa,Turkey,Istanbul,Istanbul,0
+732,197104010001,Unknown,1971,4,1,North America,United States,California,Los Angeles,0
+733,197010020004,Neo-Nazi extremists,1970,10,2,North America,United States,Maryland,Glen Burnie,0
+734,197009050001,Black Nationalists,1970,9,5,North America,United States,Iowa,DeWitt,0
+735,197106150001,Chicano Radicals,1971,6,15,North America,United States,California,East Los Angeles,0
+736,197011100001,Unknown,1970,11,10,Middle East & North Africa,Turkey,Ankara,Ankara,0
+737,197002220002,New Years Gang,1970,2,22,North America,United States,Wisconsin,Prairie du Sac,0
+738,197102150001,Turkish Peoples Liberation Army,1971,2,15,Middle East & North Africa,Turkey,Ankara,Ankara,0
+739,197004040003,Student Radicals,1970,4,4,North America,United States,Washington,Pullman,0
+740,197008060001,Unknown,1970,8,6,South America,Argentina,Tucuman,San Miguel de Tucuman,1
+741,197005130001,Black Panthers,1970,5,13,North America,United States,Iowa,Des Moines,0
+742,197012150002,Student Radicals,1970,12,15,North America,United States,Connecticut,Storrs,0
+743,197108220007,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+744,197009010002,Weather Underground. Weathermen,1970,9,1,North America,United States,Pennsylvania,Philadelphia,0
+745,197103180001,Catalan Liberation Front (FAC),1971,3,18,Western Europe,Spain,Santa Cruz de Tenerife,San Andres,0
+746,197012300001,GAC,1970,12,30,Western Europe,Spain,Burgos,Berberana,0
+747,197005150004,Black Nationalists,1970,5,15,North America,United States,Washington,Seattle,1
+748,197010160001,Unknown,1970,10,16,South America,Argentina,Buenos Aires,Buenos Aires,0
+749,197006110003,Black Panthers,1970,6,11,North America,United States,Nebraska,Omaha,0
+750,197107170001,Unknown,1971,7,17,Western Europe,Spain,Gipuzcoa,Eibar,0
+751,197101270001,Tupamaros (Uruguay),1971,1,27,South America,Uruguay,Montevideo,Montevideo,0
+752,197108290002,Chicano Liberation Front,1971,8,29,North America,United States,California,Vernon,0
+753,197009030001,Left-Wing Militants,1970,9,3,North America,United States,California,Fremont,0
+754,197108220001,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+755,197101250001,Turkish Peoples Liberation Army,1971,1,25,Middle East & North Africa,Turkey,Ankara,Ankara,0
+756,197009090002,Ejercito Revolucionaria del Pueblo (ERP) (Argentina),1970,9,9,South America,Argentina,Cordoba,Cordoba,0
+757,197104060004,Unknown,1971,4,6,North America,United States,California,Los Angeles,0
+758,197108230001,Armed Revolutionary Independence Movement (MIRA),1971,8,23,North America,United States,New Jersey,Hoboken,0
+759,197103170001,Student Radicals,1971,3,17,North America,United States,New York,Ithaca,0
+760,197008250001,Unknown,1970,8,25,North America,Mexico,Federal,Mexico city,0
+761,197011200003,Peronist Armed Forces (FAP),1970,11,20,South America,Argentina,Buenos Aires,Buenos Aires,0
+762,197011140001,Armed Commandos of Liberation,1970,11,14,North America,United States,Puerto Rico,San Juan,0
+763,197011280001,Tupamaros (Uruguay),1970,11,28,South America,Uruguay,Montevideo,Montevideo,0
+764,197005050004,Black Afro Militant Movement,1970,5,5,North America,United States,Florida,Coral Gables,0
+765,197105290002,Black Nationalists,1971,5,29,North America,United States,Illinois,Cairo,0
+766,197008240001,New Years Gang,1970,8,24,North America,United States,Wisconsin,Madison,1
+767,197008070003,Jonathan Jackson Brigade,1970,8,7,North America,United States,California,San Rafael,4
+768,197008290001,Revolutionary Action Party,1970,8,29,North America,United States,District of Columbia,Washington,0
+769,197006270003,Irish Republican Army (IRA),1970,6,27,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+770,197010140002,Unknown,1970,10,14,Western Europe,West Germany (FRG),Bavaria,Munich,0
+771,197101190002,Left-Wing Militants,1971,1,19,North America,United States,California,San Francisco,0
+772,197001050001,Weather Underground. Weathermen,1970,1,1,North America,United States,Wisconsin,Baraboo,0
+773,197005210001,Strikers,1970,5,21,North America,United States,California,Trona,0
+774,197005080001,Left-Wing Militants,1970,5,8,North America,United States,Connecticut,New London,0
+775,197104000003,Unknown,1971,4,1,Middle East & North Africa,Iran,Tehran,Tehran,0
+776,197105180002,Unknown,1971,5,18,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+777,197105110002,Unknown,1971,5,11,North America,United States,California,Los Angeles,0
+778,197004300001,Black Nationalists,1970,4,30,North America,United States,Louisiana,Baton Rouge,0
+779,197009040004,Left-Wing Militants,1970,9,4,North America,United States,Wisconsin,Milwaukee,0
+780,197007310004,Revolutionary Armed Forces- Argentina (FAR-A),1970,7,31,South America,Argentina,Buenos Aires,Garin,0
+781,197005090003,Black Nationalists,1970,5,9,North America,United States,California,Sacramento,1
+782,197101220001,Turkish Peoples Liberation Army,1971,1,22,Middle East & North Africa,Turkey,Ankara,Ankara,0
+783,197008250002,Left-Wing Militants,1970,8,25,North America,United States,Massachusetts,Burlington,0
+784,197005130002,Left-Wing Militants,1970,5,13,North America,United States,Utah,Salt Lake City,0
+785,197001310002,Unknown,1970,1,31,North America,United States,Colorado,Denver,0
+786,197007300002,Black Panthers,1970,7,30,North America,United States,Illinois,Chicago,0
+787,197009060002,Popular Front for the Liberation of Palestine (PFLP),1970,9,6,Western Europe,Switzerland,Zurich,Zurich,0
+788,197108290004,Irish Republican Army (IRA),1971,8,29,Western Europe,United Kingdom,Northern Ireland,Crossmaglen,1
+789,197003210003,Puerto Rican Resistance Movement,1970,3,21,North America,United States,New York,New York City,0
+790,197102100003,Neo-Nazi extremists,1971,2,10,North America,United States,Ohio,Akron,0
+791,197103020001,Unknown,1971,3,2,North America,United States,New York,New York City,0
+792,197006040001,Black Nationalists,1970,6,4,North America,United States,California,Oakland,0
+793,197001300003,Student Radicals,1970,1,30,North America,United States,Florida,Coral Gables,0
+794,197008110001,Irish Republican Army (IRA),1970,8,11,Western Europe,United Kingdom,Northern Ireland,Crossmaglen,2
+795,197105230001,Ejercito Revolucionaria del Pueblo (ERP) (Argentina),1971,5,23,South America,Argentina,Cordoba,Cordoba,0
+796,197104060002,Turkish Peoples Liberation Army,1971,4,6,Middle East & North Africa,Turkey,Ankara,Ankara,0
+797,197005140001,Left-Wing Militants,1970,5,14,North America,United States,Massachusetts,Melrose,0
+798,197010010001,White supremacists/nationalists,1970,10,1,North America,United States,Maryland,Baltimore,0
+799,197011150001,Argentine Liberation Front (FAL),1970,11,15,South America,Argentina,Buenos Aires,Buenos Aires,1
+800,197009260002,Unknown,1970,9,26,North America,United States,New York,New York City,0
+801,197010060001,Turkish Peoples Liberation Army,1970,10,6,Middle East & North Africa,Turkey,Ankara,Ankara,0
+802,197007200001,Black Nationalists,1970,7,20,North America,United States,New York,New York City,0
+803,197011230002,Unknown,1970,11,23,Middle East & North Africa,Turkey,Ankara,Ankara,0
+804,197008170001,Black Panthers,1970,8,17,North America,United States,Nebraska,Omaha,1
+805,197108220010,Armed Revolutionary Independence Movement (MIRA),1971,8,22,North America,United States,New York,New York City,0
+806,197006270001,Irish Republican Army (IRA),1970,6,27,Western Europe,United Kingdom,Northern Ireland,Londonderry,3
+807,197103120001,Left-Wing Militants,1971,3,12,North America,United States,Oregon,Portland,0
+808,197007270001,Weather Underground. Weathermen,1970,7,27,North America,United States,New York,New York City,0
+809,197006090003,Weather Underground. Weathermen,1970,6,9,North America,United States,New York,New York City,0
+810,197004190004,White supremacists/nationalists,1970,4,19,North America,United States,Washington,Seattle,0
+811,197006280001,National Committee to Combat Fascism,1970,6,28,North America,United States,Michigan,Detroit,0
+812,197106260001,Unknown,1971,6,26,North America,United States,California,Los Angeles,0
+813,197002180002,Black Nationalists,1970,2,18,North America,United States,Ohio,Cleveland,0
+814,197104050003,Unknown,1971,4,5,North America,United States,Puerto Rico,San Juan,0
+815,197108300002,Ku Klux Klan,1971,8,30,North America,United States,Michigan,Pontiac,0
+816,197102020002,Turkish Peoples Liberation Army,1971,2,2,Middle East & North Africa,Turkey,Izmir,Izmir,0
+817,197002230003,Strikers,1970,2,23,North America,United States,Nebraska,South Sioux City,0
+818,197004290001,Black Nationalists,1970,4,29,North America,United States,New York,New York City,0
+819,197007100001,Unknown,1970,7,10,South America,Colombia,Caldas,Manizales,0
+820,197006230001,Unknown,1970,6,23,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+821,197009040005,Left-Wing Militants,1970,9,4,North America,United States,California,Santa Ana,0
+822,197104300001,Left-Wing Militants,1971,4,30,North America,United States,California,San Jose,0
+823,197001220002,Strikers,1970,1,22,North America,United States,Nebraska,South Sioux City,0
+824,197004050003,Argentine Liberation Front (FAL),1970,4,5,South America,Argentina,Buenos Aires,Buenos Aires,0
+825,197008200002,Left-Wing Militants,1970,8,20,North America,United States,Maryland,Reisterstown,0
+826,197109010001,White supremacists/nationalists,1971,9,1,North America,United States,Georgia,Columbus,0
+827,197011200002,Peronist Armed Forces (FAP),1970,11,20,South America,Argentina,Buenos Aires,Buenos Aires,0
+828,197005300001,Left-Wing Militants,1970,5,30,North America,United States,New York,New York City,0
+829,197009240002,Unknown,1970,9,24,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+830,197002150002,Student Radicals,1970,2,15,North America,United States,Oregon,Eugene,0
+831,197008190001,Tupamaros (Uruguay),1970,8,19,South America,Uruguay,Montevideo,Montevideo,0
+832,197001300002,Strikers,1970,1,30,North America,United States,Nebraska,South Sioux City,0
+833,197001140001,Black Nationalists,1970,1,14,North America,United States,Illinois,Champaign,0
+834,197010080006,Students for a Democratic Society (SDS) (German),1970,10,8,Western Europe,West Germany (FRG),Baden-Wurttemberg,Stuttgart,0
+835,197005280003,Student Radicals,1970,5,28,North America,United States,New York,New York City,0
+836,197010210001,Croatian Nationalists,1970,10,21,Australasia & Oceania,Australia,Victoria,Melbourne,0
+837,197007080002,Strikers,1970,7,8,North America,United States,California,Petaluma,0
+838,197105060004,Chicano Liberation Front,1971,5,6,North America,United States,California,East Los Angeles,0
+839,197003030001,1st of May Group,1970,3,3,Southeast Asia,Philippines,Tarlac,Unknown,0
+840,197001000001,Unknown,1970,1,1,Southeast Asia,Philippines,Tarlac,Unknown,1
+841,197104280001,Left-Wing Militants,1971,4,28,North America,United States,California,Oakland,0
+842,197003230001,Strikers,1970,3,23,North America,United States,Florida,Orlando,0
+843,197003040003,Left-Wing Militants,1970,3,4,North America,United States,Colorado,Denver,0
+844,197010150004,Tupamaros (Uruguay),1970,10,15,South America,Uruguay,Montevideo,Montevideo,0
+845,197008290002,Unknown,1970,8,29,North America,United States,California,Berkeley,0
+846,197105050003,Unknown,1971,5,5,North America,United States,California,Chico,0
+847,197003220003,Black Panthers,1970,3,22,North America,United States,New York,New York City,0
+848,197002230002,Strikers,1970,2,23,North America,United States,Nebraska,South Sioux City,0
+849,197005280004,Right-wing extremists,1970,5,28,North America,United States,California,Fullerton,0
+850,197004040001,Left-Wing Militants,1970,4,4,North America,United States,New York,New York City,0
+851,197001120001,Black Nationalists,1970,1,12,North America,United States,New York,New York City,0
+852,197108150004,Black Liberation Army,1971,8,15,North America,United States,Georgia,Atlanta,1
+853,197011220001,Unknown,1970,11,22,Southeast Asia,Philippines,Metropolitian Manila,Manila,0
+854,197107280002,Left-Wing Militants,1971,7,28,North America,United States,California,Ben Lomond,0
+855,197107000001,Revolutionary Communist League (LCR) (Spain),1971,7,1,Western Europe,Spain,Biscay,Bilbao,0
+856,197001250002,Black Nationalists,1970,1,25,North America,United States,New York,New York City,0
+857,197004210002,Left-Wing Militants,1970,4,21,North America,United States,California,Los Angeles,0
+858,197104290001,Revolutionary Armed Forces- Argentina (FAR-A),1971,4,29,South America,Argentina,Buenos Aires,Pilar,1
+859,197012140002,Armed Revolutionary Independence Movement (MIRA),1970,12,14,North America,United States,Connecticut,Bridgeport,0
+860,197003240004,Unknown,1970,3,24,North America,United States,New York,New York City,0
+861,197004230004,Armed Commandos of Liberation,1970,4,23,North America,United States,Puerto Rico,Aguada,0
+862,197004210001,Unknown,1970,4,21,Sub-Saharan Africa,Ethiopia,Unknown,Cauayan,36
+863,197003050003,Armed Commandos of Liberation,1970,3,5,North America,United States,Puerto Rico,San Juan,2
+864,197102170001,Turkish Peoples Liberation Army,1971,2,17,Middle East & North Africa,Turkey,Ankara,Ankara,0
+865,197002180003,Black Nationalists,1970,2,18,North America,United States,California,Vallejo,0
+866,197105050006,Left-Wing Militants,1971,5,5,North America,United States,Missouri,Kansas City,0
+867,197101130001,Black Liberation Army,1971,1,13,North America,United States,California,San Francisco,1
+868,197010020002,Turkish Peoples Liberation Front (TPLF)(THKP-C),1970,10,2,Middle East & North Africa,Turkey,Izmir,Izmir,0
+869,197105210002,Left-Wing Militants,1971,5,21,North America,United States,California,San Bruno,0
+870,197012010004,Student Radicals,1970,12,1,North America,United States,Oregon,Eugene,0
+871,197103160001,Weather Underground. Weathermen,1971,3,16,North America,United States,California,San Francisco,0
+872,197006090005,Popular Front for the Liberation of Palestine (PFLP),1970,6,9,Middle East & North Africa,Jordan,Amman,Amman,0
+873,197003240003,Argentine Liberation Front (FAL),1970,3,24,South America,Argentina,Corrientes,Ituzaingo,0
+874,197102200003,Black Afro Militant Movement,1971,2,20,North America,United States,Florida,Miami,1
+875,197108230006,White supremacists/nationalists,1971,8,23,North America,United States,New York,New York City,0
+876,197004240004,The World United Formosans for Independence (WUFI),1970,4,24,North America,United States,New York,New York City,0
+877,197004030001,Saor Eire (Irish Republican Group),1970,4,3,Western Europe,Ireland,Dublin,Dublin,1
+878,197103030001,Unknown,1971,3,3,North America,United States,California,Santa Barbara,0
+879,197101080002,Unknown,1971,1,8,Western Europe,West Germany (FRG),Bavaria,Munich,0
+880,197002100001,Popular Front for the Liberation of Palestine (PFLP),1970,2,10,Western Europe,West Germany (FRG),Bavaria,Munich,1
+881,197003310004,Student Radicals,1970,3,31,North America,United States,Washington,Seattle,0
+882,197007070001,Weather Underground. Weathermen,1970,7,7,North America,United States,New York,New York City,0
+883,197003240005,White supremacists/nationalists,1970,3,24,North America,United States,Ohio,Cleveland,0
+884,197012010003,Tupamaros (Uruguay),1970,12,1,South America,Uruguay,Montevideo,Montevideo,0
+885,197006090002,Popular Front for the Liberation of Palestine (PFLP),1970,6,9,Middle East & North Africa,Iran,Tehran,Tehran,0
+886,197003240001,Unknown,1970,3,24,Southeast Asia,Philippines,Pampanga,Angeles,1
+887,197011140004,Armed Commandos of Liberation,1970,11,14,North America,United States,Puerto Rico,San Juan,0
+888,197105120001,Unknown,1971,5,12,Southeast Asia,Philippines,Tarlac,Unknown,0
+889,197001310001,New Peoples Army (NPA),1970,1,31,Southeast Asia,Philippines,Tarlac,Bamban,0
+890,197101010001,White supremacists/nationalists,1971,1,1,North America,United States,North Carolina,Mount Gilead,0
+891,197007020004,Revolutionary Force Seven,1970,7,2,North America,United States,District of Columbia,Washington,0
+892,197006060003,Extraparliamentary Opposition (APO),1970,6,6,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+893,197004160002,Unknown,1970,4,16,North America,United States,Missouri,Kansas City,0
+894,197105080002,Protestant extremists,1971,5,8,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+895,197008220002,Left-Wing Militants,1970,8,22,North America,United States,Maryland,Baltimore,0
+896,197105120002,Black Nationalists,1971,5,12,North America,United States,Florida,West Palm Beach,0
+897,197005290005,Left-Wing Militants,1970,5,29,North America,United States,California,San Diego,0
+898,197005060007,Black Nationalists,1970,5,6,North America,United States,Massachusetts,Boston,0
+899,197004130002,Unknown,1970,4,13,North America,United States,Missouri,Kansas City,0
+900,197003150001,Puerto Rican Nationalists,1970,3,15,North America,United States,Puerto Rico,San Juan,0
+901,197002090004,Strikers,1970,2,9,North America,United States,Ohio,Batavia,0
+902,197009110003,Tupamaros (Uruguay),1970,9,11,South America,Uruguay,Montevideo,Montevideo,0
+903,197006010001,Montoneros (Argentina),1970,6,1,Southeast Asia,Philippines,Tarlac,Unknown,1
+904,197107300001,Jewish Defense League (JDL),1971,7,30,North America,United States,California,Beverly Hills,0
+905,197004270003,Student Radicals,1970,4,27,North America,United States,Illinois,Evanston,0
+906,197004130001,New World Liberation Front (NWLF),1970,4,13,North America,United States,California,Berkeley,0
+907,197006110001,Popular Revolutionary Vanguard (VPR),1970,6,11,South America,Brazil,Rio de Janeiro,Rio de Janeiro,1
+908,197002200002,Student Radicals,1970,2,20,North America,United States,New York,New York City,0
+909,197007210001,Ejercito de Liberacion Nacional (Bolivia),1970,7,21,Southeast Asia,Philippines,Tarlac,Unknown,0
+910,197007260002,American Servicemens Union (ASU),1970,7,26,North America,United States,Wisconsin,Sparta,0
+911,197004230003,Armed Commandos of Liberation,1970,4,23,North America,United States,Puerto Rico,Aguada,0
+912,197106220002,Chicano Liberation Front,1971,6,22,North America,United States,California,Los Angeles,0
+913,197005090002,Left-Wing Militants,1970,5,9,North America,United States,California,Los Angeles,0
+914,197001200001,Unknown,1970,1,20,Central America & Caribbean,Guatemala,Guatemala,Guatemala City,1
+915,197003150002,Unknown,1970,3,15,North America,United States,Montana,Billings,0
+916,197009200001,Weather Underground. Weathermen,1970,9,20,North America,United States,Massachusetts,Newburyport,0
+917,197004150004,Chicano Liberation Front,1970,4,15,North America,United States,California,Los Angeles,0
+918,197002280001,Unknown,1970,2,28,Middle East & North Africa,Jordan,Khalil,Hebron,0
+919,197002210002,Popular Front for the Liberation of Palestine. Gen Cmd (PFLP-GC),1970,2,21,Western Europe,Switzerland,Zurich,Zurich,47
+920,197003220002,Black Panthers,1970,3,22,North America,United States,New York,New York City,0
+921,197101290004,Revolutionary Armed Forces- Argentina (FAR-A),1971,1,29,South America,Argentina,Cordoba,Cordoba,0
+922,197002090003,Armed Revolutionary Independence Movement (MIRA),1970,2,9,North America,United States,New York,New York City,0
+923,197002060004,Armed Revolutionary Independence Movement (MIRA),1970,2,6,North America,United States,Puerto Rico,Dorado,0
+924,197105130001,Black Panthers,1971,5,13,North America,United States,Illinois,Chicago,0
+925,197005040001,Palestinians,1970,5,4,South America,Paraguay,Asuncion,Asuncion,1
+926,197105220001,Official Irish Republican Army (OIRA),1971,5,22,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+927,197104230004,Weather Underground. Weathermen,1971,4,23,North America,United States,California,Mill Valley,0
+928,197004150005,Chicano Liberation Front,1970,4,15,North America,United States,California,Los Angeles,0
+929,197005060002,Left-Wing Militants,1970,5,6,North America,United States,Washington,Longview,0
+930,197007160001,White supremacists/nationalists,1970,7,16,North America,United States,Illinois,Chicago,0
+931,197006290002,Left-Wing Militants,1970,6,29,North America,United States,Wisconsin,Whitefish Bay,0
+932,197010050003,Student Radicals,1970,10,5,North America,United States,West Virginia,Bluefield,0
+933,197101090002,Black Nationalists,1971,1,9,North America,United States,California,Pomona,0
+934,197105090002,Regulators,1971,5,9,North America,United States,North Carolina,Greensboro,0
+935,197007070003,Unknown,1970,7,7,North America,United States,New York,New York City,0
+936,197108280001,Black Liberation Army,1971,8,28,North America,United States,California,San Francisco,0
+937,197008170002,Left-Wing Militants,1970,8,17,North America,United States,Minnesota,Minneapolis,0
+938,197105090003,Chicano Liberation Front,1971,5,9,North America,United States,California,Altadena,0
+939,197103060002,Unknown,1971,3,6,North America,United States,Texas,Texarkana,0
+940,197012110001,Unknown,1970,12,11,North America,United States,Kansas,Lawrence,0
+941,197105060001,Unknown,1971,5,6,Eastern Europe,East Germany (GDR),Berlin,West Berlin,0
+942,197004140003,Student Radicals,1970,4,14,North America,United States,California,Long Beach,0
+943,197102200001,Unknown,1971,2,20,North America,United States,California,San Jose,0
+944,197011210002,Tupamaros (Uruguay),1970,11,21,South America,Uruguay,Montevideo,Montevideo,0
+945,197001010002,Black Nationalists,1970,1,1,North America,United States,Illinois,Cairo,0
+946,197104290003,Chicano Liberation Front,1971,4,29,North America,United States,California,Los Angeles,0
+947,197003090005,White supremacists/nationalists,1970,3,9,North America,United States,New Mexico,Albuquerque,0
+948,197104190003,Unknown,1971,4,19,North America,United States,New York,New York City,0
+949,197004280002,Unknown,1970,4,28,Eastern Europe,East Germany (GDR),Berlin,Berlin,0
+950,197012180001,Left-Wing Militants,1970,12,18,North America,United States,California,San Mateo,0
+951,197011070003,Student Radicals,1970,11,7,North America,United States,Minnesota,Minneapolis,0
+952,197003140004,Left-Wing Militants,1970,3,14,North America,United States,California,Long Beach,0
+953,197004090001,Unknown,1970,4,9,North America,United States,Illinois,East St. Louis,0
+954,197009180001,Ejercito Revolucionaria del Pueblo (ERP) (Argentina),1970,9,18,South America,Argentina,Santa Fe,Rosario,0
+955,197006090007,Left-Wing Militants,1970,6,9,North America,United States,Illinois,Galesburg,0
+956,197108280004,Weather Underground. Weathermen,1971,8,28,North America,United States,California,Sacramento,0
+957,197012290001,Turkish Peoples Liberation Army,1970,12,29,Middle East & North Africa,Turkey,Ankara,Ankara,0
+958,197007040006,Strikers,1970,7,4,North America,United States,California,San Francisco,0
+959,197007010004,Revolutionary Force Seven,1970,7,1,North America,United States,District of Columbia,Washington,0
+960,197008070002,Left-Wing Militants,1970,8,7,North America,United States,Maryland,Dundalk,0
+961,197006130002,Black Nationalists,1970,6,13,North America,United States,Missouri,Kansas City,0
+962,197103000001,Unknown,1971,3,1,Southeast Asia,Philippines,Pampanga,Angeles,0
+963,197009300001,Protestant extremists,1970,9,30,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+964,197007160002,Left-Wing Militants,1970,7,16,North America,United States,New York,New York City,0
+965,197108230002,Armed Revolutionary Independence Movement (MIRA),1971,8,23,North America,United States,New Jersey,Hoboken,0
+966,197007020006,Black Nationalists,1970,7,2,North America,United States,California,Compton,1
+967,197010150002,Tupamaros (Uruguay),1970,10,15,South America,Uruguay,Montevideo,Montevideo,0
+968,197108100001,Irish Republican Army (IRA),1971,8,10,Western Europe,United Kingdom,Northern Ireland,Londonderry,1
+969,197006300005,Unknown,1970,6,30,North America,United States,New York,New York City,0
+970,197104140002,Puerto Rican Nationalists,1971,4,14,North America,United States,Puerto Rico,San Juan,0
+971,197007220003,Left-Wing Militants,1970,7,22,North America,United States,New Jersey,Camden,0
+972,197108110004,Irish Republican Extremists,1971,8,11,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+973,197007240002,Jewish Defense League (JDL),1970,7,24,North America,United States,New York,New York City,0
+974,197106220003,Chicano Liberation Front,1971,6,22,North America,United States,California,Los Angeles,0
+975,197010180001,Unknown,1970,10,18,North America,United States,California,Irvine,0
+976,197007140001,Black Nationalists,1970,7,14,North America,United States,Illinois,Chicago,0
+977,197008200001,Revolutionary Action Party,1970,8,20,North America,United States,District of Columbia,Washington,0
+978,197004260003,Left-Wing Militants,1970,4,26,North America,United States,Minnesota,Robbinsdale,0
+979,197002160003,Unknown,1970,2,16,North America,United States,California,Berkeley,0
+980,197005140004,Black Nationalists,1970,5,14,North America,United States,North Carolina,Oxford,0
+981,197107080002,Chicano Liberation Front,1971,7,8,North America,United States,California,Los Angeles,0
+982,197010300004,Left-Wing Militants,1970,10,30,North America,United States,New York,New York City,0
+983,197008060002,Unknown,1970,8,6,North America,United States,California,Placentia,0
+984,197104230005,Student Radicals,1971,4,23,North America,United States,California,Palo Alto,0
+985,197004260002,Black Nationalists,1970,4,26,North America,United States,Louisiana,Baton Rouge,0
+986,197106100001,Unknown,1971,6,10,North America,United States,California,Petaluma,0
+987,197006290001,Black Panthers,1970,6,29,North America,United States,Iowa,Des Moines,0
+988,197105230002,Unknown,1971,5,23,North America,United States,California,Oakland,0
+989,197006300001,Black Nationalists,1970,6,30,North America,United States,New Jersey,Plainfield,1
+990,197003030002,Left-Wing Militants,1970,3,3,North America,United States,Colorado,Denver,0
+991,197012160002,Tupamaros (Uruguay),1970,12,16,South America,Uruguay,Montevideo,Montevideo,0
+992,197101270004,Irish Republican Army (IRA),1971,1,27,Western Europe,United Kingdom,Northern Ireland,Belfast,1
+993,197002150001,Left-Wing Militants,1970,2,15,North America,United States,New York,New York City,0
+994,197001020003,New Years Gang,1970,1,2,North America,United States,Wisconsin,Madison,0
+995,197000000001,MANO-D,1970,7,2,Central America & Caribbean,Dominican Republic,National,Santo Domingo,1
+996,197007300001,Weather Underground. Weathermen,1970,7,30,North America,United States,California,Alameda,0
+997,197101170002,Unknown,1971,1,17,North America,United States,New York,New York City,0
+998,197009040001,Unknown,1970,9,4,North America,United States,Minnesota,St. Paul,0
+999,197105250001,Unknown,1971,5,25,North America,United States,California,Walnut Creek,0
