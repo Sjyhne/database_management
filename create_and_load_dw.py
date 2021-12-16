@@ -64,7 +64,7 @@ EVENT_DIM_QUERY =   """
                         ON ei.event_id = e.event_id
                     """
 FACT_QUERY =        """
-                    SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, sum(ei.total_killed), sum(ei.perps_killed), sum(ei.property_dmg_value)
+                    SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, tt.target, sum(ei.total_killed), sum(ei.perps_killed), sum(ei.property_dmg_value)
                     FROM odb.event_info AS ei
                     INNER JOIN
                         odb.city AS c
@@ -87,6 +87,12 @@ FACT_QUERY =        """
                         INNER join
                         odb.date as d
                         ON ei.year = d.year and ei.month = d.month and ei.day = d.day
+                        INNER JOIN
+                        odb.event AS ev
+                        ON ei.event_id = ev.event_id
+                        INNER JOIN
+                        odb.target AS tt
+                        ON ev.target = tt.target
                     GROUP BY ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city
                     """ 
 
@@ -177,11 +183,13 @@ def create_tables(cur):
                     total_killed INTEGER NOT NULL,
                     perps_killed INTEGER NOT NULL,
                     property_damage INTEGER NOT NULL,
+                    target VARCHAR NOT NULL,
                     PRIMARY KEY (event_id, year, month, day, region, country, provstate, city),
                     FOREIGN KEY (event_id) REFERENCES event_dim(event_id),
                     FOREIGN KEY (group_name) REFERENCES group_dim(group_name),                        
                     FOREIGN KEY (year, month, day) REFERENCES time_dim(year, month, day),
-                    FOREIGN KEY (region, country, provstate, city) REFERENCES location_dim(region, country, provstate, city)
+                    FOREIGN KEY (region, country, provstate, city) REFERENCES location_dim(region, country, provstate, city),
+                    FOREIGN KEY (target) target_dim(target)
                 )
                 """)
                         
