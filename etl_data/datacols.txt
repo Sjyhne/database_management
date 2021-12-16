@@ -1,0 +1,51 @@
+eventid
+----------------- DATE -----------------
+iyear
+imonth
+iday
+-------------- LOCATION -----------------
+latitude
+longitude
+provstate
+country_txt
+region_txt
+city
+-------------- ATTACK INFO ---------------
+attacktype1_txt
+success
+suicide
+------------ WEAPON ------------------
+weaptype1_txt
+weapsubtype1_txt
+-------------- TARGET ------------------
+targtype1_txt
+targsubtype1_txt
+corp1
+target1
+natlty1_txt
+------------- ATTACKER -----------------
+gname
+nperps
+nperpcap
+individual
+---------------- KILLED -----------------
+nkill
+nkillter
+----------------- WOUNDED ----------------------
+nwound
+nwoundte
+----------------PROPERTY DAMAGE----------------------
+property
+propextent_txt
+propvalue
+----------------- HOSTAGES -------------------------
+ishostkid
+nhostkid
+nhours
+ndays
+hostkidoutcome_txt
+nreleased
+------------ RANSOM -----------------
+ransom
+ransomamt
+ransompaid
