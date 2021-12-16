@@ -1,0 +1,20 @@
+{
+    "collMod": "date_dim",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "required": ["year", "month", "day"],
+            "properties": {
+                "year": {
+                    "bsonType": "number"
+                },
+                "month": {
+                    "bsonType": "number"
+                },
+                "day": {
+                    "bsonType": "number"
+                }
+            }
+        }
+    }
+}

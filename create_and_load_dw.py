@@ -43,7 +43,13 @@ GROUP_DIM_QUERY =   """
                     """
 
 EVENT_DIM_QUERY =   """
+<<<<<<< HEAD
                     SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.nreleased, ei.total_killed, ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
+=======
+                    SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, 
+                            ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.total_killed, 
+                            ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
+>>>>>>> 8aff755e95a3adacc7b25eb1014bb90545db9590
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.attack_type AS at
@@ -55,6 +61,32 @@ EVENT_DIM_QUERY =   """
                         odb.event AS e
                         ON ei.event_id = e.event_id
                     """
+FACT_QUERY =        """
+                    SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, sum(ei.total_killed), sum(ei.perps_killed), sum(ei.property_dmg_value)
+                    FROM odb.event_info AS ei
+                    INNER JOIN
+                        odb.city AS c
+                        ON ei.city = c.city
+                        INNER JOIN
+                        odb.provstate AS p
+                        ON c.provstate = p.provstate
+                        INNER JOIN
+                        odb.country AS co
+                        ON p.country = co.country
+                        INNER JOIN
+                        odb.region AS r
+                        ON co.region = r.region
+                        INNER join
+                        odb.event as ev
+                        ON ei.event_id = ev.event_id
+                        INNER join
+                        odb.attacker as at
+                        ON ev.group_name = at.group_name
+                        INNER join
+                        odb.date as d
+                        ON ei.year = d.year and ei.month = d.month and ei.day = d.day
+                    GROUP BY ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city
+                    """ 
 
 FACT_QUERY = """
                 SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, sum(ei.total_killed)
@@ -129,17 +161,14 @@ def create_tables(cur):
                     ransom INTEGER NOT NULL,
                     ransom_amt INTEGER,
                     ransom_amt_paid INTEGER,
-                    host_kid_outcome VARCHAR,
-                    nreleased INTEGER,
                     total_killed INTEGER,
                     perps_killed INTEGER,
                     total_wounded INTEGER,
                     perps_wounded INTEGER,
                     property_dmg INTEGER, 
-                    property_dmg_value INTEGER,
-                    prop_dmg VARCHAR
+                    property_dmg_value INTEGER
                 )
-                """
+                """  
                 ,
                 """
                 CREATE TABLE target_dim (
@@ -168,7 +197,9 @@ def create_tables(cur):
                     country VARCHAR NOT NULL,
                     provstate VARCHAR NOT NULL,
                     city VARCHAR NOT NULL,
-                    deaths INTEGER NOT NULL,
+                    total_killed INTEGER NOT NULL,
+                    perps_killed INTEGER NOT NULL,
+                    property_damage INTEGER NOT NULL,
                     PRIMARY KEY (event_id, year, month, day, region, country, provstate, city),
                     FOREIGN KEY (event_id) REFERENCES event_dim(event_id),
                     FOREIGN KEY (group_name) REFERENCES group_dim(group_name),                        
@@ -183,22 +214,6 @@ def create_tables(cur):
 
 def load_tables(cur):
 
-        gtd_columns = {
-                "time_dim": ["iyear", "imonth", "iday"],
-
-                "location_dim": ["latitude", "longitude", "region", "country", "provstate", "city"],
-
-                "attack_dim": ["attack_type", "success", "suicide", "weapon_type", "weapon_sub_type"],
-
-                "target_dim": ["target", "target_nat", "target_entity", "target_type", "target_sub_type"],
-
-                "attacker_dim": ["group_name", "individual", "nperps", "nperps_cap"],
-
-                "hostage_dim": ["host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "nreleased"],
-
-                "damage_dim": ["total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value", "prop_dmg"]#"fact": ["att_id", "tar_id", "attckr_id", "host_id", "dmg_id", "time_id", "loc_id", "deaths"]
-
-        }
 
         commands = (
                 f""" 
@@ -228,6 +243,12 @@ def load_tables(cur):
                 f"""
                 INSERT INTO dwh.event_dim (
                     {EVENT_DIM_QUERY}
+                )
+                """
+                ,
+                f"""
+                INSERT INTO dwh.fact (
+                    {FACT_QUERY}
                 )
                 """)
         res = [r[2:] for r in list(cur.execute(LOCATION_DIM_QUERY))]
@@ -276,7 +297,8 @@ def load_dwh_tables():
                 
                 #Create foreign tables that represent the tables in the data warehouse(Allows us to interact with the dwh from a single connection)
                 print("EXECUTING FOREIGN DATA WRAPPER")
-                #cur.execute(open("foreign_data_wrapper.sql", "r").read())
+                cur.execute('''DROP EXTENSION IF EXISTS postgres_fdw CASCADE; DROP SCHEMA IF EXISTS dwh''')
+                cur.execute(open("foreign_data_wrapper.sql", "r").read())
                 print("EXECUTING FOREIGN DATA WRAPPER: ---- DONE")
 
                 #Load data into dwh from odb

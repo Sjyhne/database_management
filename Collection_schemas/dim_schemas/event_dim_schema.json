@@ -1,0 +1,79 @@
+{
+    "collMod": "event_dim",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "properties": {
+                "attack_type": {
+                    "bsonType": "string"
+                },
+                "success": {
+                    "bsonType": "number"
+                },
+                "suicide": {
+                    "bsonType": "number"
+                },
+                "weapon_type": {
+                    "bsonType": "string"
+                },
+                "individual": {
+                    "bsonType": "number"
+                },
+                "nperps": {
+                    "bsonType": "number"
+                },
+                "nperps_cap": {
+                    "bsonType": "number"
+                },
+                "host_kid": {
+                    "bsonType": "number"
+                },
+                "nhost_kid": {
+                    "bsonType": "number"
+                },
+                "host_kid_hours": {
+                    "bsonType": "number"
+                },
+                "host_kid_days": {
+                    "bsonType": "number"
+                },
+                "ransom": {
+                    "bsonType": "number"
+                },
+                "ransom_amt": {
+                    "bsonType": "number"
+                },
+                "ransom_amt_paid": {
+                    "bsonType": "number"
+                },
+                "host_kid_outcome": {
+                    "bsonType": "string"
+                },
+                "nreleased": {
+                    "bsonType": "number"
+                },
+                "total_killed": {
+                    "bsonType": "number"
+                },
+                "perps_killed": {
+                    "bsonType": "number"
+                },
+                "total_wounded": {
+                    "bsonType": "number"
+                },
+                "perps_wounded": {
+                    "bsonType": "number"
+                },
+                "property_dmg": {
+                    "bsonType": "number"
+                },
+                "property_dmg_value": {
+                    "bsonType": "number"
+                },
+                "prop_dmg": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    }
+}

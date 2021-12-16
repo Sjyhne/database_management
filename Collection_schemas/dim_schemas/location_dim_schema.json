@@ -1,0 +1,29 @@
+{
+    "collMod": "location_dim",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "required": ["region", "country", "provstate", "city"],
+            "properties": {
+                "latitude": {
+                    "bsonType": "number"
+                },
+                "longitude": {
+                    "bsonType": "number"
+                },
+                "region": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "provstate": {
+                    "bsonType": "string"
+                },
+                "city": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    }
+}

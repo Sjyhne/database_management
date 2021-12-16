@@ -1,0 +1,23 @@
+{
+    "collMod": "target_dim",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "required": ["target", "target_type"],
+            "properties": {
+                "target": {
+                    "bsonType": "string"
+                },
+                "target_nat": {
+                    "bsonType": "string"
+                },
+                "target_entity": {
+                    "bsonType": "string"
+                },
+                "target_type": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    }
+}

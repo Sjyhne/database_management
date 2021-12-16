@@ -1,0 +1,96 @@
+{
+    "collMod": "event",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "required": ["event_type", "location", "weapon_type", "target_name"],
+            "properties": {
+                "attack_type": {
+                    "bsonType": "array"
+                },
+                "location": {
+                    "bsonType":"object",
+                    "required": ["city", "country"],
+                    "properties": {
+                        "city": {
+                            "bsonType": "string"
+                        },
+                        "provstate": {
+                            "bsonType": "string"
+                        },
+                        "country": {
+                            "bsonType": "string"
+                        },
+                        "region": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "weapon_type": {
+                    "bsonType":"object",
+                    "required": ["type"],
+                    "properties":{
+                        "type": {
+                            "bsonType": "array"
+                        },
+                        "sub_type": {
+                            "bsonType": "array"
+                        }
+                    }
+                },
+                "target_name": {
+                    "bsonType": "array"
+                },
+                "n_killed": {
+                    "bsonType": "number"
+                },
+                "date": {
+                    "bsonType": "date"
+                },
+                "position": {
+                    "bsonType": "object",
+                    "required":["lat", "lon"],
+                    "properties":{
+                        "lat": {
+                            "bsonType": "string"
+                        },
+                        "lon": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "perpetrator_name": {
+                    "bsonType": "array"
+                },
+                "property_damage": {
+                    "bsonType": "object",
+                    "properties":{
+                        "is_known": {
+                            "bsonType": "string"
+                        },
+                        "extend": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "ransom": {
+                    "bsonType": "object",
+                    "properties":{
+                        "ransom": {
+                            "bsonType": "string"
+                        },
+                        "ransom_demanded": {
+                            "bsonType": "string"
+                        },
+                        "ransom_paid": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

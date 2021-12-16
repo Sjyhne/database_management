@@ -1,0 +1,25 @@
+{
+    "collMod": "target",
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "properties": {
+                "target_name": {
+                    "bsonType": "array"
+                },
+                "target_corporate":{
+                    "bsonType":"array"
+                },
+                "target_type":{
+                    "bsonType": "array"
+                },
+                "target_subtype":{
+                    "bsonType":"array"
+                },
+                "target_nationality":{
+                    "bsonType":"array"
+                }
+            }
+        }
+    }
+}
