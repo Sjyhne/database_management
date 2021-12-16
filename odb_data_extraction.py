@@ -24,4 +24,4 @@ class SQL:
             print("Could not connect:", e)
 
     def query_data(self, query):
-        return list(self.cur.execute(query))
+        return [list(r) for r in list(self.cur.execute(query))]

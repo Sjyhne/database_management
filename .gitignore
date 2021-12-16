@@ -157,3 +157,4 @@ test.csv
 etl_data/gtd.csv
 etl_data/city_1970_1980.csv
 etl_data/country_1970_1980.csv
+graph_data/
