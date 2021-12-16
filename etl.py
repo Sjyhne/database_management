@@ -165,9 +165,9 @@ def unknown_if_not_string(field):
     else:
         return field
 
-def remove_integers_from_country(data: pd.DataFrame) -> pd.DataFrame:
+def remove_integers_from_stringfield(data: pd.DataFrame) -> pd.DataFrame:
 
-    cols = ["country", "target_nat"]
+    cols = ["country", "target_nat", "target_sub_type", "target_entity", "target", "weapon_sub_type", "prop_dmg", "host_kid_outcome"]
 
     for col in cols:
         data[col] = data[col].apply(unknown_if_not_string)
@@ -203,16 +203,19 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
     data = remove_all_apostrophes(data)
 
     print("(8/8) - Removing integers from country cols")
-    data = remove_integers_from_country(data)
+    data = remove_integers_from_stringfield(data)
 
-    print(data.columns)
+    for col in data.columns:
+        print("\n")
+        print(col.upper())
+        print(col, "-", sorted(data[col].unique()))
 
     return data
 
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 2)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 100)
 
 
 res.to_csv("test.csv")
