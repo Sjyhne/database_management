@@ -4,6 +4,58 @@ import traceback
 
 #Connection to localhost with my static ip: http://192.168.183.101:5050
 
+TIME_DIM_QUERY = """ 
+                SELECT year, month, day
+                FROM odb.date
+                """
+
+LOCATION_DIM_QUERY = """
+                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city
+                    FROM odb.event_info AS ei
+                        INNER JOIN
+                        odb.city AS c
+                        ON ei.city = c.city
+                        INNER JOIN
+                        odb.provstate AS p
+                        ON c.provstate = p.provstate
+                        INNER JOIN
+                        odb.country AS co
+                        ON p.country = co.country
+                        INNER JOIN
+                        odb.region AS r
+                        ON co.region = r.region
+                    """
+
+TARGET_DIM_QUERY =  """
+                    SELECT T.target, T.target_nat, T.entity_name, T.target_type
+                    FROM odb.target AS t
+                        INNER JOIN
+                        odb.entity AS e
+                        ON t.entity_name = e.entity_name
+                        INNER JOIN
+                        odb.target_type AS tt
+                        ON t.target_type = tt.target_type
+                    """
+
+GROUP_DIM_QUERY =   """ 
+                    SELECT group_name
+                    FROM odb.attacker
+                    """
+
+EVENT_DIM_QUERY =   """
+                    SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.host_kid_outcome
+                    FROM odb.event_info AS ei
+                        INNER JOIN
+                        odb.attack_type AS at
+                        ON ei.attack_type = at.attack_type
+                        INNER JOIN
+                        odb.weapon_type AS wt
+                        ON ei.weapon_type = wt.weapon_type
+                        INNER JOIN
+                        odb.event AS e
+                        ON ei.event_id = e.event_id
+                    """
+
 def create_tables(cur):
 
         """ create tables in the PostgreSQL database"""
@@ -122,43 +174,44 @@ def load_tables(cur):
         }
 
         commands = (
-                """ 
+                f""" 
                 INSERT INTO dwh.time_dim (
-                    SELECT year, month, day
-	                FROM odb.date
+                    {TIME_DIM_QUERY}
                 )
                 """
                 ,
-                """
+                f"""
                 INSERT INTO dwh.location_dim (
-                    SELECT E.latitude, E.longitude, R.region, C.country, P.provstate, E.city
-                    FROM odb.event_info E, odb.region R, odb.country C, odb.provstate P, odb.city S
-                    WHERE E.city = S.city AND S.provstate = P.provstate AND P.country = C.country AND C.region = R.region
-                )
+                    {LOCATION_DIM_QUERY}
+                ) ON CONFLICT DO NOTHING
                 """
                 ,
-                """
+                f"""
                 INSERT INTO dwh.target_dim (
-                    SELECT T.target, T.target_nat, T.entity_name, T.target_type
-                    FROM odb.target T, odb.entity E, odb.target_type P
-                    WHERE T.entity_name = E.entity_name AND T.target_type = P.target_type
+                    {TARGET_DIM_QUERY}
                 )
                 """
                 ,
-                """ 
+                f""" 
                 INSERT INTO dwh.group_dim (
-                    SELECT group_name
-	                FROM odb.attacker
+                    {GROUP_DIM_QUERY}
                 )
                 """
                 ,
-                """
+                f"""
                 INSERT INTO dwh.event_dim (
-                    SELECT EV.event_id, A.attack_type, E.success, E.suicide, W.weapon_type, E.individual, E.nperps, E.nperps_cap, E.host_kid, E.nhost_kid, E.host_kid_hours, E.host_kid_days, E.ransom, E.ransom_amt, E.ransom_amt_paid, E.host_kid_outcome
-	                FROM odb.event_info E, odb.attack_type A, odb.weapon_type W, odb.event EV
-                    WHERE EV.event_id = E.event_id AND E.attack_type = A.attack_type AND E.weapon_type = W.weapon_type
+                    {EVENT_DIM_QUERY}
                 )
                 """)
+        res = [r[2:] for r in list(cur.execute(LOCATION_DIM_QUERY))]
+
+        print(res)
+        for r in sorted(res):
+            print(r)
+
+        print(len(res))
+        
+        print(len(list(set(res))))
 
         for command in commands:
             print("command:", command)

@@ -20,15 +20,15 @@ services:
       PGADMIN_DEFAULT_PASSWORD: root
     ports:
       - "5050:80"
-#  graph:
-#    container_name: graph_db
-#    image: neo4j
-#    restart: always
-#    environment:
-#      NEO4J_AUTH: none
-#    ports:
-#      - "7474:7474"
-#      - "7687:7687"
+  graph:
+    container_name: graph_db
+    image: neo4j
+    restart: always
+    environment:
+      NEO4J_AUTH: none
+    ports:
+      - "7474:7474"
+      - "7687:7687"
 #  mongo:
 #    container_name: mongo_db
 #    image: mongo
