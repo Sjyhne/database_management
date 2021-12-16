@@ -7,6 +7,14 @@ import pandas as pd
 import json
 import numpy as np
 
+import psycopg
+
+from odb_data_extraction import SQL
+
+import traceback
+
+from create_and_load_dw import TIME_DIM_QUERY, LOCATION_DIM_QUERY, EVENT_DIM_QUERY, TARGET_DIM_QUERY, GROUP_DIM_QUERY
+
 from tqdm import tqdm
 
 import time
@@ -26,54 +34,30 @@ DIMS = {
 
     "location_dim": {
         "id": ["region", "country", "provstate", "city"],
-        "fields": ["region", "country", "provstate", "city", "longitude", "latitude"],
+        "fields": ["longitude", "latitude", "region", "country", "provstate", "city"],
         "type": "Location",
         "relation_name": "LOCATION_FACT",
         "source_type": "Location",
         "target_type": "Fact"
     },
 
-    "date_dim": {
-        "id": ["iyear", "imonth", "iday"],
-        "fields": ["iyear", "imonth", "iday"],
+    "time_dim": {
+        "id": ["year", "month", "day"],
+        "fields": ["year", "month", "day"],
         "type": "Date",
     },
 
     "target_dim": {
-        "id": "target_id",
+        "id": "target",
         "fields": ["target", "target_nat", "target_entity", "target_type"],
         "type": "Target"
     },
 
-    "attack_dim": {
-        "id": "attack_id",
-        "fields": ["attack_type", "success", "suicide", "weapon_type"],
-        "type": "Attack"
+    "event_dim": {
+        "id": "event_id",
+        "fields": ["event_id", "attack_type", "success", "suicide", "weapon_type", "individual", "nperps", "nperps_cap", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "host_kid_outcome", "nreleased", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value", "prop_dmg"],
+        "type": "Event"
     },
-
-    "dmg_dim": {
-        "id": "damage_id",
-        "fields": ["total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value"],
-        "type": "Damage"
-    },
-
-    "ransom_dim": {
-        "id": "ransom_id",
-        "fields": ["ransom", "ransom_amt", "ransom_amt_paid", "nreleased"],
-        "type": "Ransom"
-    },
-
-    "hostage_dim": {
-        "id": "hostage_id",
-        "fields": ["host_kid", "nhost_kid", "host_kid_hours", "host_kid_days"],
-        "type": "Hostage"
-    },
-
-    "attacker_dim": {
-        "id": "attacker_id",
-        "fields": ["individual", "nperps", "nperps_cap"],
-        "type": "Attacker"
-    }
 }
 
 FACT = {
@@ -93,70 +77,25 @@ DIM_RELATIONS = {
 
 
 
-
-
-class graph:
-    def __init__(self, uri, gtd_datapath, city_population_path, country_population_path) -> None:
+class Graph:
+    def __init__(self, uri) -> None:
         self.driver = GraphDatabase.driver(uri)
-        self.gtd_data = pd.read_csv(gtd_datapath)
-        self.city_data = pd.read_csv(city_population_path)
-        self.country_data = pd.read_csv(country_population_path)
+    
+    def close_driver(self):
+        self.driver.close()
+
     
 
 
 if __name__ == "__main__":
+    bolt_url = "bolt://localhost:7687"
 
-    data = pd.read_csv("test.csv", nrows=10000)
+    sql = SQL()
 
-    print(len(data.index))
-    data = data.drop_duplicates()
-    print(len(data.index))
+    g = Graph(bolt_url)
 
-    dfs = {}
+    res = sql.query_data(GROUP_DIM_QUERY)
+    for r in res:
+        print(r[0])
 
-    fact_df = pd.DataFrame(columns=FACT["fields"])
-
-    for key in DIMS.keys():
-        dfs[key] = (pd.DataFrame(columns=DIMS[key]["fields"]))
     
-    for df in dfs.values():
-        print(df.columns)
-
-    for key, df in dfs.items():
-        dfs[key] = data[df.columns]
-    
-    for key, df in dfs.items():
-        print(key)
-        print(df)
-
-    test_list = [range(1,201),range(1,201),range(1,201)]
-    import itertools
-    output_list = list(itertools.product(*test_list))
-
-    print(len(output_list))
-    
-
-    """
-    dims = {}
-
-    for key in DIMS:
-        print(key, "--------------")
-
-        dims[key] = []
-        for i, d in data.iterrows():
-            row = {}
-            row["id"] = d[DIMS[key]["id"]]
-            res = [d[field] for field in DIMS[key]["fields"]]
-            for i, f in enumerate(DIMS[key]["fields"]):
-                row[f] = res[i]
-
-            print(row)
-            dims[key].append(row)
-    
-    print(dims)
-    
-    print("Fact")
-    for i, d in data.iterrows():
-        res = [d[field] for field in FACT["fields"]]
-        print(res)
-    """
