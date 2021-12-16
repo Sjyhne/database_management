@@ -16,9 +16,6 @@
                 "weapon_type": {
                     "bsonType": "string"
                 },
-                "group_name": {
-                    "bsonType": "string"
-                },
                 "individual": {
                     "bsonType": "number"
                 },

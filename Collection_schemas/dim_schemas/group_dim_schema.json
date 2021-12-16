@@ -1,0 +1,14 @@
+{
+    "collMod": "group_dim",
+    "validator": {
+        "$jsonSchema":{
+            "bsonType": "object",
+            "required": ["group_name"],
+            "properties": {
+                "group_name": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    }
+}

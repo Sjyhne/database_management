@@ -25,8 +25,9 @@
     "ransomamt": "ransom_amt", 
     "ransompaid": "ransom_amt_paid", 
     "hostkidoutcome_txt": "host_kid_outcome",
-    "iyear": "year",
-    "imonth": "month",
+    "iyear": "year", 
+    "imonth": "month", 
     "iday": "day",
     "eventid": "event_id"
+
 }
