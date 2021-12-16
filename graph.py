@@ -28,7 +28,7 @@ DIMS = {
     "group_dim": {
         "id": ["group_name"],
         "fields": ["group_name"],
-        "type": "TerroristGroup",
+        "type": "Group",
         "relation_name": "GROUP_FACT",
         "target_type": "Fact",
         "name": "group_name",
@@ -73,7 +73,7 @@ DIMS = {
     },
 
     "fact": {
-    "fields": ["event_id", "group_name", "year", "month", "day", "region", "country", "provstate", "city", "total_killed"],
+    "fields": ["event_id", "group_name", "year", "month", "day", "region", "country", "provstate", "city", "target", "total_killed"],
     "type": "Fact",
     "name": "event_id",
     "query": FACT_QUERY
@@ -186,10 +186,12 @@ if __name__ == "__main__":
 
     print("time taken:", end - start)
 
-    os.system("sudo mv graph_data_2/ graph_data/")
+    os.system("sudo cp graph_data_2/* graph_data/")
 
     g.write_query("MATCH (n) DETACH DELETE n")
 
+
+    # CREATE NODES
     for key in DIMS.keys():
         dim = DIMS[key]
         create_query = {field: 'line.'+field for field in dim["fields"]}
@@ -200,3 +202,45 @@ if __name__ == "__main__":
         print(query)
         g.write_query(query)
     
+    # CREATE RELATIONSHIPS
+
+    for key in DIM_RELATIONS.keys():
+        relation_ship = DIM_RELATIONS[key]
+
+        source = relation_ship["source_type"]
+        target = relation_ship["target_type"]
+
+        source_att = list(relation_ship["source_attributes"])
+        target_att = relation_ship["target_attributes"]
+
+        source_df = pd.read_csv("graph_data/" + source.lower() + "_dim.csv")
+        target_df = pd.read_csv("graph_data/" + target.lower() + ".csv")
+
+        source_att_df = source_df[source_att]
+
+        source_att_df.to_csv("graph_data_2/relationships_" + source.lower() + "_" + target.lower() + ".csv")
+
+        os.system("sudo cp graph_data_2/* graph_data/")
+
+        query = f"""LOAD CSV WITH HEADERS FROM 'file:///relationships_{source.lower()}_{target.lower()}.csv' AS row MATCH """
+
+        source_fields = {field: 'row.'+field for field in source_att}
+        target_fields = {field: 'row.'+field for field in target_att}
+        match_query = f"(x1:{source} {source_fields}), (x2:{target} {target_fields}) ".replace("'", "")
+
+        query += match_query
+
+        create_query = f"CREATE (x1)-[:{relation_ship['relation_name']}]->(x2);"
+
+        query += create_query
+
+        print(query)
+
+        g.write_query(query)
+    """
+    LOAD CSV WITH HEADERS FROM "file:///Relationships.csv" AS row
+    //look up the two nodes we want to connect up
+    MATCH (p1:owner {id:row.id_from}), (p2:pet {id:row.id_to})
+    //now create a relationship between them
+    CREATE (p1)-[:OWNS]->(p2);
+    """

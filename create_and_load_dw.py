@@ -43,13 +43,9 @@ GROUP_DIM_QUERY =   """
                     """
 
 EVENT_DIM_QUERY =   """
-<<<<<<< HEAD
-                    SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.nreleased, ei.total_killed, ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
-=======
                     SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, 
                             ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.total_killed, 
                             ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
->>>>>>> 8aff755e95a3adacc7b25eb1014bb90545db9590
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.attack_type AS at
