@@ -1,7 +1,7 @@
 import psycopg
 
 class SQL:
-    def __init__(self, uri) -> None:
+    def __init__(self) -> None:
         self.cur = self.create_connection_and_get_cursor()
 
     def create_connection_and_get_cursor(self):
