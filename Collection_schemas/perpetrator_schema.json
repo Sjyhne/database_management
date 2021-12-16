@@ -1,0 +1,22 @@
+{
+    "collMod": "perpetrator",
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "properties": {
+                "name": {
+                    "bsonType": "array"
+                },
+                "subname":{
+                    "bsonType":"array"
+                },
+                "n_perps":{
+                    "bsonType": "string"
+                },
+                "n_perps_cap":{
+                    "bsonType":"string"
+                }
+            }
+        }
+    }
+}
