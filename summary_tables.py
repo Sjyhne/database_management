@@ -12,7 +12,7 @@ def load_summary_tables():
                 )
                 """
                 ,
-                """
+                """ Hent bare fra fact
                 INSERT INTO summary.country_damage (
                     SELECT T.year, L.country, count(F.event_id), sum(E.total_killed), sum(E.property_dmg_value)
                     FROM dwh.fact F, dwh.event_dim E, dwh.group_dim G, dwh.location_dim L, dwh.time_dim T

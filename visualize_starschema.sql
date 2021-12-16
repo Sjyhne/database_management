@@ -35,7 +35,6 @@ CREATE TABLE event_dim (
     perps_killed INTEGER,
     total_wounded INTEGER,
     perps_wounded INTEGER,
-    property_dmg INTEGER, 
     property_dmg_value INTEGER,
     city_population INTEGER,
     country_population INTEGER
@@ -56,6 +55,7 @@ CREATE TABLE group_dim (
 CREATE TABLE fact (
     event_id VARCHAR NOT NULL,
     group_name VARCHAR NOT NULL,
+    target VARCHAR NOT NULL,
     year INTEGER NOT NULL,
     month INTEGER NOT NULL,
     day INTEGER NOT NULL,
@@ -66,8 +66,7 @@ CREATE TABLE fact (
     total_killed INTEGER NOT NULL,
     perps_killed INTEGER NOT NULL,
     property_damage INTEGER NOT NULL,
-    target VARCHAR NOT NULL,
-    PRIMARY KEY (event_id, year, month, day, region, country, provstate, city),
+    PRIMARY KEY (event_id, group_name, target, year, month, day, region, country, provstate, city),
     FOREIGN KEY (event_id) REFERENCES event_dim(event_id),
     FOREIGN KEY (group_name) REFERENCES group_dim(group_name),                        
     FOREIGN KEY (year, month, day) REFERENCES time_dim(year, month, day),

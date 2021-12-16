@@ -10,7 +10,7 @@ TIME_DIM_QUERY = """
                 """
 
 LOCATION_DIM_QUERY = """
-                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city, cp.city_population, cop.country_population
+                    SELECT ei.latitude, ei.longitude, co.region, p.country, c.provstate, ei.city
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.city AS c
@@ -24,12 +24,7 @@ LOCATION_DIM_QUERY = """
                         INNER JOIN
                         odb.region AS r
                         ON co.region = r.region
-                        INNER JOIN
-                        odb.city_population AS cp
-                        ON c.city = cp.city
-                        INNER JOIN
-                        odb.country_population AS cop
-                        ON co.country = cop.country
+                        
                     """
 
 TARGET_DIM_QUERY =  """
@@ -51,7 +46,7 @@ GROUP_DIM_QUERY =   """
 EVENT_DIM_QUERY =   """
                     SELECT e.event_id, at.attack_type, ei.success, ei.suicide, wt.weapon_type, ei.individual, ei.nperps, ei.nperps_cap, ei.host_kid, 
                             ei.nhost_kid, ei.host_kid_hours, ei.host_kid_days, ei.ransom, ei.ransom_amt, ei.ransom_amt_paid, ei.total_killed, 
-                            ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg, ei.property_dmg_value
+                            ei.perps_killed, ei.total_wounded, ei.perps_wounded, ei.property_dmg_value, cp.population, cop.population
                     FROM odb.event_info AS ei
                         INNER JOIN
                         odb.attack_type AS at
@@ -62,9 +57,27 @@ EVENT_DIM_QUERY =   """
                         INNER JOIN
                         odb.event AS e
                         ON ei.event_id = e.event_id
+                        INNER JOIN
+                        odb.city AS c
+                        ON ei.city = c.city
+                        INNER JOIN
+                        odb.provstate AS p
+                        ON c.provstate = p.provstate
+                        INNER JOIN
+                        odb.country AS co
+                        ON p.country = co.country
+                        INNER JOIN
+                        odb.region AS r
+                        ON co.region = r.region
+                        INNER JOIN
+                        odb.city_population AS cp
+                        ON c.city = cp.city
+                        INNER JOIN
+                        odb.country_population AS cop
+                        ON co.country = cop.country
                     """
 FACT_QUERY =        """
-                    SELECT ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, tt.target, sum(ei.total_killed), sum(ei.perps_killed), sum(ei.property_dmg_value)
+                    SELECT ei.event_id, at.group_name, tt.target, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city, sum(ei.total_killed), sum(ei.perps_killed), sum(ei.property_dmg_value)
                     FROM odb.event_info AS ei
                     INNER JOIN
                         odb.city AS c
@@ -88,12 +101,9 @@ FACT_QUERY =        """
                         odb.date as d
                         ON ei.year = d.year and ei.month = d.month and ei.day = d.day
                         INNER JOIN
-                        odb.event AS ev
-                        ON ei.event_id = ev.event_id
-                        INNER JOIN
                         odb.target AS tt
                         ON ev.target = tt.target
-                    GROUP BY ei.event_id, at.group_name, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city
+                    GROUP BY ei.event_id, at.group_name, tt.target, d.year, d.month, d.day, co.region, p.country, c.provstate, ei.city
                     """ 
 
 def create_tables(cur):
@@ -146,7 +156,6 @@ def create_tables(cur):
                     perps_killed INTEGER,
                     total_wounded INTEGER,
                     perps_wounded INTEGER,
-                    property_dmg INTEGER, 
                     property_dmg_value INTEGER,
                     city_population INTEGER,
                     country_population INTEGER
@@ -173,6 +182,7 @@ def create_tables(cur):
                 CREATE TABLE fact (
                     event_id VARCHAR NOT NULL,
                     group_name VARCHAR NOT NULL,
+                    target VARCHAR NOT NULL,
                     year INTEGER NOT NULL,
                     month INTEGER NOT NULL,
                     day INTEGER NOT NULL,
@@ -183,14 +193,13 @@ def create_tables(cur):
                     total_killed INTEGER NOT NULL,
                     perps_killed INTEGER NOT NULL,
                     property_damage INTEGER NOT NULL,
-                    target VARCHAR NOT NULL,
-                    PRIMARY KEY (event_id, year, month, day, region, country, provstate, city),
+                    PRIMARY KEY (event_id, group_name, target, year, month, day, region, country, provstate, city),
                     FOREIGN KEY (event_id) REFERENCES event_dim(event_id),
                     FOREIGN KEY (group_name) REFERENCES group_dim(group_name),                        
                     FOREIGN KEY (year, month, day) REFERENCES time_dim(year, month, day),
                     FOREIGN KEY (region, country, provstate, city) REFERENCES location_dim(region, country, provstate, city),
-                    FOREIGN KEY (target) target_dim(target)
-                )
+                    FOREIGN KEY (target) REFERENCES target_dim(target)
+                );
                 """)
                         
 
