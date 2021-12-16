@@ -121,8 +121,6 @@ def create_tables(cur):
                     country VARCHAR NOT NULL,
                     provstate VARCHAR NOT NULL,
                     city VARCHAR NOT NULL,
-                    city_population INTEGER,
-                    country_population INTEGER,
                     PRIMARY KEY(region, country, provstate, city)
                 )
                 """
@@ -149,7 +147,9 @@ def create_tables(cur):
                     total_wounded INTEGER,
                     perps_wounded INTEGER,
                     property_dmg INTEGER, 
-                    property_dmg_value INTEGER
+                    property_dmg_value INTEGER,
+                    city_population INTEGER,
+                    country_population INTEGER
                 )
                 """  
                 ,
