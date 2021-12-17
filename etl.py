@@ -58,7 +58,10 @@ def get_data(data_path: str, cols: List, rename_cols: List, nrows: int=None) -> 
     if nrows == None:
         return pd.read_csv(data_path, usecols=cols).rename(columns=rename_cols)
     else:
-        return pd.read_csv(data_path, usecols=cols, nrows=nrows).rename(columns=rename_cols)
+        df = pd.read_csv(data_path, usecols=cols).rename(columns=rename_cols)
+        df = df.iloc[len(df.index) - nrows:]
+        return df
+
 
 
 def extract(data_path: str, columns_path: str, rename_columns_path: str, nrows: int = None) -> pd.DataFrame:
@@ -100,7 +103,7 @@ def floatify_dataframe(data: pd.DataFrame) -> pd.DataFrame:
     return data
 
 def nanify_negative_numbers(data: pd.DataFrame) -> pd.DataFrame:
-    neg_cols = ["nperps_cap", "nperps", "property_dmg"]
+    neg_cols = ["nperps_cap", "nperps", "property_dmg", "property_dmg_value", "host_kid_hours", "host_kid_days"]
 
     for col in neg_cols:
         data[col] = data[col].apply(neg_to_nan)
@@ -124,10 +127,9 @@ def remove_commas(data: pd.DataFrame) -> pd.DataFrame:
     return data
     
 def add_current_countries(data: pd.DataFrame) -> pd.DataFrame:
-    lats, longs = data["latitude"], data["longitude"]
+    lats, longs = data["latitude"].to_numpy(), data["longitude"].to_numpy()
     data["current_country"] = pd.Series.empty
 
-    print(len(lats), len(longs))
     latlongs = []
     for i in range(len(lats)):
         latlongs.append(str(lats[i].round(3)) + "," + str(longs[i].round(3)))
@@ -139,7 +141,7 @@ def add_current_countries(data: pd.DataFrame) -> pd.DataFrame:
             country = long_lat_map[latlongs[i]]
             if country == None:
                 country = "Unknown"
-        except:
+        except Exception as e:
             country = "Unknown"
         data["current_country"][i] = country
 
@@ -231,7 +233,7 @@ def transform(data_path: str, columns_path: str, rename_columns_path: str, nrows
 #get_current_country(40.714224, -73.961452)
 
 
-res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 1000)
+res = transform("etl_data/gtd.csv", "etl_data/datacols.txt", "etl_data/rename_cols.json", 100)
 
 
 res.to_csv("test.csv")

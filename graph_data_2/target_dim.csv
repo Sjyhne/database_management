@@ -1,48 +1,56 @@
 ,target,target_nat,target_entity,target_type
-0,Julio Guzman,Dominican Republic,Unknown,Private Citizens & Property
-1,Nadine Chaval. daughter,Belgium,Belgian Ambassador Daughter,Government (Diplomatic)
-2,Employee,United States,Voice of America,Journalists & Media
-3,U.S. Embassy,United States,Unknown,Government (Diplomatic)
-4,U.S. Consulate,United States,Unknown,Government (Diplomatic)
-5,Cairo Police Headquarters,United States,Cairo Police Department,Police
-6,Juan Maria de Lucah/Chief of Directorate of info. and intell.,Uruguay,Uruguayan Police,Police
-7,Edes Substation,United States,Pacific Gas & Electric Company,Utilities
-8,R.O.T.C. offices at University of Wisconsin. Madison,United States,R.O.T.C.,Military
-9,Selective Service Headquarters in Madison Wisconsin,United States,Selective Service,Government (General)
-10,Badger Army ammo depot.,United States,Unknown,Military
-11,Army Recruiting Station. Denver Colorado,United States,Army Recruiting Station,Military
-12,Flight 802 Boeing 707,United States,Trans World Airline,Airports & Aircraft
-13,Packard Properties building of Detroit Michigan,United States,U.S. Government housing,Government (General)
-14,Bakers Store,United States,American owned business in Puerto Rico,Business
-15,Jurists Ball (Palais au Frankturm),Germany,Unknown,Government (General)
-16,Soldier,United States,U.S. Army,Military
-17,James Madison High School,United States,High School,Educational Institution
-18,General Electric factory in Rio Grande Puerto Rico,United States,General Electric,Business
-19,Fusons Department Store. Seattle Washington,United States,Fusons Department Store,Business
-20,Champaign Police Department,United States,Police Department,Police
-21,Secondary School. Chemistry Lab,Uruguay,Unknown,Educational Institution
-22,Liberal Arts and Garrand buildings. Seattle University,United States,Seattle University,Educational Institution
-23,Air Force R.O.T.C. at the University of Washington,United States,R.O.T.C.,Military
-24,Headquarters,United States,Black Panther Party,Violent Political Party
-25,Bodyguard. British Consul,Great Britain,British consulate,Government (Diplomatic)
-26,JUSMAG HQ,United States,Unknown,Government (Diplomatic)
-27,Leon Jacobo Taurel. son,Venezuela,Father owned chain of dept stores,Business
-28,Unknown,United States,Private residence,Private Citizens & Property
-29,Building used as a meeting place for African Americans.,United States,Building,Private Citizens & Property
-30,New York Police Officers responding to a call in Harlem,United States,New York Police Department,Police
-31,Clay County Courthouse,United States,Courthouse,Government (General)
-32,New York Police Officer on patrol in Forest Hills,United States,New York Police Department,Police
-33,Selective Service office in Norwalk Ohio,United States,Selective Service,Government (General)
-34,Residence of President of Penal Office,Germany,Unknown,Police
-35,Temple De Hirsch,United States,Jewish Synagogue,Religious Figures/Institutions
-36,A & B Boat Shop,United States,Unknown,Business
-37,Army R.O.T.C.. University of Miami,United States,Army R.O.T.C.,Military
-38,Seaman,United States,U.S. Navy,Military
-39,Police Band Building. Denver Colorado,United States,Denver Police Department,Police
-40,Selective Service office Local Board No. 28 in Portland Oregon,United States,Selective Service,Government (General)
-41,Illinois State Police in the Pyramid Courts housing project,United States,Illinois State Police,Police
-42,Mays Department Store in Manhattan,United States,Mays Department Store,Business
-43,Alexanders Department Store in the Bronx,United States,Alexanders Department Store,Business
-44,Alexanders Department Store in Manhattan,United States,Alexanders Department Store,Business
-45,Denver City School Buses,United States,Transportation of Denver City Schools,Transportation
-46,Fred Dore,United States,White politician who represented a Black constituency,Government (General)
+0,Convoy,Afghanistan,Afghan National Security Force (ANSF),Military
+1,Vehicle,Afghanistan,Afghan National Security Force (ANFS),Military
+2,Civilian,Afghanistan,Not Applicable,Private Citizens & Property
+3,Village,Nigeria,Yamarkumi Village,Private Citizens & Property
+4,Soldiers,Democratic Republic of the Congo,Armed Forces of the Democratic Republic of the Congo (FARDC),Military
+5,Engineers,Turkey,Unknown,Private Citizens & Property
+6,Workers,International,United Nations Assistance Mission in Afghanistan (UNAMA),Government (Diplomatic)
+7,Base,Afghanistan,Afghan National Security Force (ANSF),Military
+8,Alleged Informant: Mughal Koda,India,Not Applicable,Private Citizens & Property
+9,Alleged Informant: Sanjay Koda,India,Not Applicable,Private Citizens & Property
+10,Unknown,Pakistan,Unknown,Unknown
+11,Marketplace,India,Khwairamband Market,Private Citizens & Property
+12,Residence of Rabbi: Chaim Rottenberg,United States,Not Applicable,Private Citizens & Property
+13,Church,India,Apostolic Reconciliation Church,Religious Figures/Institutions
+14,Chief of Nadiaboanli Village,Burkina Faso,Not Applicable,Private Citizens & Property
+15,Protestor: Awas Fadel,Iraq,Not Applicable,Private Citizens & Property
+16,Members,Afghanistan,Unknown,Terrorists/Non-State Militia
+17,Outpost,Afghanistan,Afghan Police,Police
+18,Commissioner: Ali Ibrahim Yassin,Iraq,Iraqi Ministry of the Interior,Government (General)
+19,Headquarters,Iraq,Iraqi Volunteer Forces,Military
+20,Civilians,Iraq,Not Applicable,Private Citizens & Property
+21,Pub,Democratic Republic of the Congo,Unknown,Business
+22,Site,India,Unknown,Business
+23,Alleged Informant: Boti Lekam,India,Not Applicable,Private Citizens & Property
+24,Vehicle of Official: Derrow Hillow Mahat,Kenya,Mandera Water and Sewage Company,Government (General)
+25,University,Bangladesh,Dhaka University,Educational Institution
+26,Vehicle of Professor: CR Abrar,Bangladesh,Dhaka University,Educational Institution
+27,Parade,Yemen,Military of Yemen,Military
+28,Camp Taji,Iraq,Iraqi Armed Forces,Military
+29,Office,Bangladesh,Bangladesh Nationalist Party (BNP),Violent Political Party
+30,Patrol,Afghanistan,Afghan Border Police (ABP),Police
+31,Internally Displaced Persons (IDP) Camp,Sudan,Krinding Camp,Private Citizens & Property
+32,Komabangou Police Station,Niger,Niger Police,Police
+33,Checkpoint,Afghanistan,Afghan Police,Police
+34,Vehicle of Tribal Elder: Sheikh Rafeh Hatim Al-Mashhadani,Iraq,Not Applicable,Private Citizens & Property
+35,Tribal Livelihood Center,Philippines,Unknown,Private Citizens & Property
+36,Soldier,Philippines,Citizens Armed Force Geographical Unit (CAFGU),Military
+37,Protestor: Ali Al-Khafaji,Iraq,Not Applicable,Private Citizens & Property
+38,School,Iraq,Unknown,Educational Institution
+39,Security Post,Afghanistan,Afghan National Security Force (ANSF),Military
+40,Tower,Afghanistan,Roshan Telecom,Telecommunication
+41,Telecommunication Tower,Nepal,Ncell,Telecommunication
+42,Telecommunications Tower,Nepal,Ncell,Telecommunication
+43,Post,Burkina Faso,National Gendarmerie,Police
+44,Joint Convoy,Afghanistan,Afghan National Security Force (ANSF),Military
+45,Oil Office General Director: Al-Khader Ali Salem Buglida,Yemen,Government of Shabwa Governorate,Government (General)
+46,Bangaray Chair: Abdullah Nilong II,Philippines,Government of Philippines,Government (General)
+47,Tribal Leader: Bontola Tinaghao Mansinugdan,Philippines,Not Applicable,Private Citizens & Property
+48,Civilian: Hayder Manibpal,Philippines,Not Applicable,Private Citizens & Property
+49,Road Administration Department Employees,Myanmar,Ministry of Transport and Communications,Government (General)
+50,Alleged Informant: Godlove Abanda Ndi,Cameroon,Not Applicable,Private Citizens & Property
+51,Residence of Tribal Leader,Iraq,Not Applicable,Private Citizens & Property
+52,West Darfur Police Headquarters,Sudan,Sudanese Police,Police
+53,West Darfur Legislative Council Building,Sudan,Government of West Darfur,Government (General)
+54,Offices,Hong Kong,Government of Lai Chi Kok,Government (General)

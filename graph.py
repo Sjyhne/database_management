@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
     print("time taken:", end - start)
 
-    os.system("sudo cp graph_data_2/* graph_data/")
+    #os.system("sudo cp graph_data_2/* graph_data/")
 
     g.write_query("MATCH (n) DETACH DELETE n")
 

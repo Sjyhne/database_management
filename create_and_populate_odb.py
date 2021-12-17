@@ -26,8 +26,8 @@ def extract_transform_populate_odb(cur):
             {"table": "event_info", "pk": ["event_id"], "fields": ["event_id", "city", "year", "month", "day", "success", "suicide", "host_kid", "nhost_kid", "host_kid_hours", "host_kid_days", "ransom", "ransom_amt", "ransom_amt_paid", "longitude", "latitude", "nperps", "nperps_cap", "individual", "total_killed", "perps_killed", "total_wounded", "perps_wounded", "property_dmg", "property_dmg_value", "weapon_type", "attack_type", "country", "date"]}
             ]
 
-    for index, i in data.iterrows():
-        print("INDEX:", index)
+    for index, i in tqdm(data.iterrows(), total=len(data.index)):
+        
         for l in gtd_columns:
             table = l["table"]
 
