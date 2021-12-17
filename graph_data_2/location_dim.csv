@@ -1,35 +1,92 @@
 ,longitude,latitude,region,country,provstate,city
-0,18.456792,-69.951164,Central America & Caribbean,Dominican Republic,National,Santo Domingo
-1,19.371887,-99.086624,North America,Mexico,Federal,Mexico city
-2,15.478598,120.599741,Southeast Asia,Philippines,Tarlac,Unknown
-3,37.99749,23.762728,Western Europe,Greece,Attica,Athens
-4,33.580412,130.396361,East Asia,Japan,Fukouka,Fukouka
-5,37.005105,-89.176269,North America,United States,Illinois,Cairo
-6,-34.891151,-56.187214,South America,Uruguay,Montevideo,Montevideo
-7,37.791927,-122.225906,North America,United States,California,Oakland
-8,43.076592,-89.412488,North America,United States,Wisconsin,Madison
-9,43.07295,-89.386694,North America,United States,Wisconsin,Madison
-10,43.4685,-89.744299,North America,United States,Wisconsin,Baraboo
-11,39.758968,-104.876305,North America,United States,Colorado,Denver
-12,41.890961,12.490069,Western Europe,Italy,Lazio,Rome
-13,42.331685,-83.047924,North America,United States,Michigan,Detroit
-14,18.386932,-66.061127,North America,United States,Puerto Rico,Rio Piedras
-15,52.50153,13.401851,Eastern Europe,East Germany (GDR),Berlin,Berlin
-16,0.0,0.0,Southeast Asia,Philippines,Tarlac,Unknown
-17,40.697132,-73.931351,North America,United States,New York,New York City
-18,18.379998,-65.830948,North America,United States,Puerto Rico,Rio Grande
-19,47.610786,-122.331306,North America,United States,Washington,Seattle
-20,40.116748,-88.23927,North America,United States,Illinois,Champaign
-24,40.717892,-74.067467,North America,United States,New Jersey,Jersey City
-25,14.622869,-90.529068,Central America & Caribbean,Guatemala,Guatemala,Guatemala City
-26,14.67428,121.057495,Southeast Asia,Philippines,Metropolitan Manila,Quezon City
-27,10.482834,-66.962128,South America,Venezuela,Caracas,Caracas
-28,42.47031,-96.413949,North America,United States,Nebraska,South Sioux City
-29,33.60651,-88.650419,North America,United States,Mississippi,West Point
-33,41.241996,-82.615241,North America,United States,Ohio,Norwalk
-36,42.479999,-96.413046,North America,United States,Nebraska,South Sioux City
-37,42.46634,-96.41405,North America,United States,Nebraska,South Sioux City
-38,25.720851,-80.277857,North America,United States,Florida,Coral Gables
-39,15.675051,120.331618,Southeast Asia,Philippines,Tarlac,Bamban
-41,45.511795,-122.675629,North America,United States,Oregon,Portland
-46,41.084195,-81.514059,North America,United States,Ohio,Akron
+0,36.025515,67.431945,South Asia,Afghanistan,Samangan,Dara-i-Sufi Payin district
+1,38.249146,71.221025,South Asia,Afghanistan,Badakhshan,Darwazbala district
+2,36.705451,66.361551,South Asia,Afghanistan,Jawzjan,Fayzabad district
+3,32.251143,63.861172,South Asia,Afghanistan,Helmand,Washer district
+4,31.343919,64.368889,South Asia,Afghanistan,Helmand,Nawa-i-Barakzayi district
+5,10.65807,12.162782,Sub-Saharan Africa,Nigeria,Borno,Yamarkumi
+6,10.67785,12.15688,Sub-Saharan Africa,Nigeria,Borno,Maina Hari
+7,10.728288,12.145253,Sub-Saharan Africa,Nigeria,Borno,Miringa
+8,10.942222,12.144167,Sub-Saharan Africa,Nigeria,Borno,Buratai
+9,0.818127,29.239452,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Lwemba
+10,1.054487,29.147226,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Teturi
+11,0.670586,29.424918,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Malutu
+12,2.059818,45.326114,Sub-Saharan Africa,Somalia,Banaadir,Mogadishu
+13,34.346721,62.197317,South Asia,Afghanistan,Herat,Herat
+14,32.13307,65.017805,South Asia,Afghanistan,Helmand,Charkhakyan Manda
+15,25.074193,86.221627,South Asia,India,Bihar,Baskund
+16,24.597026,85.268442,South Asia,India,Bihar,Gobardaha
+17,34.82528,71.36306,South Asia,Pakistan,Khyber Pakhtunkhwa,Mamund
+18,24.797922,93.940517,South Asia,India,Manipur,Imphal
+19,41.143138,-74.083084,North America,United States,New York,Monsey
+20,22.031072,87.882021,South Asia,India,West Bengal,Shivrampur
+21,11.703864,0.50111,Sub-Saharan Africa,Burkina Faso,Est,Nadiaboanli
+22,33.303567,44.371771,Middle East & North Africa,Iraq,Baghdad,Baghdad
+23,35.930602,64.339063,South Asia,Afghanistan,Faryab,Almar district
+24,35.67075,66.04642,South Asia,Afghanistan,Sari Pul,Unknown
+25,36.310085,68.826439,South Asia,Afghanistan,Baghlan,Chahar Shanbeh Tepa
+26,32.604392,44.007145,Middle East & North Africa,Iraq,Karbala,Karbala
+27,36.354146,43.143571,Middle East & North Africa,Iraq,Nineveh,Mosul
+28,35.509131,42.572658,Middle East & North Africa,Iraq,Nineveh,Hatra district
+29,11.330264,34.054687,Sub-Saharan Africa,Sudan,Blue Nile,Baw
+32,0.495944,29.459606,Sub-Saharan Africa,Democratic Republic of the Congo,North Kivu,Beni
+33,31.152052,76.968627,South Asia,India,Himachal Pradesh,Arki
+34,33.32884,74.22782,South Asia,India,Jammu and Kashmir,Keri
+35,19.037045,81.100473,South Asia,India,Chhattisgarh,Chihka
+36,3.38961,40.713605,Sub-Saharan Africa,Kenya,Mandera,Jabbi
+37,37.364167,69.558889,South Asia,Afghanistan,Takhar,Lalah Gozar
+38,23.791275,90.418202,South Asia,Bangladesh,Dhaka,Dhaka
+40,14.804227,-4.440162,Sub-Saharan Africa,Mali,Mopti,Darsalam
+41,14.689183,-3.103881,Sub-Saharan Africa,Mali,Mopti,Mande
+42,13.502072,-3.315168,Sub-Saharan Africa,Mali,Mopti,Zerema
+43,13.702664,44.733569,Middle East & North Africa,Yemen,Ad Dali,Dali
+44,33.540671,44.251268,Middle East & North Africa,Iraq,Saladin,Taji
+45,10.697343,12.332069,Sub-Saharan Africa,Nigeria,Borno,Mandaragirau
+47,35.264813,62.999505,South Asia,Afghanistan,Badghis,Sang Atesh
+48,36.120027,66.05537,South Asia,Afghanistan,Sari Pul,Balghali
+49,13.419655,22.477789,Sub-Saharan Africa,Sudan,West Darfur,El Geneina
+50,11.626096,125.135513,Southeast Asia,Philippines,Samar,Beri
+51,13.691111,1.282778,Sub-Saharan Africa,Niger,Tillaberi,Komabangou
+52,36.80925,66.49578,South Asia,Afghanistan,Jawzjan,Haidar Abad
+54,0.470486,29.3138,Sub-Saharan Africa,Democratic Republic of the Congo,North Kivu,Apetina-Sana
+55,31.352227,64.431235,South Asia,Afghanistan,Helmand,Sarkhas
+56,36.047295,64.991819,South Asia,Afghanistan,Faryab,Qwzil Qishlaq
+57,33.550991,44.233499,Middle East & North Africa,Iraq,Saladin,Al-Faris district
+58,7.709449,126.197976,Southeast Asia,Philippines,Davao de Oro,Panansalan
+59,7.255222,126.156203,Southeast Asia,Philippines,Davao de Oro,Pantukan district
+60,31.044371,46.261451,Middle East & North Africa,Iraq,Dhi Qar,Nasiriyah
+61,33.349159,43.784197,Middle East & North Africa,Iraq,Al Anbar,Fallujah
+62,30.163511,66.051782,South Asia,Afghanistan,Kandahar,Badi Ghondai
+63,31.461224,66.52239,South Asia,Afghanistan,Kandahar,Arghistan district
+64,31.474793,67.210719,South Asia,Afghanistan,Kandahar,Maruf district
+65,32.056252,66.040408,South Asia,Afghanistan,Kandahar,Shah Wali Kot district
+66,32.382318,66.336762,South Asia,Afghanistan,Kandahar,Miya Nishin district
+67,32.037935,65.577455,South Asia,Afghanistan,Kandahar,Khakrez district
+68,31.557062,65.015811,South Asia,Afghanistan,Kandahar,Maywand district
+69,14.062118,46.914975,Middle East & North Africa,Yemen,Abyan,Mahfad
+70,36.002759,65.366046,South Asia,Afghanistan,Jawzjan,Darzab district
+73,27.163229,85.063926,South Asia,Nepal,Province 2,Piluwa
+74,27.737523,84.595609,South Asia,Nepal,Province 3,Shaktikhor
+75,27.04869,85.313622,South Asia,Nepal,Province 2,Gajura
+76,26.495622,87.30631,South Asia,Nepal,Province 1,Baijanathpur
+77,28.434293,81.745885,South Asia,Nepal,Karnali,Bheriganga
+78,14.093442,-1.634078,Sub-Saharan Africa,Burkina Faso,Sahel,Djibo
+79,37.459923,69.526022,South Asia,Afghanistan,Takhar,Bandar
+80,35.63,65.28,South Asia,Afghanistan,Faryab,Gurziwan district
+81,36.004308,67.010686,South Asia,Afghanistan,Balkh,Konjak
+82,35.153309,61.73922,South Asia,Afghanistan,Herat,Gulran district
+83,34.371929,61.784666,South Asia,Afghanistan,Herat,Qala-e-Rig
+84,23.64864,84.84034,South Asia,India,Jharkhand,Malhan
+85,24.364841,84.246319,South Asia,India,Jharkhand,Munkeri
+86,14.530784,46.831091,Middle East & North Africa,Yemen,Shabwah,Ataq district
+87,35.831482,38.545407,Middle East & North Africa,Syria,Raqqah,Tabqah
+88,6.218176,125.062139,Southeast Asia,Philippines,South Cotabato,Polomolok
+89,8.643644,125.352112,Southeast Asia,Philippines,Agusan del Sur,Kinamaybay
+90,43.180183,44.798863,Eastern Europe,Russia,Ingushetia,Magas
+91,7.0424,124.677302,Southeast Asia,Philippines,North Cotabato,Inug-ug
+92,20.612592,92.688668,South Asia,Afghanistan,Sari Pul,Unknown
+93,6.430046,10.734197,Sub-Saharan Africa,Cameroon,North-West,Njap
+94,33.862458,45.28732,Middle East & North Africa,Iraq,Diyala,Nada
+96,13.440886,22.441728,Sub-Saharan Africa,Sudan,West Darfur,El Geneina
+98,33.81279,74.09773,South Asia,India,Jammu and Kashmir,Bagiot Dora
+99,22.340073,114.138494,East Asia,China,Hong Kong,Hong Kong

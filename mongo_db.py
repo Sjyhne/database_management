@@ -135,6 +135,6 @@ def init_database(connection_url, db_name):
     return db
 if __name__ == "__main__":
 
-    init_database('mongodb://192.168.11.87:27017', 'terror_attacks')
+    init_database('mongodb://localhost:27017', 'terror_attacks')
 
     

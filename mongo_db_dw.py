@@ -6,6 +6,8 @@ from odb_data_extraction import SQL
 import time
 from tqdm import tqdm
 
+import streamlit as st
+
 DIMS = {
     "group_dim": {
         "fields": ["group_name"],
@@ -32,10 +34,11 @@ DIMS = {
         "query": EVENT_DIM_QUERY
     },
     "fact": {
-        "fields": ["event_id", "group_name","year","month","day","region","country","provstate","city","total_killed","perps_killed","property_damage"],
+        "fields": ["event_id", "group_name","target", "year","month","day","region","country","provstate","city","total_killed","perps_killed","property_damage"],
         "query": FACT_QUERY
     }
 }
+db = connect_db('mongodb://root:root@localhost:27017', 'terror_attacks')
 
 
 def df_to_dict(df):
@@ -44,7 +47,6 @@ def df_to_dict(df):
         arr.append(df.iloc[[i]].to_dict('records')[0])
     return arr
 
-db = connect_db('mongodb://root:root@192.168.11.87:27017', 'terror_attacks')
 def main():
    
     dim_collections = ["group_dim", "location_dim", "date_dim", "target_dim", "event_dim", "fact"]
@@ -146,7 +148,30 @@ def attacks_killed_propdmg_per_year_group_country():
     return data
 
 if __name__ == "__main__":
-    
-    print(attacks_killed_per_year_group())
-    print(attacks_killed_propdmg_per_year_group_country())
+
+    main()
+
+    akpyg = attacks_killed_per_year_group()
+    akppygc = attacks_killed_propdmg_per_year_group_country()
+
+    h = akpyg["_id"].to_numpy()
+
+    yrs = [l["year"] for l in h]
+    groups = [l["group_name"] for l in h]
+
+    print(h)
+
+    df = pd.DataFrame(columns=["Group Name", "Year", "Nr of Attacks", "Total Killed"])
+    df["Group Name"] = groups
+    df["Year"] = yrs
+    df["Nr of Attacks"] = akpyg["num_attacks"].to_numpy()
+    df["Total Killed"] = akpyg["killed"].to_numpy()
+
+    print(h)
+
+    st.title("Global Terrorism Data")
+    st.markdown("Information for counter-terrorism and travelling")
+
+    st.dataframe(df)
+
 

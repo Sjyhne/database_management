@@ -1,51 +1,101 @@
 ,event_id,attack_type,success,suicide,weapon_type,individual,nperps,nperps_cap,host_kid,nhost_kid,host_kid_hours,host_kid_days,ransom,ransom_amt,ransom_amt_paid,total_killed,perps_killed,total_wounded,perps_wounded,property_dmg,property_dmg_value
-0,197000000001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-1,197000000002,Hostage Taking (Kidnapping),1,0,Unknown,0,7,0,1,1,0,0,1,800000,0,0,0,0,0,0,0
-2,197001000001,Assassination,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-3,197001000002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-4,197001000003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-5,197001010002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-6,197001020001,Assassination,0,0,Firearms,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-7,197001020002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,22500
-8,197001020003,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,60000
-9,197001030001,Facility/Infrastructure Attack,1,0,Incendiary,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0
-10,197001050001,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-11,197001060001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,305
-12,197001080001,Hijacking,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-13,197001090001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-14,197001090002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2000000
-15,197001100001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-16,197001110001,Unknown,1,0,Unknown,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-17,197001120001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-18,197001120002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-19,197001130001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,17000
-20,197001140001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
-21,197001150001,Armed Assault,1,0,Firearms,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
-22,197001190002,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,2200
-23,197001190003,Bombing/Explosion,0,0,Explosives,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0
-24,197001190004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-25,197001200001,Assassination,1,0,Unknown,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-26,197001210001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5000
-27,197001220001,Hostage Taking (Kidnapping),1,0,Unknown,0,3,0,1,1,0,0,1,110000,110000,0,0,0,0,0,0
-28,197001220002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-29,197001250001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-30,197001250002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0
-31,197001260001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-32,197001260003,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-33,197001270002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8800
-34,197001280001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-35,197001280002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3000
-36,197001300001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-37,197001300002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2500
-38,197001300003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-39,197001310001,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-40,197001310002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-41,197002010001,Facility/Infrastructure Attack,1,0,Incendiary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,4189
-42,197002010002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-43,197002020001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-44,197002030001,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-45,197002030002,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-46,197002040001,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-47,197002060001,Bombing/Explosion,1,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,200000
-48,197002060002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1000
-49,197002060003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+0,201912270012,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0
+1,201912270013,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,1,0,3,0,1,0
+2,201912270014,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,2,0,2,0,1,0
+3,201912270015,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+4,201912270016,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+5,201912270017,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,201912270018,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,201912270019,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,201912270020,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,201912270024,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0
+10,201912270025,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+11,201912270026,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+12,201912280001,Bombing/Explosion,1,1,Explosives,0,0,0,0,0,0,0,0,0,0,84,1,148,0,1,0
+13,201912280002,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+14,201912280003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,10,0,4,0,1,0
+15,201912280004,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0
+16,201912280005,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0
+17,201912280006,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,201912280007,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,201912280008,Armed Assault,1,0,Melee,1,1,1,0,0,0,0,0,0,0,1,0,4,0,0,0
+20,201912280010,Bombing/Explosion,1,0,Explosives,0,8,3,0,0,0,0,0,0,0,0,0,0,0,1,0
+21,201912280011,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+22,201912280012,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+23,201912280016,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0
+24,201912280017,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+25,201912280018,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,3,0,0,0,0,0,4,0,0,0,0,0
+26,201912280019,Assassination,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+27,201912280020,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0
+28,201912280021,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+29,201912280022,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+30,201912280023,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+31,201912280024,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+32,201912280027,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+33,201912290002,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+34,201912290004,Bombing/Explosion,0,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,201912290005,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+36,201912290006,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+37,201912290007,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,27,10,4,0,0,0
+38,201912290008,Bombing/Explosion,1,0,Explosives,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,201912290009,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+40,201912290010,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+41,201912290011,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+42,201912290012,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+43,201912290013,Bombing/Explosion,1,0,Explosives,0,0,3,0,0,0,0,0,0,0,7,0,25,0,1,0
+44,201912290014,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,201912290015,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,17,0,0,0,0,0,1,0,0,0,1,0
+46,201912290017,Bombing/Explosion,1,0,Explosives,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,201912290018,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+48,201912290019,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,2,0,3,0,1,0
+49,201912290020,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,24,0,17,0,0,0
+50,201912290021,Bombing/Explosion,0,0,Explosives,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,201912290022,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,2,1,0,0,1,0
+52,201912300002,Armed Assault,1,0,Firearms,0,0,0,-9,0,0,0,0,0,0,21,7,10,5,0,0
+53,201912300003,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+54,201912300005,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,-9,0,0,0,0,0,0,18,0,0,0,1,0
+55,201912300007,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+56,201912300009,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+57,201912300012,Hostage Taking (Kidnapping),1,0,Firearms,0,0,0,1,2,0,0,0,0,0,0,0,1,0,1,0
+58,201912300013,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+59,201912300014,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,2,2,4,2,0,0
+60,201912300015,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+61,201912300016,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+62,201912300028,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,27,27,0,0,0,0
+63,201912300029,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0
+64,201912300030,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0
+65,201912300031,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0
+66,201912300032,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0
+67,201912300033,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0
+68,201912300034,Unknown,0,0,Unknown,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0
+69,201912300035,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,1,0,3,0,1,0
+70,201912310001,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+71,201912310002,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+72,201912310003,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+73,201912310004,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+74,201912310005,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75,201912310006,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+76,201912310007,Facility/Infrastructure Attack,0,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,201912310008,Facility/Infrastructure Attack,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+78,201912310009,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,10,9,0,0,0,0
+79,201912310011,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,18,11,7,5,0,0
+80,201912310012,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,4,0,5,0,0,0
+81,201912310013,Armed Assault,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+82,201912310014,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+83,201912310015,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0
+84,201912310016,Facility/Infrastructure Attack,1,0,Firearms,0,6,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+85,201912310017,Unarmed Assault,1,0,Incendiary,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+86,201912310018,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+87,201912310019,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+88,201912310021,Assassination,1,0,Firearms,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+89,201912310022,Assassination,1,0,Firearms,0,30,0,1,2,0,1,0,0,0,1,0,0,0,0,0
+90,201912310023,Armed Assault,1,0,Melee,0,2,0,0,0,0,0,0,0,0,2,1,4,1,1,0
+91,201912310024,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,201912310025,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,16,0,1,0,0,0,0,0,0,0,0,0
+93,201912310026,Hostage Taking (Kidnapping),1,0,Unknown,0,0,0,1,1,0,2,0,0,0,1,0,0,0,0,0
+94,201912310027,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+95,201912310028,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+96,201912310030,Unknown,1,0,Unknown,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0
+97,201912310031,Armed Assault,1,0,Firearms,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+98,201912310032,Bombing/Explosion,1,0,Explosives,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+99,201912310033,Facility/Infrastructure Attack,1,0,Incendiary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0

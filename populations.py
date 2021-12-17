@@ -19,7 +19,7 @@ def get_pop(data: dict, url: str, year_span: Tuple) -> dict:
         load = {l["year"]: l for l in load}
     except:
         load = {}
-    
+
     populations = {}
 
     for i in range(year_span[0], year_span[1] + 1):
@@ -28,21 +28,33 @@ def get_pop(data: dict, url: str, year_span: Tuple) -> dict:
         else:
             populations[i] = 0
 
-    
+
     return populations
 
 
 def get_populations(locations: List, location_type: str, year_span: Tuple) -> dict:
-    
+
     populations = {}
 
     url = CITY_URL if location_type == "city" else COUNTRY_URL
 
     locations = list(set(locations))
-    
-    for _, location in tqdm(enumerate(locations), total=len(locations), desc=location_type):
+
+    location_pop = pd.DataFrame(columns=[location_type, "year", "population"])
+
+
+    for i, location in tqdm(enumerate(locations), total=len(locations), desc=location_type):
         pop = get_pop({location_type: location}, url, year_span)
         populations[location] = pop
+        if i % 10000 == 0 and i != 0:
+            print(i)
+            for location in populations.keys():
+                for year, population in populations[location].items():
+                    location_pop = location_pop.append({location_type: location, "year": year, "population": population}, ignore_index=True)
+            
+            location_pop.to_csv(f"{location_type}_{i}_{len(locations)}.csv")
+            print(len(populations.keys()))
+            print(len(location_pop["city"].unique()))
 
     return populations
 
@@ -67,10 +79,7 @@ def make_populations_csv(data: pd.DataFrame) -> pd.DataFrame:
         for i, (loc, value) in enumerate(location_populations.items()):
             for year, population in value.items():
                 location_pop = location_pop.append({loc_type: loc, "year": year, "population": population}, ignore_index=True)
-                if i % 1000 == 0:
-                    print("Saving temp csv")
-                    location_pop.to_csv(f"{loc_type}_{data.size}_{year_span[0]}_{year_span[1]}_({i}-{len(location_populations)}).csv")
-        
+
         location_pop.to_csv(f"{loc_type}_{data.size}_{year_span[0]}_{year_span[1]}.csv")
 
 

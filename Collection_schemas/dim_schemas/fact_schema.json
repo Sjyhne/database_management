@@ -10,6 +10,9 @@
                 "group_name": {
                     "bsonType": "string"
                 },
+                "target": {
+                    "bsonType": "string"
+                },
                 "year": {
                     "bsonType": "number"
                 },

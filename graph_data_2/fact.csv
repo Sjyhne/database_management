@@ -1,51 +1,101 @@
 ,event_id,group_name,year,month,day,region,country,provstate,city,target,total_killed
-0,197002060002,White supremacists/nationalists,1970,2,6,North America,United States,Washington,Seattle,0,
-1,197001050001,Weather Underground. Weathermen,1970,1,1,North America,United States,Wisconsin,Baraboo,0,
-2,197001090001,Left-Wing Militants,1970,1,9,North America,United States,Michigan,Detroit,0,
-3,197001000003,Unknown,1970,1,1,East Asia,Japan,Fukouka,Fukouka,0,
-4,197001270002,Left-Wing Militants,1970,1,27,North America,United States,Ohio,Norwalk,0,
-5,197001280002,White supremacists/nationalists,1970,1,28,North America,United States,Washington,Seattle,0,
-6,197001310002,Unknown,1970,1,31,North America,United States,Colorado,Denver,0,
-7,197001120002,Strikers,1970,1,12,North America,United States,Puerto Rico,Rio Grande,0,
-8,197001300003,Student Radicals,1970,1,30,North America,United States,Florida,Coral Gables,0,
-9,197001020002,Unknown,1970,1,2,North America,United States,California,Oakland,0,
-10,197001000002,Unknown,1970,1,1,Western Europe,Greece,Attica,Athens,0,
-11,197000000002,23rd of September Communist League,1970,1,1,North America,Mexico,Federal,Mexico city,0,
-12,197001090002,Armed Commandos of Liberation,1970,1,9,North America,United States,Puerto Rico,Rio Piedras,0,
-13,197001260003,Black Nationalists,1970,1,26,North America,United States,New York,New York City,0,
-14,197002010001,Left-Wing Militants,1970,2,1,North America,United States,Oregon,Portland,0,
-15,197001190003,Student Radicals,1970,1,19,North America,United States,Washington,Seattle,0,
-16,197001220002,Strikers,1970,1,22,North America,United States,Nebraska,South Sioux City,0,
-17,197002040001,Strikers,1970,2,4,North America,United States,Ohio,Akron,0,
-18,197001220001,Armed Forces of National Liberation- Venezuela (FALN),1970,1,22,South America,Venezuela,Caracas,Caracas,0,
-19,197001300002,Strikers,1970,1,30,North America,United States,Nebraska,South Sioux City,0,
-20,197001140001,Black Nationalists,1970,1,14,North America,United States,Illinois,Champaign,0,
-21,197001280001,Unknown,1970,1,28,Eastern Europe,East Germany (GDR),Berlin,Berlin,0,
-22,197002020001,Unknown,1970,2,2,North America,United States,New York,New York City,0,
-23,197001000001,Unknown,1970,1,1,Southeast Asia,Philippines,Tarlac,Unknown,1,
-24,197001120001,Black Nationalists,1970,1,12,North America,United States,New York,New York City,0,
-25,197001080001,Unknown,1970,1,8,Western Europe,Italy,Lazio,Rome,0,
-26,197001250002,Black Nationalists,1970,1,25,North America,United States,New York,New York City,0,
-27,197001190004,White supremacists/nationalists,1970,1,19,North America,United States,New Jersey,Jersey City,0,
-28,197001210001,Unknown,1970,1,21,Southeast Asia,Philippines,Metropolitan Manila,Quezon City,0,
-29,197001030001,New Years Gang,1970,1,3,North America,United States,Wisconsin,Madison,0,
-30,197001310001,New Peoples Army (NPA),1970,1,31,Southeast Asia,Philippines,Tarlac,Bamban,0,
-31,197001150001,Tupamaros (Uruguay),1970,1,15,South America,Uruguay,Montevideo,Montevideo,0,
-32,197002060001,Black Nationalists,1970,2,6,North America,United States,Colorado,Denver,0,
-33,197001260001,Black Nationalists,1970,1,26,North America,United States,Mississippi,West Point,0,
-34,197001200001,Unknown,1970,1,20,Central America & Caribbean,Guatemala,Guatemala,Guatemala City,1,
-35,197001190002,Black Nationalists,1970,1,19,North America,United States,Washington,Seattle,0,
-36,197001060001,Left-Wing Militants,1970,1,6,North America,United States,Colorado,Denver,0,
-37,197001020001,Tupamaros (Uruguay),1970,1,2,South America,Uruguay,Montevideo,Montevideo,0,
-38,197002060003,White supremacists/nationalists,1970,2,6,North America,United States,Washington,Seattle,0,
-39,197001010002,Black Nationalists,1970,1,1,North America,United States,Illinois,Cairo,0,
-40,197001300001,Strikers,1970,1,30,North America,United States,Nebraska,South Sioux City,0,
-41,197002010002,Black Nationalists,1970,2,1,North America,United States,Illinois,Cairo,0,
-42,197001250001,White supremacists/nationalists,1970,1,25,North America,United States,Mississippi,West Point,0,
-43,197001100001,Commune 1,1970,1,10,Eastern Europe,East Germany (GDR),Berlin,Berlin,0,
-44,197001110001,Eritrean Liberation Front,1970,1,11,Southeast Asia,Philippines,Tarlac,Unknown,1,
-45,197002030001,Unknown,1970,2,3,North America,United States,New York,New York City,0,
-46,197001130001,Black Nationalists,1970,1,13,North America,United States,Washington,Seattle,0,
-47,197002030002,Unknown,1970,2,3,North America,United States,New York,New York City,0,
-48,197001020003,New Years Gang,1970,1,2,North America,United States,Wisconsin,Madison,0,
-49,197000000001,MANO-D,1970,7,2,Central America & Caribbean,Dominican Republic,National,Santo Domingo,1,
+0,201912280011,Unknown,Chief of Nadiaboanli Village,2019,12,28,Sub-Saharan Africa,Burkina Faso,Est,Nadiaboanli,1
+1,201912300033,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Khakrez district,6
+2,201912280010,Rashtriya Swayamsevak Sangh,Church,2019,12,29,South Asia,India,West Bengal,Shivrampur,0
+3,201912310015,Taliban,Vehicle,2019,12,31,South Asia,Afghanistan,Herat,Qala-e-Rig,1
+4,201912280027,Allied Democratic Forces (ADF),Pub,2019,12,28,Sub-Saharan Africa,Democratic Republic of the Congo,North Kivu,Beni,0
+5,201912310002,Taliban,Tower,2019,12,31,South Asia,Afghanistan,Jawzjan,Darzab district,0
+6,201912300013,New Peoples Army (NPA),Tribal Livelihood Center,2019,12,30,Southeast Asia,Philippines,Davao de Oro,Panansalan,0
+7,201912300007,Taliban,Vehicle,2019,12,30,South Asia,Afghanistan,Helmand,Sarkhas,3
+8,201912290022,Jamaat Nusrat al-Islam wal Muslimin (JNIM),Komabangou Police Station,2019,12,29,Sub-Saharan Africa,Niger,Tillaberi,Komabangou,2
+9,201912280004,Maoists,Alleged Informant: Mughal Koda,2019,12,28,South Asia,India,Bihar,Baskund,1
+10,201912270014,Unknown,Vehicle,2019,12,27,South Asia,Afghanistan,Jawzjan,Fayzabad district,2
+11,201912290012,Unknown,Village,2019,12,29,Sub-Saharan Africa,Mali,Mopti,Zerema,1
+12,201912280024,Unknown,Church,2019,12,28,Sub-Saharan Africa,Sudan,Blue Nile,Baw,0
+13,201912280002,Unknown,Workers,2019,12,28,South Asia,Afghanistan,Herat,Herat,2
+14,201912280016,Taliban,Members,2019,12,28,South Asia,Afghanistan,Faryab,Almar district,2
+15,201912300029,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Arghistan district,7
+16,201912300015,Iran-backed militia,Protestor: Ali Al-Khafaji,2019,12,30,Middle East & North Africa,Iraq,Dhi Qar,Nasiriyah,1
+17,201912280019,Unknown,Commissioner: Ali Ibrahim Yassin,2019,12,28,Middle East & North Africa,Iraq,Karbala,Karbala,1
+18,201912310003,Taliban,Tower,2019,12,31,South Asia,Afghanistan,Jawzjan,Darzab district,0
+19,201912310032,Unknown,Civilian,2019,12,31,South Asia,India,Jammu and Kashmir,Bagiot Dora,0
+20,201912280017,Taliban,Outpost,2019,12,28,South Asia,Afghanistan,Sari Pul,Unknown,1
+21,201912290020,Tribesmen,Internally Displaced Persons (IDP) Camp,2019,12,29,Sub-Saharan Africa,Sudan,West Darfur,El Geneina,24
+22,201912280006,Unknown,Unknown,2019,12,28,South Asia,Pakistan,Khyber Pakhtunkhwa,Mamund,0
+23,201912300028,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Badi Ghondai,27
+24,201912290009,Bangladesh Nationalist Party (BNP),Vehicle of Professor: CR Abrar,2019,12,29,South Asia,Bangladesh,Dhaka,Dhaka,0
+25,201912310025,Arakan Army (AA),Road Administration Department Employees,2019,12,31,South Asia,Afghanistan,Sari Pul,Unknown,0
+26,201912310001,Taliban,Tower,2019,12,31,South Asia,Afghanistan,Jawzjan,Darzab district,0
+27,201912280020,Islamic State of Iraq and the Levant (ISIL),Headquarters,2019,12,28,Middle East & North Africa,Iraq,Nineveh,Mosul,6
+28,201912310008,Communist Party of Nepal - Maoist (CPN-Maoist-Chand),Telecommunications Tower,2019,12,31,South Asia,Nepal,Karnali,Bheriganga,0
+29,201912280007,Unknown,Marketplace,2019,12,28,South Asia,India,Manipur,Imphal,0
+30,201912310022,New Peoples Army (NPA),Tribal Leader: Bontola Tinaghao Mansinugdan,2019,12,31,Southeast Asia,Philippines,Agusan del Sur,Kinamaybay,1
+31,201912300014,New Peoples Army (NPA),Soldier,2019,12,30,Southeast Asia,Philippines,Davao de Oro,Pantukan district,2
+32,201912280018,Taliban,Outpost,2019,12,28,South Asia,Afghanistan,Baghlan,Chahar Shanbeh Tepa,4
+33,201912310014,Unknown,Civilians,2019,12,31,South Asia,Afghanistan,Herat,Gulran district,1
+34,201912310011,Taliban,Joint Convoy,2019,12,31,South Asia,Afghanistan,Takhar,Bandar,18
+35,201912300031,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Shah Wali Kot district,6
+36,201912290019,Taliban,Vehicle,2019,12,29,South Asia,Afghanistan,Sari Pul,Balghali,2
+37,201912310018,Al-Islah Party,Oil Office General Director: Al-Khader Ali Salem Buglida,2019,12,31,Middle East & North Africa,Yemen,Shabwah,Ataq district,0
+38,201912310013,Taliban,Civilians,2019,12,31,South Asia,Afghanistan,Balkh,Konjak,1
+39,201912270018,Boko Haram,Village,2019,12,27,Sub-Saharan Africa,Nigeria,Borno,Maina Hari,0
+40,201912270019,Boko Haram,Village,2019,12,27,Sub-Saharan Africa,Nigeria,Borno,Miringa,0
+41,201912300016,Islamic State of Iraq and the Levant (ISIL),School,2019,12,30,Middle East & North Africa,Iraq,Al Anbar,Fallujah,5
+42,201912290004,Unknown,Unknown,2019,12,29,South Asia,India,Jammu and Kashmir,Keri,0
+43,201912310016,Tritiya Prastuti Committee (TPC),Site,2019,12,31,South Asia,India,Jharkhand,Malhan,0
+44,201912270016,Unknown,Vehicle,2019,12,27,South Asia,Afghanistan,Helmand,Nawa-i-Barakzayi district,1
+45,201912290018,Unknown,Patrol,2019,12,29,South Asia,Afghanistan,Badghis,Sang Atesh,2
+46,201912270013,Unknown,Vehicle,2019,12,27,South Asia,Afghanistan,Badakhshan,Darwazbala district,1
+47,201912300003,Bangladesh Nationalist Party (BNP),University,2019,12,30,South Asia,Bangladesh,Dhaka,Dhaka,0
+48,201912290017,Unknown,Office,2019,12,29,South Asia,Bangladesh,Dhaka,Dhaka,0
+49,201912310028,Unknown,Residence of Tribal Leader,2019,12,31,Middle East & North Africa,Iraq,Baghdad,Baghdad,0
+50,201912280008,Anti-Semitic extremists,Residence of Rabbi: Chaim Rottenberg,2019,12,28,North America,United States,New York,Monsey,1
+51,201912310009,Unknown,Post,2019,12,31,Sub-Saharan Africa,Burkina Faso,Sahel,Djibo,10
+52,201912300034,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Maywand district,6
+53,201912290015,Boko Haram,Church,2019,12,29,Sub-Saharan Africa,Nigeria,Borno,Mandaragirau,1
+54,201912280001,Al-Shabaab,Engineers,2019,12,28,Sub-Saharan Africa,Somalia,Banaadir,Mogadishu,84
+55,201912280023,Unknown,Church,2019,12,28,Sub-Saharan Africa,Sudan,Blue Nile,Baw,0
+56,201912290006,Unknown,Vehicle of Official: Derrow Hillow Mahat,2019,12,29,Sub-Saharan Africa,Kenya,Mandera,Jabbi,0
+57,201912280021,Islamic State of Iraq and the Levant (ISIL),Civilians,2019,12,28,Middle East & North Africa,Iraq,Nineveh,Hatra district,2
+58,201912280003,Taliban,Base,2019,12,28,South Asia,Afghanistan,Helmand,Charkhakyan Manda,10
+59,201912310023,Caucasus Province of the Islamic State,Checkpoint,2019,12,31,Eastern Europe,Russia,Ingushetia,Magas,2
+60,201912300012,Unknown,Vehicle of Tribal Elder: Sheikh Rafeh Hatim Al-Mashhadani,2019,12,30,Middle East & North Africa,Iraq,Saladin,Al-Faris district,0
+61,201912310017,Tritiya Prastuti Committee (TPC),Vehicle,2019,12,31,South Asia,India,Jharkhand,Munkeri,0
+62,201912290011,Unknown,Village,2019,12,29,Sub-Saharan Africa,Mali,Mopti,Mande,1
+63,201912290008,Bangladesh Nationalist Party (BNP),University,2019,12,29,South Asia,Bangladesh,Dhaka,Dhaka,0
+64,201912300035,Southern Yemen Separatists,Vehicle,2019,12,30,Middle East & North Africa,Yemen,Abyan,Mahfad,1
+65,201912300005,Allied Democratic Forces (ADF),Village,2019,12,29,Sub-Saharan Africa,Democratic Republic of the Congo,North Kivu,Apetina-Sana,18
+66,201912290002,Communist Party of India - Maoist (CPI-Maoist),Site,2019,12,29,South Asia,India,Himachal Pradesh,Arki,0
+67,201912280012,Unknown,Protestor: Awas Fadel,2019,12,24,Middle East & North Africa,Iraq,Baghdad,Baghdad,0
+68,201912270024,Allied Democratic Forces (ADF),Soldiers,2019,12,27,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Lwemba,4
+69,201912310033,Unknown,Offices,2019,12,31,East Asia,China,Hong Kong,Hong Kong,0
+70,201912300030,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Maruf district,7
+71,201912280005,Maoists,Alleged Informant: Sanjay Koda,2019,12,28,South Asia,India,Bihar,Gobardaha,1
+72,201912270017,Boko Haram,Village,2019,12,27,Sub-Saharan Africa,Nigeria,Borno,Yamarkumi,0
+73,201912300002,Taliban,Checkpoint,2019,12,30,South Asia,Afghanistan,Jawzjan,Haidar Abad,21
+74,201912270012,Taliban,Convoy,2019,12,27,South Asia,Afghanistan,Samangan,Dara-i-Sufi Payin district,1
+75,201912310005,Unknown,Telecommunications Tower,2019,12,31,South Asia,Nepal,Province 3,Shaktikhor,0
+76,201912270020,Boko Haram,Village,2019,12,27,Sub-Saharan Africa,Nigeria,Borno,Buratai,0
+77,201912310007,Unknown,Telecommunications Tower,2019,12,31,South Asia,Nepal,Province 1,Baijanathpur,0
+78,201912290005,Maoists,Alleged Informant: Boti Lekam,2019,12,29,South Asia,India,Chhattisgarh,Chihka,0
+79,201912310006,Unknown,Telecommunications Tower,2019,12,31,South Asia,Nepal,Province 2,Gajura,0
+80,201912270025,Allied Democratic Forces (ADF),Soldiers,2019,12,27,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Teturi,2
+81,201912310004,Communist Party of Nepal - Maoist (CPN-Maoist-Chand),Telecommunication Tower,2019,12,31,South Asia,Nepal,Province 2,Piluwa,0
+82,201912310027,Islamic State of Iraq and the Levant (ISIL),Post,2019,12,30,Middle East & North Africa,Iraq,Diyala,Nada,1
+83,201912310019,Islamic State of Iraq and the Levant (ISIL),Civilians,2019,12,31,Middle East & North Africa,Syria,Raqqah,Tabqah,3
+84,201912300009,Unknown,Civilians,2019,12,30,South Asia,Afghanistan,Faryab,Qwzil Qishlaq,2
+85,201912290021,Unknown,Unknown,2019,12,29,Southeast Asia,Philippines,Samar,Beri,0
+86,201912290007,Taliban,Base,2019,12,29,South Asia,Afghanistan,Takhar,Lalah Gozar,27
+87,201912310031,Unknown,West Darfur Legislative Council Building,2019,12,31,Sub-Saharan Africa,Sudan,West Darfur,El Geneina,2
+88,201912290010,Unknown,Village,2019,12,29,Sub-Saharan Africa,Mali,Mopti,Darsalam,1
+89,201912310026,Separatists,Alleged Informant: Godlove Abanda Ndi,2019,12,31,Sub-Saharan Africa,Cameroon,North-West,Njap,1
+90,201912300032,Taliban,Security Post,2019,12,30,South Asia,Afghanistan,Kandahar,Miya Nishin district,6
+91,201912280022,Unknown,Church,2019,12,28,Sub-Saharan Africa,Sudan,Blue Nile,Baw,0
+92,201912290013,Houthi extremists (Ansar Allah),Parade,2019,12,29,Middle East & North Africa,Yemen,Ad Dali,Dali,7
+93,201912270015,Taliban,Civilian,2019,12,27,South Asia,Afghanistan,Helmand,Washer district,1
+94,201912310030,Unknown,West Darfur Police Headquarters,2019,12,31,Sub-Saharan Africa,Sudan,West Darfur,El Geneina,2
+95,201912290014,Kataib Hezbollah,Camp Taji,2019,12,29,Middle East & North Africa,Iraq,Saladin,Taji,0
+96,201912270026,Allied Democratic Forces (ADF),Soldiers,2019,12,27,Sub-Saharan Africa,Democratic Republic of the Congo,Ituri,Malutu,2
+97,201912310024,Unknown,Civilian: Hayder Manibpal,2019,12,31,Southeast Asia,Philippines,North Cotabato,Inug-ug,0
+98,201912310012,Taliban,Outpost,2019,12,31,South Asia,Afghanistan,Faryab,Gurziwan district,4
+99,201912310021,Unknown,Bangaray Chair: Abdullah Nilong II,2019,12,31,Southeast Asia,Philippines,South Cotabato,Polomolok,1
