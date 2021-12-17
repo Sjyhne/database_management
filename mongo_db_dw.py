@@ -5,6 +5,8 @@ from mongo_db import read_schema_jsons, insert_dict, connect_db, read_data
 from odb_data_extraction import SQL
 import time
 from tqdm import tqdm
+import streamlit as st
+
 
 DIMS = {
     "group_dim": {
@@ -13,7 +15,7 @@ DIMS = {
     },
 
     "location_dim": {
-        "fields": ["longitude", "latitude", "region", "country", "provstate", "city"],
+        "fields": ["latitude", "longitude", "region", "country", "provstate", "city"],
         "query": LOCATION_DIM_QUERY
     },
 
@@ -145,8 +147,28 @@ def attacks_killed_propdmg_per_year_group_country():
     data = pd.DataFrame(result)
     return data
 
+def data_for_map():
+    result = db['location_dim'].find({},{"latitude": 1, "longitude": 1, "_id": 0})
+
+    lats, longs = [], []
+    for d in result:
+        print(d)
+        lats.append(d['latitude'])
+        longs.append(d['longitude'])
+
+    data = pd.DataFrame()
+
+    data["latitude"] = lats
+    data["longitude"] = longs
+    return data
+
 if __name__ == "__main__":
-    
-    print(attacks_killed_per_year_group())
-    print(attacks_killed_propdmg_per_year_group_country())
+    #main()
+    #print(attacks_killed_per_year_group())
+    #print(attacks_killed_propdmg_per_year_group_country())
+    data = data_for_map()
+
+    st.caption("Map Showing Attacks")
+    st.map(data)
+
 
