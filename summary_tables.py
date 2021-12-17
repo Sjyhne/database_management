@@ -1,8 +1,12 @@
-def load_summary_tables():
+import psycopg
+import pandas as pd
+import traceback
+
+def load_summary_tables(cur):
         
         commands = (
                 """ 
-                INSERT INTO summary.group_activity (
+                INSERT INTO summary.group_activity_summary (
                     SELECT T.year, G.group_name, count(F.event_id), sum(E.total_killed)
                     FROM dwh.fact F, dwh.event_dim E, dwh.group_dim G, dwh.time_dim T
                     WHERE F.event_id = E.event_id and F.group_name = G.group_name and F.year = T.year and F.month = T.month and F.day = T.day
@@ -12,54 +16,28 @@ def load_summary_tables():
                 )
                 """
                 ,
-                """ Hent bare fra fact
-                INSERT INTO summary.country_damage (
-                    SELECT T.year, L.country, count(F.event_id), sum(E.total_killed), sum(E.property_dmg_value)
-                    FROM dwh.fact F, dwh.event_dim E, dwh.group_dim G, dwh.location_dim L, dwh.time_dim T
-                    WHERE F.event_id = E.event_id and F.group_name = G.group_name and F.region = L.region and 
-                    F.provstate = L.provstate and F.country = L.country and F.city = L.city and
-                    F.year = T.year and F.month = T.month and F.day = T.day
-                    GROUP by G.group_name, L.country
-                    ORDER by D.year
-                ) 
-                """
-                ,
-                """
-                INSERT INTO dwh.target_dim (
-                    {TARGET_DIM_QUERY}
-                )
-                """
-                ,
                 """ 
-                INSERT INTO dwh.group_dim (
-                    {GROUP_DIM_QUERY}
-                )
-                """
-                ,
-                """
-                INSERT INTO dwh.event_dim (
-                    {EVENT_DIM_QUERY}
-                )
-                """
-                ,
-                """
-                INSERT INTO dwh.fact (
-                    {FACT_QUERY}
-                )
+                INSERT INTO summary.country_damage_summary (
+                    SELECT F.year, F.country, count(F.event_id), sum(E.total_killed), sum(E.property_dmg_value)
+                    FROM dwh.fact F, dwh.event_dim E
+                    WHERE F.event_id = E.event_id
+                    GROUP by F.country, F.year
+                    ORDER by F.year
+                ) 
                 """)
        
         for command in commands:
             print("command:", command)
             cur.execute(command)
 
-def create_summary_tables():
+def create_summary_tables(cur):
 
     #Drop schema if it already exist, create it and then change the search path
     cur.execute("DROP SCHEMA IF EXISTS summary CASCADE; CREATE SCHEMA summary; SET search_path TO summary, public;")
 
     commands = (
         """
-        CREATE TABLE country_damage (
+        CREATE TABLE country_damage_summary (
             year VARCHAR,
             country VARCHAR,
             nattacks INTEGER,
@@ -69,41 +47,16 @@ def create_summary_tables():
         """
         ,
         """
-        CREATE TABLE group_activity (
+        CREATE TABLE group_activity_summary (
             year VARCHAR,
             group_name VARCHAR,
             nattacks INTEGER,
             total_killed INTEGER
         )
-        """
-        ,
-        """
-        CREATE TABLE attacker (
-            group_name VARCHAR PRIMARY KEY
-        )
-        """
-        ,
-        """
-        CREATE TABLE region (
-            region VARCHAR PRIMARY KEY
-        )
-        """
-        ,
-        """
-        CREATE TABLE country (
-            country VARCHAR PRIMARY KEY,
-            region VARCHAR,
-            FOREIGN KEY (region) REFERENCES region(region)
-        )
-        """
-        ,
-        """
-        CREATE TABLE provstate (
-            provstate VARCHAR PRIMARY KEY,
-            country VARCHAR,
-            FOREIGN KEY (country) REFERENCES country(country)
-        )
         """)
+
+    for command in commands:
+        cur.execute(command)
         
         
 
@@ -137,8 +90,9 @@ if __name__ == '__main__':
                 db_version = cur.fetchone()
                 print(db_version)
                 
-                #Create the tables for the star schema
-                create_tables(cur)
+                #Create and load the tables for the star schema
+                create_summary_tables(cur)
+                load_summary_tables(cur)
 
                # close the communication with the PostgreSQL
                 cur.close()
@@ -146,7 +100,6 @@ if __name__ == '__main__':
 
         except (Exception, psycopg.DatabaseError) as error:
                 print("Error: ", error)
-                traceback.print_exc()
         finally:
                 if conn is not None:
                         conn.close()
