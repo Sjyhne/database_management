@@ -142,7 +142,15 @@ def attacks_killed_propdmg_per_year_group_country():
             '$sort': {
                 'property_damage': -1
             }
-        }
+        },
+       { "$project":{
+            "Country": "$_id.country",
+            "Group Name": "$_id.group_name",
+            "Year": "$_id.year",
+            "Nr of attacks": "$num_attacks",
+            "Total Killed": "$killed",
+            "Property Damage": "$property_damage",
+        }}
     ])
     #for doc in result:
      #   print(doc)
@@ -154,7 +162,6 @@ def data_for_map():
 
     lats, longs = [], []
     for d in result:
-        print(d)
         lats.append(d['latitude'])
         longs.append(d['longitude'])
 
@@ -165,28 +172,18 @@ def data_for_map():
     return data
 
 if __name__ == "__main__":
+    #Run main() is you need to initialize and load the database. Dont run it if the database has data
     #main()
-    #print(attacks_killed_per_year_group())
-    #print(attacks_killed_propdmg_per_year_group_country())
-    data = data_for_map()
 
-    st.caption("Map Showing Attacks")
-    st.map(data)
-
-    '''
-if __name__ == "__main__":
-
-    main()
-
+    map_data = data_for_map()
     akpyg = attacks_killed_per_year_group()
     akppygc = attacks_killed_propdmg_per_year_group_country()
+    akppygc = akppygc.drop('_id', 1)
 
     h = akpyg["_id"].to_numpy()
 
     yrs = [l["year"] for l in h]
     groups = [l["group_name"] for l in h]
-
-    print(h)
 
     df = pd.DataFrame(columns=["Group Name", "Year", "Nr of Attacks", "Total Killed"])
     df["Group Name"] = groups
@@ -194,11 +191,15 @@ if __name__ == "__main__":
     df["Nr of Attacks"] = akpyg["num_attacks"].to_numpy()
     df["Total Killed"] = akpyg["killed"].to_numpy()
 
-    print(h)
 
     st.title("Global Terrorism Data")
-    st.markdown("Information for counter-terrorism and travelling")
 
+    st.caption("Map Showing Attacks for each City")
+    st.map(map_data)
+
+    st.markdown("Information for counter-terrorism and travelling")
     st.dataframe(df)
 
-'''
+    st.markdown("Same table as above, including country and estimated property damage")
+    st.dataframe(akppygc)
+
